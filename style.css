@@ -101,14 +101,19 @@ li a:hover {
     margin:0;
     padding:0;
     display: block;
-    width: 20%;
+    width: 60%;
     top:20px;
     right:20px;
     vertical-align: middle;
     text-align: center;
     float:left;
 }
-
+li {
+    text-align: center;
+    margin: auto;
+    top:20px;
+    width:60%;
+}
 
 #subOne {
     text-align:center;

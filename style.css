@@ -122,6 +122,7 @@ li {
     border-style:solid;
     border-radius:15px;
     border-color:white;
+    padding:20px;
     width:20%;
 }
 #subTwo {
@@ -132,6 +133,7 @@ li {
     background-color: #8d5d93;
     border-style:solid;
     border-radius:15px;
+    padding:20px;
     border-color:white;
     width:20%;
 }
@@ -141,6 +143,7 @@ li {
     margin: auto;
     background-color: #8d5d93;
     border-style:solid;
+    padding:20px;
     border-radius:15px;
     border-color:white;
     width:20%;

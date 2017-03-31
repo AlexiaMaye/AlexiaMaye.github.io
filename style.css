@@ -45,6 +45,7 @@
       border:6px;
       border-radius:0px;
       border-color:purple;
+      float: right;
   }
   ul {
     list-style-type: none;

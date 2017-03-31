@@ -44,6 +44,7 @@
       border-style: solid;
       border:6px;
       border-radius:0px;
+      border-color:purple;
   }
   ul {
     list-style-type: none;

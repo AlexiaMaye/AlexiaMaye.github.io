@@ -104,17 +104,29 @@ li a:hover {
 #subOne {
     text-align: left;
     margin: 20px 20px;
-    top:20px
+    top:20px;
+    background-color: violet;
+    border-style:solid;
+    border-radius:15px;
+    border-color:white;
 }
 #subTwo {
     text-align: center;
     margin: 20px 360px;
-    top:20px
+    top:20px;
+    background-color: violet;
+    border-style:solid;
+    border-radius:15px;
+    border-color:white;
 }
 #subThree {
     text-align: right;
     margin: auto;
-    top:20px
+    top:20px;
+    background-color: violet;
+    border-style:solid;
+    border-radius:15px;
+    border-color:white;
 }
 
 

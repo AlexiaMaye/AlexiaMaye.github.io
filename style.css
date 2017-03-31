@@ -100,7 +100,7 @@ li a:hover {
 
 #subordinates {
     list-style-type:none;
-    margin:0;
+    margin:auto;
     padding:0;
     width: 60%;
     top:20px;
@@ -119,7 +119,7 @@ li {
 #subOne {
     text-align:center;
     float: left;
-    margin: 30px 100px;
+    margin: auto;
     top:20px;
     background-color: #8d5d93;
     border-style:solid;
@@ -130,7 +130,7 @@ li {
 }
 #subTwo {
     text-align:center;
-    margin: 30px 100px;
+    margin: auto;
     top:20px;
     background-color: #8d5d93;
     border-style:solid;
@@ -141,7 +141,7 @@ li {
 }
 #subThree {
     text-align:center;
-    margin: 0px;
+    margin: auto;
     background-color: #8d5d93;
     border-style:solid;
     padding:20px;

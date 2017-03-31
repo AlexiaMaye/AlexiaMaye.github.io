@@ -102,7 +102,7 @@ li a:hover {
     
 }
 #subOne {
-    text-align: left;
+    float: left;
     margin: 20px 20px;
     top:20px;
     background-color: #8d5d93;
@@ -112,7 +112,7 @@ li a:hover {
     width:20%;
 }
 #subTwo {
-    text-align: center;
+    float: center;
     margin: 20px 360px;
     top:20px;
     background-color: #8d5d93;
@@ -122,7 +122,7 @@ li a:hover {
     width:20%;
 }
 #subThree {
-    text-align: right;
+    float: right;
     margin: auto;
     top:20px;
     background-color: #8d5d93;

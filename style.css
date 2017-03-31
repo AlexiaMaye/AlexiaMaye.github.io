@@ -94,6 +94,10 @@ li a:hover {
     color:white;
     height:50%;
 }
+#mainDiv {
+    top: 50px;
+}
+
 #subordinates {
     list-style-type:none;
     margin:0;

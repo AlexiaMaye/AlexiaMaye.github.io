@@ -61,9 +61,6 @@
     text-align: center;
     float:left;
 }
-li {
-
-}
 
 li a {
     display: block;
@@ -113,6 +110,7 @@ li {
     margin: auto;
     top:20px;
     width:60%;
+    display: inline;
 }
 
 #subOne {
@@ -139,8 +137,7 @@ li {
 }
 #subThree {
     text-align:center;
-    //float:right;
-    float:top;
+    float:right;
     margin: auto;
     background-color: #8d5d93;
     border-style:solid;

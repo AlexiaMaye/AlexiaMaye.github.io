@@ -127,7 +127,6 @@ li {
 }
 #subTwo {
     text-align:center;
-    float: center;
     margin: auto;
     top:20px;
     background-color: #8d5d93;
@@ -139,7 +138,7 @@ li {
 }
 #subThree {
     text-align:center;
-    margin: auto;
+    margin: 20px 500px;
     background-color: #8d5d93;
     border-style:solid;
     padding:20px;

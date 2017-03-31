@@ -120,7 +120,7 @@ li a:hover {
 }
 #subThree {
     text-align:center;
-    float:right;
+    //float:right;
     float:top;
     margin: auto;
     background-color: #8d5d93;

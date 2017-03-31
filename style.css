@@ -26,6 +26,10 @@
         transform-origin: 0px 63px 0px; 
         
     }
+    h4 {
+        color:white;
+        font-family: 'Anonymous Pro';
+    }
     body {
         background: url("http://rs274.pbsrc.com/albums/jj277/b_grrrlie/animated/stars.gif~c200");
         background-size: 20% 20%;

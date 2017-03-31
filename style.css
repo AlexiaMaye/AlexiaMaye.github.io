@@ -105,28 +105,31 @@ li a:hover {
     text-align: left;
     margin: 20px 20px;
     top:20px;
-    background-color: violet;
+    background-color: #8d5d93;
     border-style:solid;
     border-radius:15px;
     border-color:white;
+    width:40%;
 }
 #subTwo {
     text-align: center;
     margin: 20px 360px;
     top:20px;
-    background-color: violet;
+    background-color: #8d5d93;
     border-style:solid;
     border-radius:15px;
     border-color:white;
+    width:40%;
 }
 #subThree {
     text-align: right;
     margin: auto;
     top:20px;
-    background-color: violet;
+    background-color: #8d5d93;
     border-style:solid;
     border-radius:15px;
     border-color:white;
+    width:40%;
 }
 
 

@@ -94,8 +94,10 @@ li a:hover {
 #mainDiv {
     font-family:helvetica-w01-light, helvetica-w02-light, sans-serif;
     padding: 40px;
+    color: white;
     
 }
+
 
 a {
     color:white;

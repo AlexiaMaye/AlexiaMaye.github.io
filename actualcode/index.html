@@ -3,9 +3,7 @@
 <head>
     <link href='//fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Journal de moi-meme</title>
-        <link rel="shortcut icon" href="{Favicon}">
-        <link rel="alternate" type="application/rss+xml" href="{RSS}"> 
+    <title>Journal de moi-meme</title> 
 </head>
 <body>
 <header>
@@ -19,121 +17,9 @@
   <li><a href="/about">About me!</a></li> 
 </ul>
 </header>
-    <ul id="posts">
-    {block:Posts}
-    
-            {block:Text}
-                <div class="post">
-                        {block:Title}
-                            <h3><a href="{Permalink}">{Title}</a></h3>
-                        {/block:Title}{Body}
-                    
-                </div>
-                {/block:Text}
-                
-                
-                
-                {block:Photo}
-                <div class = "post">
-                    
-                        <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
-
-                        {block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
-                    
-                    </div>
-                {/block:Photo}
-                
-                
-                
-                {block:Panorama}
-                <div class = "post">
-                        {LinkOpenTag}
-                            <img src="{PhotoURL-Panorama}" alt="{PhotoAlt}"/>
-                        {LinkCloseTag}{block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
-                    
-                    </div>
-                {/block:Panorama}
-                
-                
-                
-                {block:Photoset}
-                <div class = "post">
-                   
-                        {Photoset-500}{block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
-                    
-                    </div>
-                {/block:Photoset}{block:Quote}
-                <div class = "post">
-                    
-                        "{Quote}"
-
-                        {block:Source}
-                            <div class="source"><br>&mdash;{Source}</div>
-                        {/block:Source}
-                    
-                    </div>
-                {/block:Quote}{block:Link}
-                <div class = "post">
-                    
-                        <a href="{URL}" class="link" {Target}>{Name}</a>
-
-                        {block:Description}
-                            <div class="description">{Description}</div>
-                        {/block:Description}
-                    
-                    </div>
-                {/block:Link}{block:Chat}
-                <div class = "post">
-                    
-                        {block:Title}
-                            <h3><a href="{Permalink}">{Title}</a></h3>
-                        {/block:Title}
-
-                        <ul class="chat">
-                            {block:Lines}
-                                <li class="{Alt} user_{UserNumber}">
-                                    {block:Label}
-                                        <span class="label">{Label}</span>
-                                    {/block:Label}{Line}
-                                </li>
-                            {/block:Lines}
-                        </ul>
-                    
-                    </div>
-                {/block:Chat}{block:Video}
-                <div class = "post">
-                    
-                        {Video-500}{block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
-                    
-                    </div>
-                {/block:Video}{block:Audio}
-                <div class = "post">
-                    
-                        {AudioEmbed}{block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
-                    
-                    </div>
-                {/block:Audio}
-               {/block:Posts}
-</ul>
  
 <p id="footer">
-            {block:PreviousPage}
-                <a href="{PreviousPage}">&#171; Previous</a>
-            {/block:PreviousPage}{block:NextPage}
-                <a href="{NextPage}">Next &#187;</a>
-            {/block:NextPage}
-
-            <a href="/archive">Archive</a>
+            
         </p>
 </body>
 

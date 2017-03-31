@@ -103,15 +103,15 @@ li a:hover {
 }
 #subOne {
     text-align: left;
-    margin: auto;
+    margin: 20px 20px;
 }
 #subTwo {
     text-align: center;
-    margin: auto;
+    margin: 20px 360px;
 }
 #subThree {
     text-align: right;
-    margin: auto;
+    margin: 20px 700px;
 }
 
 

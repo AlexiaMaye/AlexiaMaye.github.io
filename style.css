@@ -102,6 +102,11 @@ li a:hover {
     padding:0;
     display: block;
     width: 60px;
+    top:20px;
+    right:20px;
+    vertical-align: middle;
+    text-align: center;
+    float:left;
 }
 
 

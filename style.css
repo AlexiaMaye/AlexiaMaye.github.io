@@ -120,14 +120,13 @@ li a:hover {
 }
 #subThree {
     text-align:center;
-    float: right;
+    float:top right;
     margin: auto;
     background-color: #8d5d93;
     border-style:solid;
     border-radius:15px;
     border-color:white;
     width:20%;
-    position:top;
 }
 
 

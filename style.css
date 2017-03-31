@@ -96,7 +96,13 @@ li a:hover {
     color:white;
     height:50%;
 }
-
+#subordinates {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display: block;
+    width: 60px;
+}
 
 
 #subOne {

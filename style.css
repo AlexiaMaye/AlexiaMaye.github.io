@@ -47,9 +47,9 @@
       border-radius: 15px;
       text-align: center;
       float:middle;
-      display: block;
       margin: auto;
-      width: 10%;
+      width: 40px;
+      height:60px;
   }
   ul {
     list-style-type: none;

@@ -90,7 +90,9 @@ li a:hover {
 }
 
 
-
+div {
+     font-family:helvetica-w01-light, helvetica-w02-light, sans-serif;
+}
 
 a {
     color:white;

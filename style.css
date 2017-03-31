@@ -104,14 +104,17 @@ li a:hover {
 #subOne {
     text-align: left;
     margin: 20px 20px;
+    top:20px
 }
 #subTwo {
     text-align: center;
     margin: 20px 360px;
+    top:20px
 }
 #subThree {
     text-align: right;
     margin: auto;
+    top:20px
 }
 
 

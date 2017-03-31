@@ -102,13 +102,13 @@ li a:hover {
     
 }
 #subOne {
-    text-align: center;
+    text-align: left;
 }
 #subTwo {
     text-align: center;
 }
 #subThree {
-    text-align: center;
+    text-align: right;
 }
 
 

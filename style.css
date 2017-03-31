@@ -39,7 +39,8 @@
       background-color:black;
   }
   img {
-      
+      width:265px;
+      height:303px;
   }
   ul {
     list-style-type: none;

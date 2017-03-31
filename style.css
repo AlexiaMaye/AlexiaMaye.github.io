@@ -41,6 +41,9 @@
   img {
       width:265px;
       height:303px;
+      border-style: solid;
+      border:6px;
+      border-radius:0px;
   }
   ul {
     list-style-type: none;

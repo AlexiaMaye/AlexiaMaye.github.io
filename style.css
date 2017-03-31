@@ -99,6 +99,7 @@ li a:hover {
 }
 
 #subordinates {
+    vertical-align: text-top;
     list-style-type:none;
     margin:auto;
     padding:0;

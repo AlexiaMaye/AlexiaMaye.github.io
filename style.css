@@ -84,13 +84,12 @@
     height: 50px;
     background-color: #00086b;
     border-style:solid;
-    border-color:black;
+    border-color:white;
     border-radius:15px;
     text-align: center;
     display:inline;
-    width:100%;
-    padding: 20px 50px;
-    color: black;
+    padding: 50px 50px;
+    color: white;
     text-decoration:none;
 }
 #subItem a:hover {
@@ -100,7 +99,6 @@
 li {
      text-align: center;
      margin: auto;
-     top:20px;
      width:60%;
      display: inline;
  }
@@ -126,7 +124,6 @@ li {
      border-radius:15px;
      padding:20px;
      border-color:white;
-     width:20%;
  }
  #subThree {
      text-align:center;
@@ -137,7 +134,6 @@ li {
      border-radius:15px;
      border-color:white;
      float: right;
-     width:20%;
  }
  
  

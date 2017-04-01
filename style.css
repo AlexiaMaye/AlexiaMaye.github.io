@@ -63,7 +63,7 @@
     float:left;
 }
 
-#navItem {
+#navItem a{
     display: block;
     height: 50px;
     background-color: #8d5d93;

@@ -75,7 +75,7 @@
     text-decoration:none;
     padding: 10px 0px;
 }
-li a:hover {
+#navItem a:hover {
     background-color: #000000;
     color: #473684;
 }

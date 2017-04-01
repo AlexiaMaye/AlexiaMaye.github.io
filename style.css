@@ -82,7 +82,7 @@
 
 #subItem a{
     height: 50px;
-    background-color: #0f2b59;
+    background-color: #00086b;
     border-style:solid;
     border-color:black;
     border-radius:15px;
@@ -95,7 +95,7 @@
 }
 #subItem a:hover {
     background-color:black;
-    color:#0f2b59;
+    color:#00086b;
 }
 
 .post {
@@ -126,54 +126,7 @@
     vertical-align: middle;
     text-align: center;
 }
-li {
-    text-align: center;
-    margin: auto;
-    top:20px;
-    width:60%;
-    display: inline;
-}
 
-#subOne {
-    text-align:center;
-    float: left;
-    margin: auto;
-    top:20px;
-    background-color: #8d5d93;
-    border-style:solid;
-    border-radius:15px;
-    border-color:white;
-    padding:20px;
-    width:20%;
-}
-#subTwo {
-    text-align:center;
-    margin: auto;
-    top:20px;
-    background-color: #8d5d93;
-    border-style:solid;
-    border-radius:15px;
-    padding:20px;
-    border-color:white;
-    width:20%;
-}
-#subThree {
-    text-align:center;
-    margin: auto;
-    background-color: #8d5d93;
-    border-style:solid;
-    padding:20px;
-    border-radius:15px;
-    border-color:white;
-    float: right;
-    width:20%;
-}
-
-
-a {
-    color:white;
-    text-align:center;
-}
 header {
     padding: 20px;
     background: url("https://befunkycartoonizer.s3.amazonaws.com/C3945524-1490074004836201large.jpg");

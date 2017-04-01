@@ -43,9 +43,9 @@
   span.highlight {
       background-color:black;
   }
-  img {
-      width:265px;
-      height:303px;
+  #myFace {
+      width:165px;
+      height:203px;
       border-style: solid;
       border-radius:6px;
       border-color:black;

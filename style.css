@@ -95,16 +95,17 @@
 }
 
 #subItem a{
-    height: 50px;
+    height: 20px;
     background-color: #00086b;
     border-style:solid;
     border-color:white;
     border-radius:15px;
     text-align: center;
-    display:inline;
-    padding: 50px 50px;
+    display:inline-block;
+    padding: 50px 30px 50px;
     color: white;
     text-decoration:none;
+    width:200px;
 }
 #subItem a:hover {
     background-color:black;

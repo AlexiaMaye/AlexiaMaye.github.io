@@ -156,18 +156,13 @@ li {
     height:50%;
 }
 #mainDiv {
-    top: 50px;
 }
 
 #subordinates {
-    vertical-align: text-top;
     list-style-type:none;
     margin:auto;
-    padding:0;
     width: 60%;
-    top:20px;
     right:20px;
-    vertical-align: middle;
     text-align: center;
 }
 

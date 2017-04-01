@@ -77,7 +77,22 @@
 }
 #navItem a:hover {
     background-color: #000000;
-    color: #473684;
+    color:  #8d5d93;
+}
+
+#subItem a{
+    display: block;
+    height: 50px;
+    background-color: #0f2b59;
+    border-style:solid;
+    border-color:black;
+    border-radius:15px;
+    text-align: center;
+    color: black;
+}
+#subItem a:hover {
+    background-color:black;
+    color:#0f2b59;
 }
 
 .post {

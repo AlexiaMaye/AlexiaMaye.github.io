@@ -63,9 +63,8 @@
     float:left;
 }
 
-li a {
+#navItem {
     display: block;
-   
     height: 50px;
     background-color: #8d5d93;
     border-style:solid;

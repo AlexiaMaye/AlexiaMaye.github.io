@@ -1,15 +1,15 @@
     h1 {
-        font-family: 'Anonymous Pro'; font-size: 30px;
+        font-family: 'Anonymous Pro';
+        font-size: 30px;
         text-align: center;
         color: white;
         background-color:black;
         padding:10px;
         border-style:solid;
         border-radius:15px;
-        border-color:#8d5d93;
+        border-color: #7cb342;
         width:80%;
         margin:auto;
-        
     }
     h3{
         color: white;
@@ -17,14 +17,13 @@
         padding:10px;
         border-style:solid;
         border-radius:15px;
-        border-color:#8d5d93;
+        border-color: #7cb342;
         font-family: 'Anonymous Pro';
         text-align: center;
         margin: auto;
         width: 50%;
-        visibility: inherit; 
-        transform-origin: 0px 63px 0px; 
-        
+        visibility: inherit;
+        transform-origin: 0px 63px 0px;
     }
     h4 {
         color:white;
@@ -48,9 +47,10 @@
       height: 30%;
       border-style: solid;
       border-radius:6px;
-      border-color:black;
+      border-color: #7cb342;
       margin: 10 auto 20 auto;
       display: block;
+      filter: brightness(80%);
   }
   #navList {
     list-style-type: none;
@@ -70,7 +70,7 @@
     padding:10px;
     border-style:solid;
     border-radius:15px;
-    border-color:#8d5d93;
+    border-color: #7cb342;
     font-family: 'Anonymous Pro';
     /* left: 35%; */
     text-align: center;
@@ -84,7 +84,7 @@
 #navItem a{
     display: block;
     height: 30px;
-    background-color: #8d5d93;
+    background-color: #7cb342;
     border-style:solid;
     border-color:black;
     border-radius:5px;
@@ -95,12 +95,12 @@
 }
 #navItem a:hover {
     background-color: #000000;
-    color:  #8d5d93;
+    color: #7cb342;
 }
 
 #subItemOne a{
     height: 20px;
-    background-color: #00086b;
+    background-color: #7cb342;
     border-style:solid;
     border-color:white;
     border-radius:15px;
@@ -121,7 +121,7 @@
 
 #subItemTwo a{
     height: 20px;
-    background-color: #00086b;
+    background-color: #7cb342;
     border-style:solid;
     border-color:white;
     border-radius:15px;
@@ -141,7 +141,7 @@
 
 #subItemThree a{
     height: 20px;
-    background-color: #00086b;
+    background-color: #7cb342;
     border-style:solid;
     border-color:white;
     border-radius:15px;
@@ -232,13 +232,11 @@ li {
 
 header {
     padding: 20px;
-    background: url("https://befunkycartoonizer.s3.amazonaws.com/C3945524-1490074004836201large.jpg");
+    background-color: rgba(0, 0, 0, 0.82);
     border: 6px;
     border-style: solid;
-    border-color: black;
+    border-color: #7cb342;
     border-radius: 15px;
     background-repeat:no-repeat;
     background-size:100% 100%;
-    
-   
 }

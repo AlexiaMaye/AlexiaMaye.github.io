@@ -13,6 +13,7 @@ span{
   color:white;
   display:inline-block;
   margin:auto;
+  cursor:pointer;
   }
 #headerTitle {
 font-size:30px;

@@ -69,4 +69,7 @@ background-image: url("https://static.wixstatic.com/media/11062b_03c50f8fe4a34cc
     display:block;
     width:100%;
     padding:40px;
+    background-color:bisque;
+    border-style:solid;
+    border-width:12px;
 }

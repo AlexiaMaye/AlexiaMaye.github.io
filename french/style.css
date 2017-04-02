@@ -1,15 +1,21 @@
+body{
+  background:bisque
+}
 header {
   background-image: url(http://orig07.deviantart.net/7b5e/f/2011/262/f/a/faf208560687d6cca1979cea40dc7296-d4aactm.jpg);
   margin:auto;
   padding: 70px;
+  border-style:solid;
+border-width: 12px;
 }
-h1 {
-  font-family: 'Arapey';
-  width:100%;
-  display:block;
-  margin:auto;
-  text-align:center;
-}
+
 #headerTitle {
+font-size:30px;
 text-align:center;
+font-family: 'Arapey';
+margin:auto;
+width:30%;
+background:#dcce9d;
+border-style:solid;
+border-width: 12px;
 }

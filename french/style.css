@@ -73,7 +73,10 @@ border-width: 12px;
     transition: margin-left .5s;
     padding: 16px;
 }
-
+#entryOne {
+  width:110px;
+  background:#ffffff;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

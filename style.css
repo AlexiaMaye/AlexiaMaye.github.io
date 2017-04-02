@@ -96,7 +96,7 @@
     color:  #8d5d93;
 }
 
-#subItem a{
+#subItemOne a{
     height: 20px;
     background-color: #00086b;
     border-style:solid;
@@ -109,10 +109,50 @@
     text-decoration:none;
     width:200px;
 }
-#subItem a:hover {
+#subItemOne a:hover {
     background-color:black;
     color:#00086b;
 }
+
+
+#subItemTwo a{
+    height: 20px;
+    background-color: #00086b;
+    border-style:solid;
+    border-color:white;
+    border-radius:15px;
+    text-align: center;
+    display:inline-block;
+    padding: 50px 30px 50px;
+    color: white;
+    text-decoration:none;
+    width:200px;
+}
+#subItemTwo a:hover {
+    background-color:black;
+    color:#00086b;
+}
+
+#subItemThree a{
+    height: 20px;
+    background-color: #00086b;
+    border-style:solid;
+    border-color:white;
+    border-radius:15px;
+    text-align: center;
+    display:inline-block;
+    padding: 50px 30px 50px;
+    color: white;
+    text-decoration:none;
+    width:200px;
+}
+#subItemThree a:hover {
+    background-color:black;
+    color:#00086b;
+}
+
+
+
 li {
      text-align: center;
      margin: auto;

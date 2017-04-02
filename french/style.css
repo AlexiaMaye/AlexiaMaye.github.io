@@ -9,7 +9,7 @@ header {
 border-width: 12px;
 }
 h4 {
-  margin:auto;
+  margin:20px,auto, 30px, auto;
   display:block;
   width:100%;
   text-align:center;

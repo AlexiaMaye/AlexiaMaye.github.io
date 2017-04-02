@@ -53,15 +53,19 @@ background-image: url("https://static.wixstatic.com/media/11062b_03c50f8fe4a34cc
     text-align:center;
 }
 #date {
-color:grey;
+    color:grey;
 }
 #poem {
-font-family: 'Neucha', cursive;
+    font-family: 'Neucha', cursive;
 }
 #title {
-font-family: 'Bad Script', cursive;
+    font-family: 'Bad Script', cursive;
 }
 
 #mainTitle {
-font-family: 'Eczar', serif;
+    font-family: 'Eczar', serif;
+    text-align:center;
+    margin:auto;
+    display:block;
+    width:100%;
 }

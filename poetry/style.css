@@ -52,3 +52,6 @@ background-image: url("https://static.wixstatic.com/media/11062b_03c50f8fe4a34cc
     padding:20px;
     text-align:center;
 }
+#date {
+color:grey;
+}

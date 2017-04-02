@@ -5,6 +5,8 @@ header {
 }
 h1 {
   font-family: 'Arapey';
+  width:100%;
+  display:block;
   margin:auto;
   text-align:center;
 }

@@ -42,7 +42,7 @@ border-width: 12px;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: grey;
+    background-color: #b5b3b3;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;

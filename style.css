@@ -72,11 +72,13 @@
     border-radius:15px;
     border-color:#8d5d93;
     font-family: 'Anonymous Pro';
+    /* left: 35%; */
     text-align: center;
     width: 50%;
-    visibility: inherit; 
-    transform-origin: 0px 63px 0px; 
+    visibility: inherit;
+    transform-origin: 0px 63px 0px;
     margin: 30px auto 70px auto;
+    display: block;
 }
 
 #navItem a{
@@ -104,6 +106,8 @@
     border-radius:15px;
     text-align: center;
     display:inline-block;
+    position:absolute;
+    left: 20%;
     padding: 50px 30px 50px;
     color: white;
     text-decoration:none;
@@ -126,6 +130,8 @@
     padding: 50px 30px 50px;
     color: white;
     text-decoration:none;
+    position:absolute;
+    left: 40%;
     width:200px;
 }
 #subItemTwo a:hover {
@@ -143,6 +149,8 @@
     display:inline-block;
     padding: 50px 30px 50px;
     color: white;
+    position:absolute;
+    left: 60%;
     text-decoration:none;
     width:200px;
 }

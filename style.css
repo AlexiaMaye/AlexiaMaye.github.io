@@ -7,7 +7,7 @@
         padding:10px;
         border-style:solid;
         border-radius:15px;
-        border-color: #7cb342;
+        border-color: #09a704;
         width:80%;
         margin:auto;
     }
@@ -17,7 +17,7 @@
         padding:10px;
         border-style:solid;
         border-radius:15px;
-        border-color: #7cb342;
+        border-color: #09a704;
         font-family: 'Anonymous Pro';
         text-align: center;
         margin: auto;
@@ -47,7 +47,7 @@
       height: 30%;
       border-style: solid;
       border-radius:6px;
-      border-color: #7cb342;
+      border-color: #09a704;
       margin: 10 auto 20 auto;
       display: block;
       filter: brightness(80%);
@@ -70,7 +70,7 @@
     padding:10px;
     border-style:solid;
     border-radius:15px;
-    border-color: #7cb342;
+    border-color: #09a704;
     font-family: 'Anonymous Pro';
     /* left: 35%; */
     text-align: center;
@@ -84,7 +84,7 @@
 #navItem a{
     display: block;
     height: 30px;
-    background-color: #7cb342;
+    background-color: #09a704;
     border-style:solid;
     border-color:black;
     border-radius:5px;
@@ -156,7 +156,7 @@
 }
 #subItemThree a:hover {
     background-color:black;
-    color:#00086b;
+    color: #09a704;
 }
 
 
@@ -235,7 +235,7 @@ header {
     background-color: rgba(0, 0, 0, 0.82);
     border: 6px;
     border-style: solid;
-    border-color: #7cb342;
+    border-color: #09a704;
     border-radius: 15px;
     background-repeat:no-repeat;
     background-size:100% 100%;

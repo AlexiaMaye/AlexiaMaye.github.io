@@ -1,77 +1,242 @@
-body{
-background-image: url("https://static.wixstatic.com/media/11062b_03c50f8fe4a34cc297a984e483a282eff000.jpg/v1/fill/w_1920,h_1080,al_c,q_85/11062b_03c50f8fe4a34cc297a984e483a282eff000.webp");
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #175d85;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #21d9f3;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #000000;
-}
-
-.sidenav .closebtn {
+    h1 {
+        font-family: 'Anonymous Pro';
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color:black;
+        padding:10px;
+        border-style:solid;
+        border-radius:15px;
+        border-color: #09a704;
+        width:80%;
+        margin:auto;
+    }
+    h3{
+        color: white;
+        background-color:black;
+        padding:10px;
+        border-style:solid;
+        border-radius:15px;
+        border-color: #09a704;
+        font-family: 'Anonymous Pro';
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        visibility: inherit;
+        transform-origin: 0px 63px 0px;
+    }
+    h4 {
+        color:white;
+        font-family: 'Anonymous Pro';
+        display:inline;
+    }
+    body {
+        background: url(http://img15.deviantart.net/97e2/i/2010/336/c/5/electronic_circuits_background_by_creativity103-d343szd.jpg);
+        background-size: 100% 100%;
+        font-family:'Anonymous Pro';
+    }
+    }
+  span.highlight {
+      background-color: black;
+  }
+  span.highlight {
+      background-color:black;
+  }
+  #myFace {
+      width: 12%;
+      height: 30%;
+      border-style: solid;
+      border-radius:6px;
+      border-color: #09a704;
+      margin: 10 auto 20 auto;
+      display: block;
+      filter: brightness(80%);
+  }
+  #navList {
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    top: 180px;
+    width: 200px;
+    /* right:20px; */
+    vertical-align: middle;
+    text-align: center;
+    float:left;
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
 }
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-#entryOne {
-    background-color: #175d85;
-    width:290px;
-    position:absolute;
-    left:20%;
-    padding:20px;
-    text-align:center;
-    border-style: solid;
-    border-width: thick;
-}
-#date {
-    color:grey;
-}
-#poem {
-    font-family: 'Neucha', cursive;
-}
-#title {
-    font-family: 'Bad Script', cursive;
-}
-
-#mainTitle {
-    font-family: 'Eczar', serif;
-    text-align:center;
-    margin: auto auto 40 auto;
-    display:block;
-    width: 20%;
-    padding:40px;
-    background-color: #1179a4;
+#links {
+    color: white;
+    background-color:black;
+    padding:10px;
     border-style:solid;
-    border-width: thick;
+    border-radius:15px;
+    border-color: #09a704;
+    font-family: 'Anonymous Pro';
+    /* left: 35%; */
+    text-align: center;
+    width: 80%;
+    visibility: inherit;
+    transform-origin: 0px 63px 0px;
+    margin: 30px auto 70px auto;
+    display: block;
+}
+
+#navItem a{
+    display: block;
+    height: 30px;
+    background-color: #09a704;
+    border-style:solid;
+    border-color:black;
+    border-radius:5px;
+    text-align: center;
+    color: black;
+    text-decoration:none;
+    padding: 10px 0px;
+}
+#navItem a:hover {
+    background-color: #000000;
+    color: #7cb342;
+}
+
+#subItemOne a{
+    height: 20px;
+    background-color: 09a704;
+    border-style:solid;
+    border-color:white;
+    border-radius:15px;
+    text-align: center;
+    display:inline-block;
+    position:absolute;
+    left: 20%;
+    padding: 50px 30px 50px;
+    color: white;
+    text-decoration:none;
+    width:200px;
+}
+#subItemOne a:hover {
+    background-color:black;
+    color: 09a704;
+}
+
+
+#subItemTwo a{
+    height: 20px;
+    background-color: 09a704;
+    border-style:solid;
+    border-color:white;
+    border-radius:15px;
+    text-align: center;
+    display:inline-block;
+    padding: 50px 30px 50px;
+    color: white;
+    text-decoration:none;
+    position:absolute;
+    left: 40%;
+    width:200px;
+}
+#subItemTwo a:hover {
+    background-color:black;
+    color: 09a704;
+}
+
+#subItemThree a{
+    height: 20px;
+    background-color: #09a704;
+    border-style:solid;
+    border-color:white;
+    border-radius:15px;
+    text-align: center;
+    display:inline-block;
+    padding: 50px 30px 50px;
+    color: white;
+    position:absolute;
+    left: 60%;
+    text-decoration:none;
+    width:200px;
+}
+#subItemThree a:hover {
+    background-color:black;
+    color: #09a704;
+}
+
+
+
+li {
+     text-align: center;
+     margin: auto;
+     width:60%;
+     display: inline;
+ }
+  
+ #subOne {
+     text-align:center;
+     float: left;
+     margin: auto;
+     top:20px;
+     background-color: #8d5d93;
+     border-style:solid;
+     border-radius:15px;
+     border-color:white;
+     padding:20px;
+     width:20%;
+ }
+ #subTwo {
+     text-align:center;
+     margin: auto;
+     top:20px;
+     background-color: #8d5d93;
+     border-style:solid;
+     border-radius:15px;
+     padding:20px;
+     border-color:white;
+ }
+ #subThree {
+     text-align:center;
+     margin: auto;
+     background-color: #8d5d93;
+     border-style:solid;
+     padding:20px;
+     border-radius:15px;
+     border-color:white;
+     float: right;
+ }
+ 
+ 
+ a {
+     color:white;
+     text-align:center;
+ }
+
+.post {
+    background: #8d5d93;
+    border-style: solid;
+    border-color: black;
+    border: 20px;
+    border-radius:15px;
+    padding:10px;
+    width:500px;
+    text-align:center;
+    margin:50px 400px;
+    color:white;
+    height:50%;
+}
+#mainDiv {
+}
+
+#subordinates {
+    list-style-type:none;
+    margin:auto;
+    right:20px;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.82);
+    border: 6px;
+    border-style: solid;
+    border-color: #09a704;
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
 }

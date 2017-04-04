@@ -46,6 +46,7 @@ border-width: 12px;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    list-style-type:none;
 }
 
 .sidenav a {

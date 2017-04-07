@@ -44,6 +44,10 @@
      transition: margin-left .5s;
      padding: 16px;
  }
+
+.span {
+color:white;
+}
  
  @media screen and (max-height: 450px) {
    .sidenav {padding-top: 15px;}

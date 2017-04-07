@@ -1,5 +1,7 @@
  body{
  background-image: url(https://zennovember.files.wordpress.com/2015/08/tumblr-background-renaissance-blue-backgrounds-437194937.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 500%;
  }
  .sidenav {
      height: 100%;

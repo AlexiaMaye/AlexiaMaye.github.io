@@ -65,6 +65,7 @@ float:left;
       padding:20px;
       text-align:center;
      border-style: solid;
+   margin: auto auto 30 auto;
     border-width: thick;
   }
  #entryTwo {
@@ -72,7 +73,7 @@ float:left;
      background-color: #175d85;
       width:290px;
       position:absolute;
-      left:60%;
+      left:40%;
       padding:20px;
       text-align:center;
      border-style: solid;

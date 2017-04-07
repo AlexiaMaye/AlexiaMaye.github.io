@@ -64,6 +64,17 @@ color:white;
      border-style: solid;
     border-width: thick;
   }
+ #entryTwo {
+     background-color:white;
+     background-color: #175d85;
+      width:290px;
+      position:absolute;
+      left:40%;
+      padding:20px;
+      text-align:center;
+     border-style: solid;
+    border-width: thick;
+  }
   #date {
       color:grey;
  }

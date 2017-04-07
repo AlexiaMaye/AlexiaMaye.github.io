@@ -54,6 +54,7 @@ color:white;
     .sidenav a {font-size: 18px;}
   }
 #entries {
+ margin:auto;
 float:left;
 }
   #entryOne {

@@ -43,8 +43,8 @@
       background-color:black;
   }
   #myFace {
-      width: 10%;
-      height: 20%;
+      width: 30px;
+      height: 60px;
       border-style: solid;
       border-radius:6px;
       border-color: #09a704;

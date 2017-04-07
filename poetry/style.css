@@ -53,6 +53,9 @@ color:white;
    .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+#entries {
+float:left;
+}
   #entryOne {
      background-color:white;
      background-color: #175d85;

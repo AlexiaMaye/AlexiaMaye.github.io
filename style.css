@@ -142,6 +142,8 @@
 }
 #subdiv {
   background-color:rgba(0, 0, 0, 0.82);
+  padding: 12 30 130 50;
+  margin: 20 30 15 20;
 }
 #subItemOne a{
     height: 20px;
@@ -284,5 +286,3 @@ header {
     border-color: #09a704;
     border-radius: 15px;
     background-repeat:no-repeat;
-    background-size:100% 100%;
-}

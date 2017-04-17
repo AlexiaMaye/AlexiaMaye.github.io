@@ -53,31 +53,35 @@ color:white;
    .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-#entries {
-position:absolute;
-}
+#entries {position:absolute;/* left:370px; */}
   #entryOne {
-     background-color:white;
+     /* background-color:white; */
      background-color: #175d85;
-      width:290px;
-      position:absolute;
-      left:10%;
-      padding:20px;
-      text-align:center;
+     width:290px;
+     /* position:absolute; */
+     top: 0;
+     padding: 20px;
+     text-align:center;
      border-style: solid;
-   margin: auto auto 30 auto;
-    border-width: thick;
+     margin: 0 auto auto;
+     height: 290;
+     border-width: thick;
+     display: inline-block;
   }
  #entryTwo {
      background-color:white;
      background-color: #175d85;
-      width:290px;
-      position:absolute;
-      left:600;
-      padding:20px;
-      text-align:center;
+     width:290px;
+     /* position:absolute; */
+     /* left:600; */
+     padding:20px;
+     height: 290;
+     text-align:center;
      border-style: solid;
-    border-width: thick;
+     border-width: thick;
+     DISPLAY: inline-block;
+     margin: 20;
+     /* left: 20%; */
   }
   #date {
       color:grey;

@@ -144,6 +144,7 @@
   background-color:rgba(0, 0, 0, 0.82);
   padding: 12 30 130 50;
   margin: 20 30 15 20;
+  border-radius: 50px;
 }
 #subItemOne a{
     height: 20px;
@@ -162,7 +163,8 @@
 }
 #subItemOne a:hover {
     background-color:black;
-    color: 09a704;
+    color: #09a704;
+    border-color: #09a704;
 }
 
 
@@ -184,6 +186,7 @@
 #subItemTwo a:hover {
     background-color:black;
     color: 09a704;
+    border-color: #09a704;
 }
 
 #subItemThree a{
@@ -204,6 +207,7 @@
 #subItemThree a:hover {
     background-color:black;
     color: #09a704;
+    border-color: #09a704;
 }
 
 

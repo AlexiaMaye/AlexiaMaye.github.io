@@ -140,7 +140,9 @@
     background-color: #000000;
     color: #7cb342;
 }
-
+#subdiv {
+  background-color:rgba(0, 0, 0, 0.82);
+}
 #subItemOne a{
     height: 20px;
     background-color: 09a704;

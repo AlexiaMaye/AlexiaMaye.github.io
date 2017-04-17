@@ -27,9 +27,14 @@
      transition: 0.3s
      transition: 0.3s;
   }
+  .content {
+  margin: 40px 0;
+  min-height: calc(100vh - 80px);
+  }
   
   .sidenav a:hover, .offcanvas a:focus{
      color: #000000;
+     text-decoration:none;
  }
  
  .sidenav .closebtn {
@@ -53,7 +58,7 @@ color:white;
    .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-#entries {width: 1333;margin: 0 auto;padding: 20;}
+#entries {margin: auto;color: black;width: 30%;padding: 20px;}
   #entryOne {
      background-color: #175d85;
      width:290px;
@@ -61,7 +66,7 @@ color:white;
      text-align:center;
      border-style: solid;
      margin: 0 auto;
-     height: 290;
+     height: 290px;
      border-width: thick;
      display: inline-block;
   }
@@ -69,12 +74,12 @@ color:white;
      background-color: #175d85;
      width:290px;
      padding:20px;
-     height: 290;
+     height: 290px;
      text-align:center;
      border-style: solid;
      border-width: thick;
      DISPLAY: inline-block;
-     margin: 20;
+     margin: 20px 0% 20px;
   }
   #date {
       color:grey;
@@ -89,12 +94,10 @@ color:white;
   #mainTitle {
       font-family: 'Eczar', serif;
       text-align:center;
-      margin:auto;
-      margin: auto auto 40 auto;
-      display:block;
-      width: 20%;
-      padding:40px;
-      background-color:bisque;
+      margin: auto;
+      display: block;
+      padding: 40px;
+      color: black;
       background-color: #1179a4;
       border-style:solid;
       border-width:12px;

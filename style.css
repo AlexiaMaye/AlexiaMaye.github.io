@@ -11,6 +11,13 @@
         width:80%;
         margin:auto;
     }
+span{
+  font-size:50px;
+  color:white;
+  display:inline-block;
+  margin:auto;
+  cursor:pointer;
+  }
     h3{
         color: white;
         background-color:black;

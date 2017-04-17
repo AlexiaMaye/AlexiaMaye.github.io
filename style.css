@@ -11,12 +11,14 @@
         width:80%;
         margin:auto;
     }
-span{
+#navbar{
   font-size:50px;
   color:white;
   display:inline-block;
-  margin:auto;
+  margin: 0;
+  top: 0;
   cursor:pointer;
+  position: fixed;
   }
 .sidenav {
     height: 100%;
@@ -36,9 +38,8 @@ span{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: bisque;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -51,6 +52,7 @@ span{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    color: black;
 }
     h3{
         color: white;
@@ -73,7 +75,7 @@ span{
     }
     body {
         background: url(http://img15.deviantart.net/97e2/i/2010/336/c/5/electronic_circuits_background_by_creativity103-d343szd.jpg);
-        background-size: 100% 500%;
+        background-size: 110% 100%;
         font-family:'Anonymous Pro';
     }
     }
@@ -84,8 +86,8 @@ span{
       background-color:black;
   }
   #myFace {
-      width: 300px;
-      height: 400px;
+      width: 90px;
+      height: 100px;
       border-style: solid;
       border-radius:6px;
       border-color: #09a704;
@@ -124,15 +126,15 @@ span{
 
 #navItem a{
     display: block;
-    height: 30px;
-    background-color: #09a704;
-    border-style:solid;
+    /* height: 30px; */
+    /* background-color: #09a704; */
+    /* border-style:solid; */
     border-color:black;
-    border-radius:5px;
-    text-align: center;
+    /* border-radius:5px; */
+    text-align: left;
     color: black;
     text-decoration:none;
-    padding: 10px 0px;
+    padding: 20px;
 }
 #navItem a:hover {
     background-color: #000000;
@@ -143,16 +145,16 @@ span{
     height: 20px;
     background-color: 09a704;
     border-style:solid;
-    border-color:white;
+    border-color: black;
     border-radius:15px;
     text-align: center;
     display:inline-block;
     position:absolute;
-    left: 20%;
     padding: 50px 30px 50px;
-    color: white;
+    color: black;
     text-decoration:none;
-    width:200px;
+    width: 90px;
+    left: 20%;
 }
 #subItemOne a:hover {
     background-color:black;
@@ -164,16 +166,16 @@ span{
     height: 20px;
     background-color: 09a704;
     border-style:solid;
-    border-color:white;
+    border-color: black;
     border-radius:15px;
     text-align: center;
     display:inline-block;
     padding: 50px 30px 50px;
-    color: white;
+    color: black;
     text-decoration:none;
     position:absolute;
     left: 40%;
-    width:200px;
+    width: 90px;
 }
 #subItemTwo a:hover {
     background-color:black;
@@ -184,16 +186,16 @@ span{
     height: 20px;
     background-color: #09a704;
     border-style:solid;
-    border-color:white;
+    border-color: black;
     border-radius:15px;
     text-align: center;
     display:inline-block;
     padding: 50px 30px 50px;
-    color: white;
+    color: black;
     position:absolute;
     left: 60%;
     text-decoration:none;
-    width:200px;
+    width: 90px;
 }
 #subItemThree a:hover {
     background-color:black;
@@ -206,6 +208,7 @@ li {
      text-align: center;
      margin: auto;
      width:60%;
+     left: 20%;
      display: inline;
  }
   

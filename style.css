@@ -27,7 +27,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #b5b3b3;
+    background-color: rgba(53, 53, 53, 0.97);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -86,8 +86,8 @@
       background-color:black;
   }
   #myFace {
-      width: 90px;
-      height: 100px;
+      width: 130px;
+      height: 150px;
       border-style: solid;
       border-radius:6px;
       border-color: #09a704;
@@ -115,18 +115,17 @@
     border-radius:15px;
     border-color: #09a704;
     font-family: 'Anonymous Pro';
-    /* left: 35%; */
     text-align: center;
     width: 80%;
     visibility: inherit;
     transform-origin: 0px 63px 0px;
-    margin: 30px auto 70px auto;
+    margin: 30px auto 40px auto;
     display: block;
 }
 
 #navItem a{
     display: block;
-    /* height: 30px; */
+    height: 30px;
     /* background-color: #09a704; */
     /* border-style:solid; */
     border-color:black;
@@ -138,7 +137,7 @@
 }
 #navItem a:hover {
     background-color: #000000;
-    color: #7cb342;
+    color: #09a704;
 }
 #subdiv {
   background-color:rgba(0, 0, 0, 0.82);

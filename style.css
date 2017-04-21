@@ -6,7 +6,7 @@
         background-color:black;
         padding:10px;
         border-style:solid;
-        border-radius:15px;
+        /* border-radius:15px; */
         border-color: #09a704;
         width:80%;
         margin:auto;
@@ -59,11 +59,11 @@
         background-color:black;
         padding:10px;
         border-style:solid;
-        border-radius:15px;
+        /* border-radius:15px; */
         border-color: #09a704;
         font-family: 'Anonymous Pro';
         text-align: center;
-        margin: auto;
+        margin: 10 auto;
         width: 50%;
         visibility: inherit;
         transform-origin: 0px 63px 0px;
@@ -89,7 +89,7 @@
       width: 130px;
       height: 150px;
       border-style: solid;
-      border-radius:6px;
+      /* border-radius:6px; */
       border-color: #09a704;
       margin: 10 auto 20 auto;
       display: block;
@@ -112,7 +112,7 @@
     background-color:black;
     padding:10px;
     border-style:solid;
-    border-radius:15px;
+    /* border-radius:15px; */
     border-color: #09a704;
     font-family: 'Anonymous Pro';
     text-align: center;
@@ -143,14 +143,14 @@
   background-color:rgba(0, 0, 0, 0.82);
   padding: 12 30 130 50;
   margin: 20 30 15 20;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 #subItemOne a{
     height: 20px;
     background-color: 09a704;
     border-style:solid;
     border-color: black;
-    border-radius:15px;
+    /* border-radius:15px; */
     text-align: center;
     display:inline-block;
     position:absolute;
@@ -172,7 +172,7 @@
     background-color: 09a704;
     border-style:solid;
     border-color: black;
-    border-radius:15px;
+    /* border-radius:15px; */
     text-align: center;
     display:inline-block;
     padding: 50px 30px 50px;
@@ -193,7 +193,7 @@
     background-color: #09a704;
     border-style:solid;
     border-color: black;
-    border-radius:15px;
+    /* border-radius:15px; */
     text-align: center;
     display:inline-block;
     padding: 50px 30px 50px;
@@ -287,5 +287,5 @@ header {
     border: 6px;
     border-style: solid;
     border-color: #09a704;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background-repeat:no-repeat;

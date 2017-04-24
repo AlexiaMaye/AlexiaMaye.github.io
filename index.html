@@ -8,6 +8,18 @@
 </head>
 <body>
 <header>
+    <audio id="song-1" preload class="songs">
+    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
+</audio>
+<audio id="song-2" preload class="songs">
+    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
+</audio>
+<audio id="song-3" preload class="songs">
+    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
+</audio>
+<audio id="song-4" preload class="songs">
+    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
+</audio>  
     <audio controls autoplay loop>
   <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg">
 </audio>
@@ -26,6 +38,19 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
 }
+    
+jQuery(document).ready(function (){
+var audioArray = document.getElementsByClassName('songs');
+var i = 0;
+audioArray[i].play();
+for (i = 0; i < audioArray.length - 1; ++i) {
+    audioArray[i].addEventListener('ended', function(e){
+        var currentSong = e.target;
+        var next = $(currentSong).nextAll('audio');
+        if (next.length) $(next[0]).trigger('play');
+    });
+}
+});
     </script>
   
 <div id="mySidenav" class="sidenav">

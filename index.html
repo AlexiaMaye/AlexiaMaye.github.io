@@ -9,21 +9,32 @@
 </head>
 <body>
 <header>
-    <audio id="song-1" preload class="songs">
-    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
-</audio>
-<audio id="song-2" preload class="songs">
-    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
-</audio>
-<audio id="song-3" preload class="songs">
-    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
-</audio>
-<audio id="song-4" preload class="songs">
-    <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg" />
-</audio>  
-    <audio controls autoplay loop>
-  <source src="Motion City Soundtrack - -Circuits And Wires-.mp3" type="audio/mpeg">
-</audio>
+    <div class="container">
+    <div class="column center">
+        <h1>If you want some music while you browse</h1>
+        <h6>only plays while on this page</h6>
+    </div>
+    <div class="column add-bottom">
+        <div id="mainwrap">
+            <div id="nowPlay">
+                <span class="left" id="npAction">Paused...</span>
+                <span class="right" id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev">&laquo;</a>
+                    <a id="btnNext">&raquo;</a>
+                </div>
+            </div>
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="column add-bottom center">
 
     <h1><span class="highlight">Journal Nouveau</span></h1>
    

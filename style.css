@@ -307,6 +307,10 @@ header {
 }
 
 audio {
-    width: 800px;
+    width: 80px;
     margin: 0px auto;
+    position:fixed;
+    top:0px;
+    right:0px;
+    border-style:solid;
 }

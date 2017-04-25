@@ -242,7 +242,7 @@ h1 {
     font-family: 'Anonymous Pro';
     font-size: 30px;
     /* text-orientation: upright; */
-    text-align: inherit;
+    text-align: center;
     color: white;
     background-color: black;
     padding: 10px;

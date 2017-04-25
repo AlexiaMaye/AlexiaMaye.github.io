@@ -241,16 +241,18 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 h1 {
     font-family: 'Anonymous Pro';
     font-size: 30px;
-    text-align: center;
+    /* text-orientation: upright; */
+    text-align: inherit;
     color: white;
     background-color: black;
     padding: 10px;
+    display: inline-block;
     border-style: solid;
     border-width: thick;
     /* border-radius:15px; */
     border-color: #09a704;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #navbar {
@@ -327,11 +329,11 @@ body {
 }
 
 span.highlight {
-    background-color: black;
+    /* background-color: black; */
 }
 
 span.highlight {
-    background-color: black;
+    /* background-color: black; */
 }
 
 #myFace {
@@ -578,7 +580,4 @@ audio {
 #btnPrev {
     height:20px;
 }
-#title {
-    display:block;
-    height:20px;
-}
+

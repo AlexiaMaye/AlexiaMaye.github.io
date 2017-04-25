@@ -246,6 +246,7 @@ h1 {
     background-color: black;
     padding: 10px;
     border-style: solid;
+    border-width: thick;
     /* border-radius:15px; */
     border-color: #09a704;
     width: 80%;
@@ -393,7 +394,7 @@ span.highlight {
 
 #subdiv {
     background-color: rgba(0, 0, 0, 0.82);
-    padding: 12px 30px 130px 50px;
+    padding: 12px 30px 170px 50px;
     margin: 20px 30px 15px 20px;
     /* border-radius: 50px; */
 }
@@ -404,10 +405,11 @@ span.highlight {
     border-style: solid;
     border-color: black;
     /* border-radius:15px; */
+    border-width: thick;
     text-align: center;
     display: inline-block;
     position: absolute;
-    padding: 50px 30px 50px;
+    padding: 50px 30px 70px;
     color: black;
     text-decoration: none;
     width: 90px;
@@ -424,11 +426,12 @@ span.highlight {
     height: 20px;
     background-color: #09a704;
     border-style: solid;
+    border-width: thick;
     border-color: black;
     /* border-radius:15px; */
     text-align: center;
     display: inline-block;
-    padding: 50px 30px 50px;
+    padding: 50px 30px 70px;
     color: black;
     text-decoration: none;
     position: absolute;
@@ -446,11 +449,12 @@ span.highlight {
     height: 20px;
     background-color: #09a704;
     border-style: solid;
+    border-width: thick;
     border-color: black;
     /* border-radius:15px; */
     text-align: center;
     display: inline-block;
-    padding: 50px 30px 50px;
+    padding: 50px 30px 70px;
     color: black;
     position: absolute;
     left: 60%;
@@ -553,4 +557,28 @@ audio {
     top:0px;
     right:0px;
     border-style:solid;
+}
+#nowPlay {
+    visibility:hidden;
+}
+#tracks {
+    width:200px;
+    height:0px;
+    position:fixed;
+    right:0px;
+    top:25px;
+}
+#btnNext {
+    height:20px;
+    width:20px;
+    padding:-10px 5px;
+    right:0px;
+    position:fixed;
+}
+#btnPrev {
+    height:20px;
+}
+#title {
+    display:block;
+    height:20px;
 }

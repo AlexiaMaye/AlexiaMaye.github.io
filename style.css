@@ -337,14 +337,29 @@ span.highlight {
 }
 
 #myFace {
-    width: 130px;
-    height: 150px;
+    width: 500px;
+    height: 270px;
     border-style: solid;
     /* border-radius:6px; */
     border-color: #09a704;
     margin: 10px auto 20px auto;
     display: block;
     filter: brightness(80%);
+    background-image:url(https://alexiamaye.github.io/WIN_20170425_20_35_11_Pro.jpg);
+    background-size:contain;
+}
+#myFace :hover {
+    width: 500px;
+    height: 270px;
+    border-style: solid;
+    /* border-radius:6px; */
+    border-color: #09a704;
+    margin: 10px auto 20px auto;
+    display: block;
+    filter: brightness(80%);
+    background-image:url(https://alexiamaye.github.io/WIN_20170425_20_54_57_Pro.mp4);
+    background-size:contain;
+}
 }
 
 #navList {

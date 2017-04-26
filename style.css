@@ -57,15 +57,14 @@ h1 {
 
 h3 {
     color: white;
-    background-color: black;
-    padding: 10px;
-    border-style: solid;
+    /* background-color: black; */
+    /* border-style: solid; */
     /* border-radius:15px; */
-    border-color: #09a704;
+    /* border-color: #09a704; */
     font-family: 'Arapey';
     text-align: center;
-    margin: 10px auto;
-    width: 50%;
+    margin: auto;
+    /* width: 50%; */
     visibility: inherit;
     transform-origin: 0px 63px 0px;
 }
@@ -100,9 +99,10 @@ span.highlight {
 #myFace {
     width: 320px;
     height: 180px;
-    float: left;
+    /* float: left; */
     border-style: solid;
-    /* border-radius:6px; */
+    box-shadow: 10px 10px 5px black;
+    border-radius: 100px;
     border-color: #152224;
     margin: 40px auto 20px auto;
     display: block;
@@ -141,11 +141,11 @@ span.highlight {
 
 #links {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.73);
     padding: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     /* border-radius:15px; */
-    border-color: #09a704;
+    /* border-color: #09a704; */
     font-family: 'Anonymous Pro';
     text-align: center;
     width: 80%;
@@ -183,7 +183,7 @@ span.highlight {
 
 #subItemOne a {
     height: 20px;
-    background-color: #09a704;
+    background-color: #363a58;
     border-style: solid;
     border-color: black;
     /* border-radius:15px; */
@@ -195,18 +195,18 @@ span.highlight {
     color: black;
     text-decoration: none;
     width: 90px;
-    left: 20%;
+    left: 25%;
 }
 
 #subItemOne a:hover {
     background-color: black;
-    color: #09a704;
-    border-color: #09a704;
+    color: #363a58;
+    border-color: #363a58;
 }
 
 #subItemTwo a {
     height: 20px;
-    background-color: #09a704;
+    background-color: #363a58;
     border-style: solid;
     border-width: thick;
     border-color: black;
@@ -214,22 +214,23 @@ span.highlight {
     text-align: center;
     display: inline-block;
     padding: 50px 30px 70px;
-    color: black;
+    color: #040606;
     text-decoration: none;
     position: absolute;
-    left: 40%;
+    left: 45%;
     width: 90px;
+    margin: auto;
 }
 
 #subItemTwo a:hover {
     background-color: black;
-    color: 09a704;
-    border-color: #09a704;
+    color: #363a58;
+    border-color: #363a58;
 }
 
 #subItemThree a {
     height: 20px;
-    background-color: #09a704;
+    background-color: #363a58;
     border-style: solid;
     border-width: thick;
     border-color: black;
@@ -239,22 +240,24 @@ span.highlight {
     padding: 50px 30px 70px;
     color: black;
     position: absolute;
-    left: 60%;
+    float: right;
+    left: 65%;
     text-decoration: none;
     width: 90px;
 }
 
 #subItemThree a:hover {
     background-color: black;
-    color: #09a704;
-    border-color: #09a704;
+    color: #363a58;
+    border-color: #363a58;
 }
 
 li {
     text-align: center;
     margin: auto;
     width: 60%;
-    left: 20%;
+    float: left;
+    /* left: 20%; */
     display: inline;
 }
 
@@ -321,7 +324,9 @@ a {
 #subordinates {
     list-style-type: none;
     margin: auto;
-    right: 20px;
+    /* right: 20px; */
+    width: 80%;
+    padding: 40px;
     text-align: center;
 }
 
@@ -385,7 +390,7 @@ audio {
     top: 0px;
     right: 0px;
     left: -10px;
-    /* height:200px; */
+    height:200px;
     width: 80%;
     margin: auto;
     background-color: rgba(4, 6, 6, 0.63);

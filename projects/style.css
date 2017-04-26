@@ -404,3 +404,10 @@ audio {
     top: 0px;
     position: fixed;
 }
+#expllink {
+    color: white;
+    text-align: center;
+    height: 186px;
+    width: 326px;
+    position: absolute;
+}

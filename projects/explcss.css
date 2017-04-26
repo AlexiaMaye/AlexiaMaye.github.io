@@ -97,7 +97,7 @@ span.highlight {
     height: 220px;
     float: left;
     border-style: solid;
-    /* border-radius:6px; */
+    border-radius: 90px;
     border-color: #152224;
     margin: 40px 40px 30px 40px;
     display: block;

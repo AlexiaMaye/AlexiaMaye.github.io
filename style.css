@@ -341,7 +341,7 @@ span.highlight {
     width: 500px;
     height: 270px;
     border-style: solid;
-    /* border-radius:6px; */
+    border-radius: 90px;
     border-color: #09a704;
     margin: 10px auto 20px auto;
     display: block;
@@ -461,7 +461,7 @@ span.highlight {
 
 #subItemTwo a:hover {
     background-color: black;
-    color: 09a704;
+    color: #09a704;
     border-color: #09a704;
 }
 

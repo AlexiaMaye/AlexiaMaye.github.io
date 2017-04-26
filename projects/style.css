@@ -166,7 +166,7 @@ span.highlight {
 
 #navItem a:hover {
     background-color: #000000;
-    color: #09a704;
+    color: lightgray;
 }
 
 #subdiv {
@@ -291,9 +291,9 @@ li {
 a {
     color: white;
     text-align: center;
-    height: 186px;
-    width: 326px;
-    position: absolute;
+    /* height: 186px; */
+    /* width: 326px; */
+    /* position: absolute; */
 }
 
 .post {

@@ -12,6 +12,16 @@
             <h1 id="title">My Blog</h1>
         </div>
         <div id="bar"></div>
+        
+        <div id="feed">
+        <div class="photo" id="post">
+            <button id="button1">❤</button>
+            <span id="span1"></span>
+            
+            
+        </div>
+        
+        </div>
   
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -33,6 +43,21 @@
             </li>
             
         </div>
+        <script>
+var whichButton = "";
+var counter = 0;                        // Adds counters next to each 
+var counter2 = 0;                       // "Like" button, and raises
+$("button").on("click", function(){     // their values separately.
+  whichButton = this.id;                   
+  if (whichButton === "button1") {        
+    counter++; 
+    $("#span1").html(counter);
+  } else {
+    counter2++
+    $("#span2").html(counter2);
+  }
+});
+</script>
         <script>
             function openNav() {
                 document.getElementById("mySidenav").style.width = "250px";

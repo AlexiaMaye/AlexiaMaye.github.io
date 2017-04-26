@@ -255,7 +255,7 @@ span.highlight {
 li {
     text-align: center;
     margin: auto;
-    width: 60%;
+    width: 100%;
     float: left;
     /* left: 20%; */
     display: inline;

@@ -82,11 +82,11 @@ h4 {
 }
 
 body {
-    background: url(http://i1.wp.com/photos.smugmug.com/Travel/Payette-Lake-McCall-Idaho/i-7v6rdXB/0/X2/_DSC8115-X2.jpg?resize=1140%2C761&ssl=1);
+    background: url(https://i1.wp.com/photos.smugmug.com/Travel/Payette-Lake-McCall-Idaho/i-7v6rdXB/0/X2/_DSC8115-X2.jpg?resize=1140%2C761&ssl=1);
     background-size: 110% 100%;
     background-attachment: fixed;
     font-family: 'Arapey';
-    cursor: url(http://download.seaicons.com/icons/icons8/windows-8/16/Cultures-Triskelion-icon.png), auto;
+    cursor: url(https://download.seaicons.com/icons/icons8/windows-8/16/Cultures-Triskelion-icon.png), auto;
 }
 
 span.highlight {
@@ -423,3 +423,17 @@ audio {
     text-align:center;
     
 }
+#feed {
+   width: 60%;
+   height: 700px;
+   margin:40px auto auto auto;
+   background-color:rgba(0, 0, 0, 0.78);
+}
+img {
+    margin: auto  auto;
+    width: 80%;
+    padding: px 0px 0px;
+    display: block;
+    box-shadow: 9px 20px 14px 13px black;
+}
+#post{padding: 30px;}

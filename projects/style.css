@@ -4,15 +4,10 @@ h1 {
     /* text-orientation: upright; */
     text-align: center;
     color: white;
-    background-color: black;
+    /* background-color: black; */
     padding: 10px;
     display: block;
-    border-style: solid;
-    border-width: thick;
-    /* border-radius:15px; */
-    border-color: #09a704;
-    width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #navbar {
@@ -84,7 +79,7 @@ h4 {
 body {
     background: url(http://i1.wp.com/photos.smugmug.com/Travel/Payette-Lake-McCall-Idaho/i-7v6rdXB/0/X2/_DSC8115-X2.jpg?resize=1140%2C761&ssl=1);
     background-size: 110% 100%;
-    background-attachment:fixed;
+    background-attachment: fixed;
     font-family: 'Arapey';
     cursor: url(http://www.agame.com/wdg/game-12.15.6/img/game-loader.gif), auto;
 }
@@ -106,9 +101,10 @@ span.highlight {
     margin: 10px auto 20px auto;
     display: block;
     filter: brightness(80%);
-    background-image:url(https://alexiamaye.github.io/WIN_20170425_20_54_49_Pro.jpg);
-    background-size:contain;
+    background-image: url(https://alexiamaye.github.io/WIN_20170425_20_54_49_Pro.jpg);
+    background-size: contain;
 }
+
 #myFace:hover {
     width: 500px;
     height: 270px;
@@ -119,8 +115,8 @@ span.highlight {
     margin: 10px auto 20px auto;
     display: block;
     filter: brightness(80%);
-    background-image:url(https://alexiamaye.github.io/giphy.gif);
-    background-size:contain;
+    background-image: url(https://alexiamaye.github.io/giphy.gif);
+    background-size: contain;
 }
 }
 
@@ -333,38 +329,74 @@ header {
 audio {
     width: 80px;
     margin: 0px auto;
-    position:fixed;
-    top:0px;
-    right:0px;
-    border-style:solid;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-style: solid;
 }
+
 #nowPlay {
-    visibility:hidden;
+    visibility: hidden;
 }
+
 #tracks {
-    width:200px;
-    height:0px;
-    position:fixed;
-    right:0px;
-    top:25px;
+    width: 200px;
+    height: 0px;
+    position: fixed;
+    right: 0px;
+    top: 25px;
 }
+
 #btnNext {
-    height:20px;
-    width:20px;
-    padding:-10px 5px;
-    right:0px;
-    position:fixed;
+    height: 20px;
+    width: 20px;
+    padding: -10px 5px;
+    right: 0px;
+    position: fixed;
 }
+
 #btnPrev {
-    height:20px;
+    height: 20px;
 }
 
 #title {
-text-align:center;
+    text-align: center;
+    padding: 40px;
 }
-#counter {
-    position:fixed;
-    top:0px;
-    right:0px;
 
+#counter {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#top {
+    top: 0px;
+    right: 0px;
+    left: -10px;
+    /* height:200px; */
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(4, 6, 6, 0.63);
+}
+
+#bar {
+    height: 10px;
+    width: 100%;
+    color: black;
+    background-color: black;
+}
+
+#opener {
+    font-size: 25px;
+    border-style: solid;
+    background: rgba(69, 74, 88, 0.67);
+    border-width: 5px;
+    color: black;
+    padding: 10px;
+    left: 0px;
+    border-color: black;
+    border-radius: 15px;
+    top: 0px;
+    position: fixed;
 }

@@ -98,7 +98,7 @@ span.highlight {
     float: left;
     border-style: solid;
     /* border-radius:6px; */
-    border-color: #09a704;
+    border-color: #152224;
     margin: 40px auto 20px auto;
     display: block;
     filter: brightness(80%);
@@ -111,7 +111,7 @@ span.highlight {
     height: 180px;
     border-style: solid;
     border-radius: 100px;
-    border-color: #09a704;
+    border-color: #152224;
     box-shadow: 10px 10px 5px black;
     margin: 40px auto 20px auto;
     display: block;

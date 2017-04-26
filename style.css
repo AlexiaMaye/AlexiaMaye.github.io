@@ -246,7 +246,7 @@ h1 {
     color: white;
     background-color: black;
     padding: 10px;
-    display: inline-block;
+    display: block;
     border-style: solid;
     border-width: thick;
     /* border-radius:15px; */
@@ -324,6 +324,7 @@ h4 {
 body {
     background: url(http://img15.deviantart.net/97e2/i/2010/336/c/5/electronic_circuits_background_by_creativity103-d343szd.jpg);
     background-size: 110% 100%;
+    background-attachment:fixed;
     font-family: 'Anonymous Pro';
     cursor: url(http://www.agame.com/wdg/game-12.15.6/img/game-loader.gif), auto;
 }
@@ -354,6 +355,7 @@ span.highlight {
     border-style: solid;
     border-radius: 100px;
     border-color: #09a704;
+    box-shadow: 10px 10px 5px black;
     margin: 10px auto 20px auto;
     display: block;
     filter: brightness(80%);
@@ -385,6 +387,7 @@ span.highlight {
     font-family: 'Anonymous Pro';
     text-align: center;
     width: 80%;
+    box-shadow: 10px 10px 5px black;
     visibility: inherit;
     transform-origin: 0px 63px 0px;
     margin: 30px auto 40px auto;

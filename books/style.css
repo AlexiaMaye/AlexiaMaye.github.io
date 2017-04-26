@@ -42,7 +42,7 @@ h1 {
     transition: 0.3s;
 }
 
-.sidenav a:hover, .offcanvas a:focus {
+.sidenav a:hover, .offcanvas a:focus { 
     color: #000000;
 }
 

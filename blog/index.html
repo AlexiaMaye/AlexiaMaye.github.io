@@ -16,15 +16,23 @@
         <div id="feed">
         <div class="photo" id="photo">
             <img src="https://68.media.tumblr.com/eed85141448832e2e8b86429797cc785/tumblr_ogc2b6T9231tjl995o1_500.jpg">
-<span id="CountedClicks">0 Hits</span><br>
-<button style="background-color:#193d61; border-style:solid; border-color:transparent; border-radius:15px; font-family:'Arapey'; margin:20px 35% 20px;" onclick="AddClick()">Count Your Hit</button>
-<script>
-var Clicks = 0 ;
-function AddClick(){
-Clicks = Clicks + 1;
-document.getElementById('CountedClicks').innerHTML = Clicks + ' Hits';
-}
-</script>
+ class="box">
+<label for="qty"><abbr title="Quantity">Love or Lame?</abbr></label>
+<input id="qty" value="0" />
+<button id="down" onclick="modify_qty(-1)">Lame</button>
+<button id="up" onclick="modify_qty(1)">Love</button>
+</div>
+            <script>function modify_qty(val) {
+    var qty = document.getElementById('qty').value;
+    var new_qty = parseInt(qty,10) + val;
+    
+    if (new_qty < 0) {
+        new_qty = 0;
+    }
+    
+    document.getElementById('qty').value = new_qty;
+    return new_qty;
+}</script>
             
         </div>
         <div class="photo" id="photo">

@@ -36,17 +36,25 @@
         </div>
         <div class="photo" id="photo">
             <img src="https://68.media.tumblr.com/c843127d82122aff0b3e5f9c6ceda553/tumblr_o71x35i8Nz1utyp18o1_540.gif">
-            <script>function modify_qty(val) {
-    var qty1 = document.getElementById('qty1').value;
-    var new_qty1 = parseInt(qty1,10000) + val;
-    
-    if (new_qty1 < 0) {
-        new_qty1 = 0;
-    }
-    
-    document.getElementById('qty1').value = new_qty1;
-    return new_qty1;
-}</script>
+            <button id="b1">Button 1</button>
+<button id="b2">Button 2</button>
+<button id="b3">Button 3</button>
+            <script>var b1 = document.getElementById('b1'),
+  b2 = document.getElementById('b2'),
+  b3 = document.getElementById('b3');
+
+function click(e) {
+  if (!e.target.getAttribute('data-clicks'))
+    e.target.setAttribute('data-clicks', 0);
+  var clicks = parseInt(e.target.getAttribute('data-clicks'));
+  e.target.setAttribute('data-clicks', clicks + 1);
+  e.target.textContent = clicks + 1;
+}
+
+b1.addEventListener('click', click);
+b2.addEventListener('click', click);
+b3.addEventListener('click', click);
+</script>
             
             <div class="box1">
 <input id="qty1" value="0" />

@@ -36,31 +36,6 @@
         </div>
         <div class="photo" id="photo">
             <img src="https://68.media.tumblr.com/c843127d82122aff0b3e5f9c6ceda553/tumblr_o71x35i8Nz1utyp18o1_540.gif">
-            <button id="b1">Button 1</button>
-<button id="b2">Button 2</button>
-<button id="b3">Button 3</button>
-            <script>var b1 = document.getElementById('b1'),
-  b2 = document.getElementById('b2'),
-  b3 = document.getElementById('b3');
-
-function click(e) {
-  if (!e.target.getAttribute('data-clicks'))
-    e.target.setAttribute('data-clicks', 0);
-  var clicks = parseInt(e.target.getAttribute('data-clicks'));
-  e.target.setAttribute('data-clicks', clicks + 1);
-  e.target.textContent = clicks + 1;
-}
-
-b1.addEventListener('click', click);
-b2.addEventListener('click', click);
-b3.addEventListener('click', click);
-</script>
-            
-            <div class="box1">
-<input id="qty1" value="0" />
-<button id="down1" onclick="modify_qty(-1)">Lame</button>
-<button id="up1" onclick="modify_qty(1)">Love</button>
-</div>
            
         </div>
             <div id="post">
@@ -69,27 +44,10 @@ b3.addEventListener('click', click);
                 <h6 id="Date">i dunno, it's a day. Or actually, night.</h6>
                 <h5>Test testy tester MacPherson</h5>
             </div>
-                <span id="CountedClicks2">0 Hits</span><br>
-<button style="background-color:#193d61; border-style:solid; border-color:transparent; border-radius:15px; font-family:'Arapey'; margin:20px 35% 20px;" onclick="AddClick()">Count Your Hit</button>
-<script>
-var Clicks2 = 0 ;
-function AddClick(){
-Clicks2 = Clicks2 + 1;
-document.getElementById('CountedClicks2').innerHTML = Clicks2 + ' Hits';
-}
-</script>
+                
                 </div>
                <div class="photo" id="photo">
             <img src="https://68.media.tumblr.com/1837484e79a42f0fd7f61d92fee56e9d/tumblr_olbx5vwpbs1uxd3t8o1_400.gif">
-<span id="CountedClicks3">0 Hits</span><br>
-<button style="background-color:#193d61; border-style:solid; border-color:transparent; border-radius:15px; font-family:'Arapey'; margin:20px 35% 20px;" onclick="AddClick()">Count Your Hit</button>
-<script>
-var Clicks3 = 0 ;
-function AddClick(){
-Clicks3 = Clicks3 + 1;
-document.getElementById('CountedClicks3').innerHTML = Clicks3 + ' Hits';
-}
-</script>
         </div>
             
         </div>
@@ -114,21 +72,7 @@ document.getElementById('CountedClicks3').innerHTML = Clicks3 + ' Hits';
             </li>
             
         </div>
-        <script>
-var whichButton = "";
-var counter = 0;                        // Adds counters next to each 
-var counter2 = 0;                       // "Like" button, and raises
-$("button").on("click", function(){     // their values separately.
-  whichButton = this.id;                   
-  if (whichButton === "button1") {        
-    counter++; 
-    $("#span1").html(counter);
-  } else {
-    counter2++
-    $("#span2").html(counter2);
-  }
-});
-</script>
+      
         <script>
             function openNav() {
                 document.getElementById("mySidenav").style.width = "250px";

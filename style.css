@@ -4,7 +4,7 @@ h1 {
     /* text-orientation: upright; */
     text-align: center;
     color: white;
-    /* background-color: black; */ 
+    /* background-color: black; */
     padding: 10px;
     display: block;
     margin: auto;
@@ -42,7 +42,7 @@ h1 {
     transition: 0.3s;
 }
 
-.sidenav a:hover, .offcanvas a:focus { 
+.sidenav a:hover, .offcanvas a:focus {
     color: #000000;
 }
 
@@ -319,6 +319,7 @@ a {
 }
 
 #mainDiv {
+    color: lightgray;
 }
 
 #subordinates {
@@ -390,7 +391,7 @@ audio {
     top: 0px;
     right: 0px;
     left: -10px;
-    height:200px;
+    height: 200px;
     width: 80%;
     margin: auto;
     background-color: rgba(4, 6, 6, 0.63);
@@ -417,6 +418,7 @@ audio {
     top: 0px;
     position: fixed;
 }
+
 #expllink {
     color: white;
     text-align: center;
@@ -424,7 +426,15 @@ audio {
     width: 326px;
     position: absolute;
 }
+
 #doc {
-    text-align:center;
-    
+    text-align: center;
+}
+
+#footer {
+    color: lightgray;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    background-color: rgba(31, 28, 28, 0.67);
 }

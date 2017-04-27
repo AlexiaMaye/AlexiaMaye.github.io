@@ -71,14 +71,15 @@ h3 {
 }
 
 h4 {
-    color: white;
+    color: #193d61;
     font-family: 'Arapey';
     display: block;
-    padding: 20px 0px;
-    font-size: 20px;
-    width: 80%;
-    background: rgba(6, 8, 12, 0.37);
-    margin: 40px auto auto auto;
+    text-align: center;
+    /* padding: 20px 0px; */
+    /* font-size: 20px; */
+    /* width: 80%; */
+    /* background: rgba(6, 8, 12, 0.37); */
+    /* margin: 40px auto auto auto; */
 }
 
 body {
@@ -427,7 +428,7 @@ audio {
    width: 60%;
    /* height: 700px; */
    margin:40px auto auto auto;
-   background-color:rgba(0, 0, 0, 0.78);
+   background-color: rgba(0, 0, 0, 0.53);
 }
 img {
     margin: auto  auto;
@@ -445,4 +446,22 @@ img {
     margin:30px auto;
     display:block;
     width:90px;
+}
+#text {
+    margin: auto  auto;
+    width: 80%;
+    height: 50%;
+    padding: 20px 20px 20px;
+    display: block;
+    box-shadow: inset 0px 0px 17px 9px black;   
+}
+#post {
+    padding: 30px;
+    box-shadow: 0px 0px 0px black;
+}
+#Date {
+    color:#518cc6;
+}
+h5 {
+    color:#2a65a0
 }

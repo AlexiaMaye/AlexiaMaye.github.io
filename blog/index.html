@@ -36,11 +36,6 @@
         </div>
         <div class="photo" id="photo">
             <img src="https://68.media.tumblr.com/c843127d82122aff0b3e5f9c6ceda553/tumblr_o71x35i8Nz1utyp18o1_540.gif">
-           <div class="box1">
-<input id="qty1" value="0" />
-<button id="down1" onclick="modify_qty(-1)">Lame</button>
-<button id="up1" onclick="modify_qty(1)">Love</button>
-</div>
             <script>function modify_qty(val) {
     var qty1 = document.getElementById('qty1').value;
     var new_qty1 = parseInt(qty1,10000) + val;
@@ -52,6 +47,13 @@
     document.getElementById('qty1').value = new_qty1;
     return new_qty1;
 }</script>
+            
+            <div class="box1">
+<input id="qty1" value="0" />
+<button id="down1" onclick="modify_qty(-1)">Lame</button>
+<button id="up1" onclick="modify_qty(1)">Love</button>
+</div>
+           
         </div>
             <div id="post">
             <div id="text">

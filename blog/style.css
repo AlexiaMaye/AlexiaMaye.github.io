@@ -4,7 +4,7 @@ h1 {
     /* text-orientation: upright; */
     text-align: center;
     color: white;
-    /* background-color: black; */ 
+    /* background-color: black; */
     padding: 10px;
     display: block;
     margin: auto;
@@ -42,7 +42,7 @@ h1 {
     transition: 0.3s;
 }
 
-.sidenav a:hover, .offcanvas a:focus { 
+.sidenav a:hover, .offcanvas a:focus {
     color: #000000;
 }
 
@@ -413,6 +413,7 @@ audio {
     top: 0px;
     position: fixed;
 }
+
 #expllink {
     color: white;
     text-align: center;
@@ -420,104 +421,127 @@ audio {
     width: 326px;
     position: absolute;
 }
+
 #doc {
-    text-align:center;
-    
+    text-align: center;
 }
+
 #feed {
-   width: 60%;
-   /* height: 700px; */
-   margin:40px auto auto auto;
-   background-color: rgba(0, 0, 0, 0.53);
+    width: 60%;
+    /* height: 700px; */
+    margin: 40px auto auto auto;
+    background-color: rgba(0, 0, 0, 0.53);
 }
+
 img {
-    margin: auto  auto;
+    margin: auto auto;
     width: 50%;
     height: 50%;
     padding: 20px 20px 20px;
     display: block;
     box-shadow: inset 0px 0px 17px 9px black;
 }
-#photo{
+
+#photo {
     padding: 30px;
     box-shadow: 0px 0px 0px black;
 }
-#buttons{
-    margin:30px auto;
-    display:block;
-    width:90px;
+
+#buttons {
+    margin: 30px auto;
+    display: block;
+    width: 90px;
 }
+
 #text {
-    margin: auto  auto;
+    margin: auto auto;
     width: 80%;
     height: 50%;
     padding: 20px 20px 20px;
     display: block;
-    box-shadow: inset 0px 0px 17px 9px black;   
+    box-shadow: inset 0px 0px 17px 9px black;
 }
+
 #post {
     padding: 30px;
     box-shadow: 0px 0px 0px black;
 }
+
 #Date {
-    color:#518cc6;
+    color: #518cc6;
 }
+
 h5 {
-    color:#2a65a0
+    color: #2a65a0
 }
+
 #CountedClicks {
-    border-color:black;
-    border-style:solid;
+    border-color: black;
+    border-style: solid;
     margin: 20px 40% 20px;
     background-color: #193d61;
     color: white;
     padding: 4px;
 }
+
 input {
-	font-size: 2.4em;
-	background-color: transparent;
-	text-align: center;
-	border-width: 0;
-	width: 100%;
-	margin: 0 0 .1em 0;
-	color: #fff;
+    font-size: 1.5em;
+    background-color: transparent;
+    border-width: 0;
+    width: 20%;
+    margin: 0 0 .1em 0;
+    color: #fff;
+    float: left;
+    display: block;
 }
 
 label {
-	display: block;
-	font-size: .8em;
+    display: block;
+    font-size: .6em;
 }
 
 button {
-	/* basics */
-	color: #444;
-	background-color: #B5B198;
-	/* rounded corners */
+    /* basics */
+    color: #444;
+    font-size: .9em;
+    background-color: #B5B198;
+    /* rounded corners */
     -webkit-border-radius: 6px;
-          border-radius: 6px; 
-    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-	font-weight: bold;
-
+    border-radius: 6px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    font-weight: bold;
+    /* margin: -10px -40px auto; */
+    /* box-shadow: 0px -1px 20px 3px black; */
 }
 
 button:hover, button:active, button:focus {
-	background-color: #CBC7AE;
+    background-color: #CBC7AE;
 }
 
 .box {
-	/* basics */
-	background-color: #444;
-	color: #C4BE92;
+    /* basics */
+    background-color: #444;
+    color: #C4BE92;
     text-align: center;
-
-	/* rounded corners */
+    /* rounded corners */
     -webkit-border-radius: 12px;
-    border-radius: 12px; 
-    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+    border-radius: 12px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
     padding: .8em .8em 1em;
-    width: 8em;
-	margin: 0 auto;	
-  	-webkit-box-shadow: 0px 0px 12px 0px #000;
+    width: 6em;
+    height: 2em;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 12px 0px #000;
     box-shadow: 0px 0px 12px 0px #000;
-  
+}
+#down{
+    margin: -10px auto 0px -5px;
+}
+#up{
+    margin: auto -5px auto -15px;
+    width: 54px;
 }

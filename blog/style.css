@@ -465,3 +465,11 @@ img {
 h5 {
     color:#2a65a0
 }
+#CountedClicks {
+    border-color:black;
+    border-style:solid;
+    margin: 20px 40% 20px;
+    background-color: #193d61;
+    color: white;
+    padding: 4px;
+}

@@ -1,15 +1,3 @@
- {
-    font-family: 'Arapey';
-    font-size: 30px;
-    /* text-orientation: upright; */
-    text-align: center;
-    color: white;
-    /* background-color: black; */
-    padding: 10px;
-    display: block;
-    margin: auto;
-}
-
 #navbar {
     font-size: 50px;
     color: white;
@@ -55,76 +43,12 @@
     color: black;
 }
 
-h3 {
-    color: white;
-    background-color: black;
-    padding: 10px;
-    border-style: solid;
-    /* border-radius:15px; */
-    border-color: #09a704;
-    font-family: 'Arapey';
-    text-align: center;
-    margin: 10px auto;
-    width: 50%;
-    visibility: inherit;
-    transform-origin: 0px 63px 0px;
-}
-
-h4 {
-    color: #193d61;
-    font-family: 'Arapey';
-    display: block;
-    text-align: center;
-    /* padding: 20px 0px; */
-    /* font-size: 20px; */
-    /* width: 80%; */
-    /* background: rgba(6, 8, 12, 0.37); */
-    /* margin: 40px auto auto auto; */
-}
-
 body {
     background: url(https://i1.wp.com/photos.smugmug.com/Travel/Payette-Lake-McCall-Idaho/i-7v6rdXB/0/X2/_DSC8115-X2.jpg?resize=1140%2C761&ssl=1);
     background-size: 110% 100%;
     background-attachment: fixed;
     font-family: 'Arapey';
     cursor: url(https://download.seaicons.com/icons/icons8/windows-8/16/Cultures-Triskelion-icon.png), auto;
-}
-
-span.highlight {
-    /* background-color: black; */
-}
-
-span.highlight {
-    /* background-color: black; */
-}
-
-#myFace {
-    width: 320px;
-    height: 180px;
-    float: left;
-    border-style: solid;
-    /* border-radius:6px; */
-    border-color: #152224;
-    margin: 40px auto 20px auto;
-    display: block;
-    filter: brightness(80%);
-    background-image: url(https://alexiamaye.github.io/WIN_20170425_20_54_49_Pro.jpg);
-    background-size: contain;
-}
-
-#myFace:hover {
-    width: 320px;
-    height: 180px;
-    border-style: solid;
-    border-radius: 100px;
-    border-color: #152224;
-    box-shadow: 10px 10px 5px black;
-    margin: 40px auto 20px auto;
-    display: block;
-    filter: brightness(80%);
-    background-image: url(https://alexiamaye.github.io/giphy.gif);
-    background-size: contain;
-}
 }
 
 #navList {
@@ -138,23 +62,6 @@ span.highlight {
     text-align: center;
     float: left;
     position: absolute;
-}
-
-#links {
-    color: white;
-    background-color: black;
-    padding: 10px;
-    border-style: solid;
-    /* border-radius:15px; */
-    border-color: #09a704;
-    font-family: 'Anonymous Pro';
-    text-align: center;
-    width: 80%;
-    box-shadow: 10px 10px 5px black;
-    visibility: inherit;
-    transform-origin: 0px 63px 0px;
-    margin: 30px auto 40px auto;
-    display: block;
 }
 
 #navItem a {
@@ -174,14 +81,6 @@ span.highlight {
     background-color: #000000;
     color: lightgray;
 }
-
-#subdiv {
-    background-color: rgba(0, 0, 0, 0.82);
-    padding: 12px 30px 170px 50px;
-    margin: 20px 30px 15px 20px;
-    /* border-radius: 50px; */
-}
-
 
 li {
     text-align: center;

@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-     var clicks = 0;
-    function myFunction() {
-
-        clicks += 1;
-        document.getElementById("demo").innerHTML = clicks;
-
-
-    }
+onclick="$.cookie('clicks', $.cookie('clicks') + 1);"
 </script>
 </head>
 <body>
 
-<p>Click the button to trigger a function.</p>
-
-<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
-
+<script type="text/javascript">var clicks = 0;</script>
+<input value="Click" type="button" onclick="clicks++">
 </body>
 </html>

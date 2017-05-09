@@ -168,6 +168,8 @@ body {
     background: url(https://i1.wp.com/photos.smugmug.com/Travel/Payette-Lake-McCall-Idaho/i-7v6rdXB/0/X2/_DSC8115-X2.jpg?resize=1140%2C761&ssl=1);
     background-size: 110% 100%;
     background-attachment: fixed;
+    color: white;
+    text-align: center;
     font-family: 'Arapey';
     cursor: url(https://download.seaicons.com/icons/icons8/windows-8/16/Cultures-Triskelion-icon.png), auto;
 }
@@ -389,4 +391,8 @@ audio {
 #up {
     margin: auto -5px auto -15px;
     width: 54px;
+}
+#footer {
+    padding:20px;
+    margin: 20px;
 }

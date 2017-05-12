@@ -80,6 +80,7 @@ body {
     background: url(http://i1.wp.com/photos.smugmug.com/Travel/Payette-Lake-McCall-Idaho/i-7v6rdXB/0/X2/_DSC8115-X2.jpg?resize=1140%2C761&ssl=1);
     background-size: 110% 100%;
     background-attachment: fixed;
+    height:2000px;
     font-family: 'Arapey';
     cursor: url(http://www.agame.com/wdg/game-12.15.6/img/game-loader.gif), auto;
 }
@@ -418,4 +419,13 @@ audio {
     display: block;
     text-align: center;
     margin: 130px auto 0px auto;
+}
+#footer {
+    position:fixed;
+    bottom:0px;
+    text-align:center;
+    background-color: gray;
+    padding:20px;
+    width: 95.5%;
+    left:0px;
 }

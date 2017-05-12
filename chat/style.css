@@ -310,7 +310,7 @@ audio {
     /* height: 200px; */
     border-bottom: black solid 10px;
     width: 80%;
-    margin: auto;
+    margin: auto auto 20px;
     background-color: rgba(4, 6, 6, 0.63);
 }
 

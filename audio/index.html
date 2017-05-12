@@ -20,13 +20,12 @@
      <script>var audio;
 var playlist;
 var tracks;
-var audio;
 var current;
 
 init();
 function init(){
     current = 0;
-    audio = $('#audio');
+    audio = $('audio');
     playlist = $('#playlist');
     tracks = playlist.find('li a');
     len = tracks.length - 1;

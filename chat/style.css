@@ -391,3 +391,10 @@ audio {
 #up {
     margin: auto -5px auto -15px;
     }
+b {
+    width:100px;
+    display:block;
+    height:20px;
+    padding-right:30px;
+    font-family: 'Arapey';
+}

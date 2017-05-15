@@ -20,6 +20,12 @@ body {
   padding: 10px 10px 10px 10px;
   border-width: 1px;
 }
+td a{
+	width:6em;
+	height:2em;
+	position:fixed;
+	left:2%;
+}
 
 h4 {
   padding: 0px 10px 10px 10px;

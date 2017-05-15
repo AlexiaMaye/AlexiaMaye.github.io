@@ -20,11 +20,16 @@ body {
   padding: 10px 10px 10px 10px;
   border-width: 1px;
 }
+#insta{
+	width:4em;
+	margin:0px;
+}
+
 td a{
 	width:6em;
-	height:2em;
 	position:fixed;
 	left:2%;
+	height:2em;
 }
 
 h4 {

@@ -6,8 +6,8 @@ padding-top: 60px; /* 60px to make the container go all the way to the bottom of
 	border-left: 6px solid #636ee7;
 }
 body {
-  background: linear-gradient(to right, #bee5f7, #0c6c99);
-	height:20000px;
+  background: linear-gradient(to bottom, #bee5f7, #0c6c99, #0e4838 , black 60%);
+  height:20000px;
 }
 
 #fixedbox {
@@ -28,12 +28,26 @@ body {
 	margin:0px;
 }
 
-td a{
-	width:6em;
-	position:fixed;
-	left:2%;
-	height:2em;
+#tumblr {
+	width:4em;
 }
+
+#Tumblr a{
+	left: 6.5%;
+	top: 36%;
+	position: fixed;
+	width: 64px;
+	display: block;
+	height: 76px;
+}
+#Instagram a {
+	width: 64px;
+	height: 76px;
+	position:fixed;
+	left: 22px;
+	margin:auto;
+}
+
 
 h4 {
   padding: 0px 10px 10px 10px;

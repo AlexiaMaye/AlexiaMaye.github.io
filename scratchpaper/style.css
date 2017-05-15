@@ -14,11 +14,13 @@ body {
   color: white;
   border-style: solid;
   border-color: white;
-  position: fixed;
   font-family: 'Inknut Antiqua';
   left: 2%;
   padding: 10px 10px 10px 10px;
   border-width: 1px;
+    padding:20px;
+    width:200px;
+    position:fixed; top:0; left:0;
 }
 #insta{
 	width:4em;

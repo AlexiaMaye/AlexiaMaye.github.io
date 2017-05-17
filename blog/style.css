@@ -171,7 +171,16 @@ body {
     color: white;
     text-align: center;
     font-family: 'Arapey';
-    cursor: url(https://alexiamaye.github.io/blog/white.jpg), auto;
+    cursor: url(http://cursors2.totallyfreecursors.com/thumbnails/1pointer31.gif), auto;
+}
+
+#audiotitle{
+    position:fixed;
+    width: 100px;
+    left: 0;
+    top: 90px;
+    background-color:rgba(19, 26, 31, 0.7);
+    padding:10px;
 }
 
 #navList {
@@ -256,11 +265,11 @@ header {
 }
 
 audio {
-    width: 80px;
+    width: 114px;
     margin: 0px auto;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 66px;
+    left: 0px;
     border-style: solid;
 }
 
@@ -311,7 +320,7 @@ audio {
     border-bottom: black solid 10px;
     width: 80%;
     margin: auto;
-    background-color: rgba(4, 6, 6, 0.63);
+    background-color: rgba(31, 6, 33, 0.38);
 }
 
 #opener {
@@ -340,7 +349,7 @@ audio {
     width: 60%;
     /* height: 700px; */
     margin: 40px auto auto auto;
-    background-color: rgba(0, 0, 0, 0.53);
+    background-color: rgba(45, 13, 40, 0.22);
 }
 
 #postimg {

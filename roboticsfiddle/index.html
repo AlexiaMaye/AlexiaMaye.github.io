@@ -66,8 +66,9 @@ $('#alexiasfixedbox').followTo(285);
     <div id="moveybox">
     <div id="danielsfixedbox">
     <script>
-   
- 
+   $(window).scroll(function () {
+    if ($("#danielsfixedbox").scrollTop() < 0 ) {
+  
     var windw = this;
     $.fn.followTo = function ( pos ) {
     var $this = this,
@@ -89,7 +90,8 @@ $('#alexiasfixedbox').followTo(285);
 };
 
 $('#danielsfixedbox').followTo(500);
-    
+    }
+});
 </script>
     
 

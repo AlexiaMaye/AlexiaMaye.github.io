@@ -181,13 +181,13 @@ tbody{
 	margin:auto;
 	position:initial;
 }
-#doodleheart{
+#alexiasdoodle{
 	display:inline;
 	width: 10%;
 	position:absolute;
 	margin: -2% 22%;
 }
-#fixedbox {
+#alexiasfixedbox {
   background: black;
   color: white;
   border-style: solid;
@@ -203,7 +203,7 @@ tbody{
   top:0;
   left:0;
 }
-#profile1 {
+#profiledealexia {
 	margin: auto auto 5em auto;
 	display:block;
 	padding-top: 2em;

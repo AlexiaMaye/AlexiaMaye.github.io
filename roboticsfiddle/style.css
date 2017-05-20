@@ -294,3 +294,8 @@ b {
 	color: black;
 	font-family: "Slabo 27px";
 }
+#pagetitle{
+	margin:10px auto 30px;
+	width:40%;
+	display:block;
+}

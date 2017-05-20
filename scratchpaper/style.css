@@ -11,8 +11,14 @@ body {
 }
 #firstphoto{
 	display: block;
-	margin: auto;
+	margin: 2% auto;
 	box-shadow: blueviolet -20px 20px;
+}
+#doodleheart{
+	display:inline;
+	width: 10%;
+	position:absolute;
+	margin: -2% 25%;
 }
 #fixedbox {
   background: black;

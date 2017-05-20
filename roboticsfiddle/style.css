@@ -203,13 +203,13 @@ tbody{
   border-color: white;
   font-family: 'Inknut Antiqua';
   right: 2%;
-  padding: 10px 10px 10px 10px;
+  /* padding: 10px 10px 10px 10px; */
   border-width: 1px;
   padding:20px;
   width: 12%;
   display: block;
   margin-top:7.2em;
-  position:fixed;
+  /* position:fixed; */
   top:0;
   left:0;
 }
@@ -219,13 +219,14 @@ tbody{
   border-style: solid;
   border-color: white;
   font-family: 'Inknut Antiqua';
+  right:2%;
   border-width: 1px;
   padding:20px;
   width: 12%;
   display: block;
-  margin-top:7.2;
-  position:fixed;
-  top:0em;
+  margin-top: 9.8em;
+  position: absolute;
+  top:0;
   left:0;
 }
 #profiledealexia, #profilededaniel {
@@ -238,6 +239,7 @@ tbody{
 	border-width: 1em;
 	border-color: black;
 }
+
 
 #insta{
 	width:4em;

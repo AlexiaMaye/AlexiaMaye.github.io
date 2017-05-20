@@ -165,7 +165,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Slabo+27px" rel="stylesheet">
 <div id="fixedbox">
     <script>
-    if (980>= $(window).width() >= 720){
+    if (980 >= $(window).width() >= 720){
     var windw = this;
     $.fn.followTo = function ( pos ) {
     var $this = this,
@@ -189,7 +189,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 
 $('#fixedbox').followTo(303);
     }
-    else {
+else if (980 < ($(window).width)){
  
     var windw = this;
     $.fn.followTo = function ( pos ) {

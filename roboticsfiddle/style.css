@@ -49,8 +49,14 @@ tbody{
   left:0;
 }
 #profile1 {
-	margin:auto;
+	margin: auto auto 5em auto;
 	display:block;
+	padding-top: 2em;
+	width: 80%;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-width: 1em;
+	border-color: black;
 }
 #insta{
 	width:4em;
@@ -84,7 +90,7 @@ h4 {
 
 #t01 {
   font-size: 0.5em;
-  width: 99%;
+  width: 100%;
   display: inline-block;
   margin: auto;
 }

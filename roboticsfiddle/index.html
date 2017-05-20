@@ -163,7 +163,9 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 
     
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Slabo+27px" rel="stylesheet">
-<div id="fixedbox"><script>
+<div id="fixedbox">
+    if ($window.width > 720){
+    <script>
     var windw = this;
     $.fn.followTo = function ( pos ) {
     var $this = this,
@@ -184,8 +186,34 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
     });
 };
 
-$('#fixedbox').followTo(325);
+$('#fixedbox').followTo(310);
 </script>
+    }
+    else {
+    <script>
+    var windw = this;
+    $.fn.followTo = function ( pos ) {
+    var $this = this,
+        $window = $(windw);
+    
+    $window.scroll(function(e){
+        if ($window.scrollTop() > pos) {
+            $this.css({
+                position: 'absolute',
+                top: pos
+            });
+        } else {
+            $this.css({
+                position: 'fixed',
+                top: 0
+            });
+        }
+    });
+};
+
+$('#fixedbox').followTo(330);
+</script>
+    }
 
   <h4 id="name">Alexia M. Walgren</h4>
   <table id="t01">

@@ -10,8 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Slabo+27px" rel="stylesheet">
 <div id="alexiasfixedbox">
     <script>
-    
-    if (980 >= $(window).width()){
     var windw = this;
     $.fn.followTo = function ( pos ) {
     var $this = this,
@@ -33,33 +31,7 @@
     });
 };
 $('#alexiasfixedbox').followTo(303);
-    }
         
-else if (980 < $(window).width()){
- 
-    var windw = this;
-    $.fn.followTo = function ( pos ) {
-    var $this = this,
-        $window = $(windw);
-    
-    $window.scroll(function(e){
-        if ($window.scrollTop() > pos) {
-            $this.css({
-                position: 'absolute',
-                top: pos
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
-        }
-    });
-};
-
-$('#alexiasfixedbox').followTo(307);
-    }
-
 </script>
     
 

@@ -172,6 +172,15 @@ body {
 	border-color: black;
 	box-shadow: #17022b 0px 0px 20px 2px;
 }
+#danielsphoto{
+	display: block;
+	margin: 2% auto;
+	width: 30%;
+	border-style: solid;
+	border-color: black;
+	box-shadow: #17022b 0px 0px 20px 2px;
+}
+}
 #name{
 	text-align:center;
 }
@@ -181,7 +190,7 @@ tbody{
 	margin:auto;
 	position:initial;
 }
-#alexiasdoodle{
+#alexiasdoodle, #danielsdoodle{
 	display:inline;
 	width: 10%;
 	position:absolute;
@@ -204,8 +213,23 @@ tbody{
   top:0;
   left:0;
 }
-#profiledealexia {
-	margin: auto auto 5em auto;
+#danielsfixedbox {
+  background: black;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  font-family: 'Inknut Antiqua';
+  border-width: 1px;
+  padding:20px;
+  width: 12%;
+  display: block;
+  margin-top:7.2;
+  position:fixed;
+  top:0em;
+  left:0;
+}
+#profiledealexia, #profilededaniel {
+	margin: auto auto 1em auto;
 	display:block;
 	padding-top: 2em;
 	width: 80%;
@@ -214,6 +238,7 @@ tbody{
 	border-width: 1em;
 	border-color: black;
 }
+
 #insta{
 	width:4em;
 	margin:0px;
@@ -296,7 +321,7 @@ b {
 	font-family: "Slabo 27px";
 }
 #pagetitle{
-	margin:2% auto;
+	margin: 1em auto;
 	width:100%;
 	display:block;
 	text-align:center;

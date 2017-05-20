@@ -12,11 +12,16 @@ body {
 #firstphoto{
 	display: block;
 	margin: 2% auto;
-	width: 40%;
-	box-shadow: blueviolet -20px 20px;
+	width: 30%;
+	border-style: solid;
+	border-color: black;
+	box-shadow: #17022b 0px 0px 20px 2px;
+}
+#name{
+	text-align:center;
 }
 tbody{
-	width:7em;
+	width: 8em;
 	display:block;
 	margin:auto;
 	position:initial;
@@ -79,9 +84,9 @@ h4 {
 
 #t01 {
   font-size: 0.5em;
-  width: 10%;
-  display: block;
-  position: sticky;
+  width: 99%;
+  display: inline-block;
+  margin: auto;
 }
 
 table#t01 td,
@@ -117,4 +122,14 @@ b {
 	width: 200px;
 	height: 20px;
 	display: block;
+}
+#description {
+	width: 65%;
+	margin: 1.6em auto;
+	background: rgba(190, 229, 247, 0.01);
+	padding:20px;
+	text-align: center;
+	box-shadow: inset black 0px 0px 20px 3px;
+	color: black;
+	font-family: "Slabo 27px";
 }

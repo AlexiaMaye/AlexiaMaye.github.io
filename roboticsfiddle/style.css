@@ -209,6 +209,7 @@ tbody{
   width: 12%;
   display: block;
   margin-top:7.2em;
+  margin-bottom: 1em;
   /* position:fixed; */
   top:0;
   left:0;
@@ -219,21 +220,23 @@ tbody{
   border-style: solid;
   border-color: white;
   font-family: 'Inknut Antiqua';
-  right:2%;
+  /* right:2%; */
   border-width: 1px;
   padding:20px;
   width: 12%;
+  /* margin-top: 2em; */
   display: block;
-  margin-top: 9.8em;
   position: absolute;
-  top:0;
+  top: 300px;
   left:0;
 }
 #profiledealexia, #profilededaniel {
 	margin: auto auto 1em auto;
 	display:block;
+	position: relative;
 	padding-top: 2em;
-	width: 80%;
+	width: 100%;
+	/* contain: content; */
 	border-bottom-style: solid;
 	border-top-style: solid;
 	border-width: 1em;

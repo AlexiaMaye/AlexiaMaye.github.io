@@ -69,7 +69,7 @@ $.fn.followTo = function(pos) {
     if ($window.scrollTop() > pos) {
       $this1.css({
         position: 'absolute',
-        top: pos
+        top: pos + 75
       });
     } else {
       $this1.css({
@@ -79,7 +79,7 @@ $.fn.followTo = function(pos) {
     }
   });
 };
-$('#danielsfixedbox').followTo(600);
+$('#danielsfixedbox').followTo(900);
 
 
 </script>

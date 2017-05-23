@@ -225,6 +225,7 @@ tbody{
   border-width: 1px;
   padding:20px;
   width: 15%;
+position:fixed;
   /* margin-top: 2em; */
   display: block;
   position: absolute;
@@ -236,8 +237,8 @@ tbody{
 	display:block;
 	position: relative;
 	padding-top: 2em;
+	overflow:hidden;
 	width: 100%;
-	contain: content;
 	border-bottom-style: solid;
 	border-top-style: solid;
 	border-width: 1em;

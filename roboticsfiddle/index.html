@@ -55,33 +55,32 @@ $('#alexiasfixedbox').followTo(500);
           </tbody>
   </table>
              
-             
+             </div>
              
              <div id="danielsfixedbox">
     <script>
     
     var windw1 = this;
-    $.fn.followTo = function ( pos1 ) {
-    var $this1 = this,
-        $window = $(windw1);
-    
-    $window.scroll(function(e){
-        if ($window.scrollTop() > pos1) {
-            $this1.css({
-                position: 'absolute',
-                top: pos1, 1130
-            );
-        } 
-        else {
-            $this1.css({
-                position: 'fixed',
-                top:0
-            });
-        }
-    });
+$.fn.followTo = function(pos) {
+  var $this1 = this,
+    $window = $(windw1);
+
+  $window.scroll(function(e) {
+    if ($window.scrollTop() > pos) {
+      $this1.css({
+        position: 'absolute',
+        top: pos
+      });
+    } else {
+      $this1.css({
+        position: 'fixed',
+        top: 0
+      });
+    }
+  });
 };
-$('#danielsfixedbox').followTo(900);
-        
+$('#danielsfixedbox').followTo(600);
+
 
 </script>
     

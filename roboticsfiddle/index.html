@@ -21,7 +21,7 @@
         if ($window.scrollTop() > pos) {
             $this.css({
                 position: 'absolute',
-               top:450
+               top:0
             });
         } 
         else {
@@ -69,7 +69,7 @@ $.fn.followTo = function(pos) {
     if ($window.scrollTop() > pos) {
       $this1.css({
         position: 'absolute',
-        top: pos +600
+        top: pos
       });
     } else {
       $this1.css({

@@ -36,7 +36,7 @@ padding:5px 0;
 ================================================== */
 
 h1,h6,p { color:#808080; font-weight:200; }
-h1 { font-size:42px; line-height:44px; margin:20px 0 0; }
+h1 {font-size:42px;line-height:44px;/* margin:20px 0 0; */}
 h6 { font-size:18px; line-height:20px; margin:4px 0 20px; }
 p { font-size:18px; line-height:20px; margin:0 0 2px; }
 
@@ -202,15 +202,16 @@ tbody{
   border-style: solid;
   border-color: white;
   font-family: 'Inknut Antiqua';
-  right: 2%;
+  /* right: 2%; */
   /* padding: 10px 10px 10px 10px; */
+  width: 12%;
   border-width: 1px;
   padding:20px;
-  width: 12%;
   display: block;
-  margin-top:7.2em;
+  z-index: 4;
+  /* margin-top:7.2em; */
   margin-bottom: 1em;
-  /* position:fixed; */
+  position: fixed;
   top:0;
   left:0;
 }
@@ -223,11 +224,11 @@ tbody{
   /* right:2%; */
   border-width: 1px;
   padding:20px;
-  width: 12%;
+  width: 15%;
   /* margin-top: 2em; */
   display: block;
   position: absolute;
-  top: 300px;
+  top: 0px;
   left:0;
 }
 #profiledealexia, #profilededaniel {
@@ -236,7 +237,7 @@ tbody{
 	position: relative;
 	padding-top: 2em;
 	width: 100%;
-	/* contain: content; */
+	contain: content;
 	border-bottom-style: solid;
 	border-top-style: solid;
 	border-width: 1em;
@@ -326,8 +327,17 @@ b {
 	font-family: "Slabo 27px";
 }
 #pagetitle{
-	margin: 1em auto;
-	width:100%;
-	display:block;
+	/* margin: 1em auto; */
+	/* width:100%; */
+	/* display:block; */
+	text-align:center;
+}
+#divs{
+	position: absolute;
+	width: 15%;
+	z-index: 3;
+	/* contain: content; */
+}
+#name {
 	text-align:center;
 }

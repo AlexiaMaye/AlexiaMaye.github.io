@@ -86,6 +86,7 @@ th {
 
 table#t01 th {
   display: inline-block;
+  font-size: large;
 }
 
 table#t01 td {}
@@ -152,7 +153,6 @@ b {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -199,4 +199,97 @@ b {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+#profiledealexia, #profilededaniel {
+	margin: auto auto 1em auto;
+	background: black;
+	display:block;
+	padding-top: 2em;
+	height: 500;
+	/* color: white; */
+	text-align: center;
+	overflow:hidden;
+	width: 100%;
+}
+#alexiasfixedbox {
+  background: black;
+  color: white;
+  /* border-style: solid; */
+  /* border-color: white; */
+  font-family: 'Inknut Antiqua';
+  position: absolute;
+  left: 18%;
+  text-align: center;
+  /* margin: 30% auto; */
+  padding:20px;
+  display: inline-block;
+  /* width: 0%; */
+}
+#alexiasdoodle, #danielsdoodle{
+	display:inline;
+	position: absolute;
+	width: 10%;
+	z-index: 5;
+	top: 6em;
+	right: 29.4em;
+	margin: auto;
+}
+#name{
+	text-align:center;
+	font-size: larger;
+}
+#t01 {
+  font-size: 0.5em;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+h4 {
+  padding: 0px 10px 10px 10px;
+  margin: -10px auto auto auto;
+}
+table#t01 td,
+th {
+  display: inline-block;
+  width: 8em;
+  text-align: center;
+  contain: content;
+  border-style: solid;
+  color:white;
+  border-width: 1px;
+}
+#description {
+	width: 100%;
+	margin: 0 auto;
+	bottom: 5em;
+	font-size: medium;
+	/* color: white; */
+	background: rgba(190, 229, 247, 0.85);
+	display: block;
+	position: absolute;
+	padding:20px;
+	text-align: center;
+	box-shadow: inset black 0px 0px 20px 3px;
+	/* right: 13em; */
+}
+#alexiasphoto{
+	display: block;
+	margin: 0;
+	position: absolute;
+	width: 27%;
+	left: 55%;
+	top: 3em;
+	border-style: solid;
+	border-color: black;
+	box-shadow: #17022b 0px 0px 20px 2px;
+}
+
+tbody{
+	width: 8em;
+	display:block;
+	margin: auto;
+	text-align: center;
+	font-size: large;
+	position:initial;
 }

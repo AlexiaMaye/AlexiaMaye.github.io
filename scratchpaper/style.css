@@ -71,15 +71,15 @@ h4 {
 }
 
 #t01 {
-  font-size: 0.5em;
+  /* font-size: 0.5em; */
 }
 
 table#t01 td,
 th {
-  display: inline-block;
-  width: 6em;
-  text-align: center;
-  contain: content;
+  /* display: inline-block; */
+  /* width: 6em; */
+  /* text-align: center; */
+  /* contain: content; */
   border-style: solid;
   border-width: 1px;
 }
@@ -89,7 +89,9 @@ table#t01 th {
   font-size: large;
 }
 
-table#t01 td {}
+table#t01 td {
+    padding: 4px 20px;
+}
 
 
 .post-inner {
@@ -109,7 +111,7 @@ b {
 	height: 20px;
 	display: block;
 }
-* {box-sizing:border-box}
+* {box-sizing:border-box;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -201,28 +203,23 @@ b {
   to {opacity: 1}
 }
 #profiledealexia, #profilededaniel {
-	margin: auto auto 1em auto;
-	background: black;
-	display:block;
-	padding-top: 2em;
-	height: 500;
-	/* color: white; */
+	/* margin: auto auto 1em auto; */
+	/* background: black; */
+	/* display:block; */
+	/* padding-top: 2em; */
+	color: white;
 	text-align: center;
-	overflow:hidden;
-	width: 100%;
+	/* overflow:hidden; */
+	/* width: 100%; */
 }
 #alexiasfixedbox {
-  background: black;
   color: white;
-  /* border-style: solid; */
-  /* border-color: white; */
-  font-family: 'Inknut Antiqua';
-  position: absolute;
-  left: 18%;
-  text-align: center;
-  /* margin: 30% auto; */
-  padding:20px;
-  display: inline-block;
+  /* width: 100%; */
+  /* left: 18%; */
+  /* text-align: center; */
+  /* margin: auto; */
+  /* padding:20px; */
+  /* display: table-cell; */
   /* width: 0%; */
 }
 #alexiasdoodle, #danielsdoodle{
@@ -239,39 +236,44 @@ b {
 	font-size: larger;
 }
 #t01 {
-  font-size: 0.5em;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
+  /* font-size: 0.5em; */
+  /* width: 100%; */
+  /* display: inline-block; */
+  /* text-align: center; */
   margin: auto;
 }
 h4 {
   padding: 0px 10px 10px 10px;
   margin: -10px auto auto auto;
 }
-table#t01 td,
-th {
-  display: inline-block;
-  width: 8em;
-  text-align: center;
-  contain: content;
-  border-style: solid;
+table#t01 td, th, tr {
+  /* width: 9.8em; */
+  text-align: left;
+  /* contain: content; */
+  border-right-style: solid;
+  border-right-width: medium;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  /* margin-right: auto; */
   color:white;
-  border-width: 1px;
+  /* border-width: 1px; */
 }
 #description {
-	width: 100%;
-	margin: 0 auto;
-	bottom: 5em;
+	/* width: 100%; */
+	margin: 0 auto 2em auto;
+	/* bottom: 5em; */
 	font-size: medium;
-	/* color: white; */
+	color: white;
 	background: rgba(190, 229, 247, 0.85);
 	display: block;
 	position: absolute;
 	padding:20px;
 	text-align: center;
-	box-shadow: inset black 0px 0px 20px 3px;
-	/* right: 13em; */
+	border-style: solid;
+	border-color: white;
+	box-shadow: #bbb 0px 0px 0px 3px;
+	border-radius: 15px;
 }
 #alexiasphoto{
 	display: block;
@@ -281,17 +283,17 @@ th {
 	right: 2em;
 	top: 3em;
 	border-style: solid;
-	border-color: black;
+	border-color: #f2f2f2;
 	box-shadow: #17022b 0px 0px 20px 2px;
 }
 
 tbody{
-	width: 8em;
-	display:block;
-	margin: auto;
-	text-align: center;
-	font-size: large;
-	position:initial;
+	/* width: 20em; */
+	/* display:block; */
+	/* margin: auto; */
+	/* vertical-align: text-top; */
+	text-align: left;
+	/* position: absolute; */
 }
 body {
 padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -312,14 +314,7 @@ padding-top: 60px; /* 60px to make the container go all the way to the bottom of
 /* Basic Styles
 ================================================== */
 
-html,body {
--webkit-font-smoothing:antialiased;
--webkit-text-size-adjust:100%;
-color:#C8C7C8;
-font:20px/24px "Arapey", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight:300;
-padding:5px 0;
-}
+html,body {/* padding:5px 0; */-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;/* color:#C8C7C8; */font:20px/24px "Arapey", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:300;/* padding:5px 0; */}
 
 * {
 -webkit-tap-highlight-color:rgba(0,0,0,0);
@@ -330,7 +325,7 @@ padding:5px 0;
 /* Typography
 ================================================== */
 
-h1,h6,p { color:#808080; font-weight:200; }
+h1,h6,p {/* color:#808080; */font-weight:200;}
 h1 {font-size:42px;line-height:44px;/* margin:20px 0 0; */}
 h6 { font-size:18px; line-height:20px; margin:4px 0 20px; }
 p { font-size:18px; line-height:20px; margin:0 0 2px; }
@@ -357,7 +352,7 @@ p a,p a:visited { line-height:inherit; }
 ================================================== */
 
 /* Highlight Styles */
-::selection { background-color:#262223; color:#444; }
+::selection {background-color:#262223;/* color:#444; */}
 
 
 /* Audio Player Styles
@@ -460,12 +455,14 @@ body {
   height:20000px;
 }
 #alexiasphoto{
-	display: block;
-	margin: 2% auto;
+	display: table-footer-group;
+	margin: 1em auto;
+	position: relative;
 	width: 30%;
 	border-style: solid;
-	border-color: black;
-	box-shadow: #17022b 0px 0px 20px 2px;
+	border-color: #fafafa;
+	box-shadow: #bbb 0px 0px 0px 5px;
+	border-radius: 15px;
 }
 #danielsphoto{
 	display: block;
@@ -480,35 +477,22 @@ body {
 	text-align:center;
 }
 tbody{
-	width: 8em;
-	display:block;
-	margin:auto;
-	position:initial;
+	width: 20em;
+	margin: 2em auto;
+	height: 2em;
+	border-color: transparent;
 }
 #alexiasdoodle, #danielsdoodle{
 	display: block;
 	width: 10%;
-	position: static;
-	margin: 7em auto;
+	position: absolute;
+	margin: 1em -4em;
 }
 #alexiasfixedbox {
-  /* background: black; */
   color: white;
-  border-style: solid;
-  border-color: white;
   font-family: 'Inknut Antiqua';
-  /* right: 2%; */
-  /* padding: 10px 10px 10px 10px; */
-  /* width: 12%; */
-  border-width: 1px;
-  padding:20px;
-  display: block;
-  z-index: 4;
-  /* margin-top:7.2em; */
-  margin-bottom: 1em;
-  position: absolute;
-  top: 4.5em;
-  left: 3em;
+  /* top: 0; */
+  /* left: 0; */
 }
 #danielsfixedbox {
   background: black;
@@ -532,12 +516,16 @@ position:fixed;
 	display:block;
 	position: relative;
 	padding-top: 2em;
+	text-align:  center;
 	overflow:hidden;
 	width: 100%;
-	border-bottom-style: solid;
-	border-top-style: solid;
-	border-width: 1em;
-	border-color: black;
+	background: #e6b5e0;
+	border-style: solid;
+	\: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #f2f2f2;
+	box-shadow: 0px 0px 0px 5px #bbb;
 }
 
 
@@ -572,27 +560,33 @@ h4 {
 }
 
 #t01 {
-  font-size: 0.5em;
-  width: 100%;
-  display: inline-block;
-  margin: auto;
+  /* font-size: 0.5em; */
+  /* width: 100%; */
+  height: 3em;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: white;
+  box-shadow: 0px 0px 0px 5px #bbb;
+  /* display: inline-block; */
+  /* margin: auto; */
 }
 
-table#t01 td,
-th {
-  display: inline-block;
-  width: 8em;
-  text-align: center;
-  contain: content;
-  border-style: solid;
-  border-width: 1px;
+table#t01 td, th, tr {
+  display: table-cell;
+  /* width: 9em; */
+  /* height: 3em; */
 }
 
 table#t01 th {
-  display: inline-block;
+  display: -webkit-box;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-table#t01 td {}
+table#t01 td {
+    /* vertical-align: top; */
+}
 
 
 .post-inner {
@@ -614,12 +608,13 @@ b {
 }
 #description {
 	width: 65%;
-	margin: 1.6em auto;
+	/* margin: auto; */
+	position: relative;
 	background: rgba(190, 229, 247, 0.01);
 	padding:20px;
 	text-align: center;
-	box-shadow: inset black 0px 0px 20px 3px;
-	color: black;
+	/* box-shadow: inset black 0px 0px 20px 3px; */
+	/* color: black; */
 	font-family: "Slabo 27px";
 }
 #pagetitle{
@@ -636,4 +631,15 @@ b {
 }
 #name {
 	text-align:center;
+}
+th {
+	font-size:x-small;
+	font-weight: 400;
+}
+#grade {
+	height: 2em;
+	padding: 4px 20px;
+}
+#teamPosition {
+	border-right-color: transparent;
 }

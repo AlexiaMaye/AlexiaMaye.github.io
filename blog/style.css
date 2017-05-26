@@ -317,7 +317,7 @@ body {
     position:fixed;
     width: 100px;
     left: 0;
-    top: 90px;
+    bottom: 14px;
     background-color:rgba(19, 26, 31, 0.7);
     padding:10px;
 }
@@ -407,7 +407,7 @@ audio {
     width: 114px;
     margin: 0px auto;
     position: fixed;
-    top: 66px;
+    bottom: 0px;
     left: 0px;
     border-style: solid;
 }

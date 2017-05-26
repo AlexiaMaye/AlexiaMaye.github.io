@@ -459,7 +459,7 @@ audio {
     border-bottom: black solid 10px;
     width: 80%;
     margin: auto;
-    background-color: rgba(31, 6, 33, 0.38);
+    background-color: rgb(34, 25, 33);
 }
 
 #opener {
@@ -488,7 +488,7 @@ audio {
     width: 90%;
     /* height: 700px; */
     margin: 40px auto auto auto;
-    background-color: rgba(45, 13, 40, 0.22);
+    background-color: rgba(134, 92, 127, 0.21);
 }
 
 #postimg {

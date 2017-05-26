@@ -265,7 +265,7 @@ table#t01 td, th, tr {
 	/* bottom: 5em; */
 	font-size: medium;
 	color: white;
-	background: rgba(190, 229, 247, 0.85);
+	background: #231f20;
 	display: block;
 	position: absolute;
 	padding:20px;
@@ -492,6 +492,7 @@ tbody{
   color: white;
   font-family: 'Inknut Antiqua';
   /* top: 0; */
+  background: rgba(240, 248, 255, 0);
   /* left: 0; */
 }
 #danielsfixedbox {
@@ -511,7 +512,7 @@ position:fixed;
   top: 0px;
   left:0;
 }
-#profiledealexia, #profilededaniel {
+#profiledeadam, #profilededaniel {
 	margin: auto auto 1em auto;
 	display:block;
 	position: relative;
@@ -519,10 +520,28 @@ position:fixed;
 	text-align:  center;
 	overflow:hidden;
 	width: 100%;
-	background: #e6b5e0;
 	border-style: solid;
 	\: solid;
 	border-width: 3px;
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/0b/98/de/0b98de239fcb91ef0411dd0b6185e47e.jpg);
+	background-size: cover;
+	border-radius: 15px;
+	border-color: #f2f2f2;
+	box-shadow: 0px 0px 0px 5px #bbb;
+}
+#profiledealexia {
+	margin: auto auto 1em auto;
+	display:block;
+	position: relative;
+	padding-top: 2em;
+	text-align:  center;
+	overflow:hidden;
+	width: 100%;
+	border-style: solid;
+	\: solid;
+	border-width: 3px;
+	background: #e6a1ad;
+	background-size: cover;
 	border-radius: 15px;
 	border-color: #f2f2f2;
 	box-shadow: 0px 0px 0px 5px #bbb;
@@ -561,14 +580,15 @@ h4 {
 
 #t01 {
   /* font-size: 0.5em; */
-  /* width: 100%; */
+  background: #231f20;
+  width: 65%;
   height: 3em;
   border-style: solid;
   border-radius: 15px;
   border-color: white;
   box-shadow: 0px 0px 0px 5px #bbb;
   /* display: inline-block; */
-  /* margin: auto; */
+  margin: 1em auto;
 }
 
 table#t01 td, th, tr {
@@ -610,7 +630,6 @@ b {
 	width: 65%;
 	/* margin: auto; */
 	position: relative;
-	background: rgba(190, 229, 247, 0.01);
 	padding:20px;
 	text-align: center;
 	/* box-shadow: inset black 0px 0px 20px 3px; */
@@ -642,4 +661,24 @@ th {
 }
 #teamPosition {
 	border-right-color: transparent;
+}
+#ballsportplayer {
+	
+}
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("http://www.mtishows.com/sites/default/files/show/logo/000280_hero.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -90,7 +90,7 @@ table#t01 th {
 }
 
 table#t01 td {
-    padding: 4px 20px;
+    padding: 4px 10px;
 }
 
 
@@ -247,15 +247,14 @@ h4 {
   margin: -10px auto auto auto;
 }
 table#t01 td, th, tr {
-  /* width: 9.8em; */
   text-align: left;
-  /* contain: content; */
+  contain: content;
   border-right-style: solid;
   border-right-width: medium;
   border-left-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  /* margin-right: auto; */
+  margin-right: auto;
   color:white;
   /* border-width: 1px; */
 }
@@ -288,7 +287,7 @@ table#t01 td, th, tr {
 }
 
 tbody{
-	/* width: 20em; */
+	width: 20em;
 	/* display:block; */
 	/* margin: auto; */
 	/* vertical-align: text-top; */
@@ -546,7 +545,23 @@ position:fixed;
 	border-color: #f2f2f2;
 	box-shadow: 0px 0px 0px 5px #bbb;
 }
-
+#profiledechance {
+	margin: auto auto 1em auto;
+	display:block;
+	position: relative;
+	padding-top: 2em;
+	text-align:  center;
+	overflow:hidden;
+	width: 100%;
+	border-style: solid;
+	\: solid;
+	border-width: 3px;
+	background: url(https://cdn.discordapp.com/attachments/235186619022311424/318086839242326046/Vaporwave-Right-1024x640.jpg);
+	background-size: cover;
+	border-radius: 15px;
+	border-color: #f2f2f2;
+	box-shadow: 0px 0px 0px 5px #bbb;
+}
 
 #insta{
 	width:4em;
@@ -593,7 +608,6 @@ h4 {
 
 table#t01 td, th, tr {
   display: table-cell;
-  /* width: 9em; */
   /* height: 3em; */
 }
 
@@ -601,11 +615,12 @@ table#t01 th {
   display: -webkit-box;
   color: white;
   padding-right: 20px;
+  text-align: right;
   padding-left: 20px;
 }
 
 table#t01 td {
-    /* vertical-align: top; */
+    vertical-align: top;
 }
 
 

@@ -41,6 +41,10 @@ p a,p a:visited { line-height:inherit; }
 
 /* Custom Styles
 ================================================== */
+@media only screen and (max-width: 959px){
+    html{background-size:cover;}
+}
+
 
 /* Highlight Styles */
 ::selection { background-color:#262223; color:#444; }

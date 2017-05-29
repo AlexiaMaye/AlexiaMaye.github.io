@@ -387,7 +387,6 @@ a {
     text-align: center;
     margin: 50px 400px;
     color: white;
-    height: 50%;
 }
 
 #mainDiv {
@@ -398,16 +397,6 @@ a {
     margin: auto;
     right: 20px;
     text-align: center;
-}
-
-header {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.82);
-    border: 6px;
-    border-style: solid;
-    border-color: #09a704;
-    /* border-radius: 15px; */
-    background-repeat: no-repeat;
 }
 
 audio {
@@ -501,7 +490,6 @@ audio {
 #postimg {
     margin: auto auto;
     width: 50%;
-    height: 50%;
     padding: 20px 20px 20px;
     display: block;
     box-shadow: inset 0px 0px 17px 9px black;
@@ -515,7 +503,6 @@ audio {
 #text {
     margin: auto auto;
     width: 80%;
-    height: 50%;
     text-align: center;
     padding: 20px 20px 20px;
     display: block;
@@ -545,3 +532,16 @@ audio {
 
 #up {
     margin: auto -5px auto -15px;
+}
+#footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    left:0;
+    padding:20px;
+    display:block;
+    background-color:purple;
+    text-align:center;
+    margin:;
+
+}

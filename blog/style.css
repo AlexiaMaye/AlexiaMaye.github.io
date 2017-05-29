@@ -325,6 +325,7 @@ body {
     width: 100px;
     left: 0;
     bottom: 14px;
+    z-index: 4;
     background-color:rgba(19, 26, 31, 0.7);
     padding:10px;
 }
@@ -402,6 +403,7 @@ a {
 audio {
     width: 114px;
     margin: 0px auto;
+    z-index: 4;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -543,5 +545,5 @@ audio {
     background-color:purple;
     text-align:center;
     margin:;
-
+    z-index:1
 }

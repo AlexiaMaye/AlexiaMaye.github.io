@@ -115,6 +115,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4p
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 audio { width:390px; }
+feed {width: 90%;}
 html[data-useragent*="MSIE 9.0"] audio { width:400px; }
 html[data-useragent*="MSIE 10.0"] audio { width:407px; }
 html[data-useragent*="rv:11.0"] audio { width:415px; }
@@ -129,6 +130,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 /* Mobile Portrait */
 @media only screen and (max-width: 479px) {
 audio { width:270px; }
+feed {width: 90%;}
 html[data-useragent*="MSIE 9.0"] audio { width:280px; }
 html[data-useragent*="MSIE 10.0"] audio { width:287px; }
 html[data-useragent*="rv:11.0"] audio { width:295px; }

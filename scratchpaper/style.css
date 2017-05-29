@@ -460,7 +460,7 @@ body {
 	width: 30%;
 	border-style: solid;
 	border-color: #fafafa;
-	box-shadow: #bbb 0px 0px 0px 5px;
+	box-shadow: darksalmon 0px 0px 0px 5px;
 	border-radius: 15px;
 }
 #danielsphoto{
@@ -560,7 +560,7 @@ position:fixed;
 	background-size: cover;
 	border-radius: 15px;
 	border-color: #f2f2f2;
-	box-shadow: 0px 0px 0px 5px #bbb;
+	box-shadow: 0px 0px 0px 5px darksalmon;
 }
 
 #insta{
@@ -601,7 +601,7 @@ h4 {
   border-style: solid;
   border-radius: 15px;
   border-color: white;
-  box-shadow: 0px 0px 0px 5px #bbb;
+  box-shadow: 0px 0px 0px 5px darksalmon;
   /* display: inline-block; */
   margin: 1em auto;
 }
@@ -647,7 +647,7 @@ b {
 	position: relative;
 	padding:20px;
 	text-align: center;
-	/* box-shadow: inset black 0px 0px 20px 3px; */
+	box-shadow: inset black 0px 0px 20px 3px;
 	/* color: black; */
 	font-family: "Slabo 27px";
 }
@@ -665,6 +665,7 @@ b {
 }
 #name {
 	text-align:center;
+	color: darksalmon;
 }
 th {
 	font-size:x-small;

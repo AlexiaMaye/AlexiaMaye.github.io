@@ -46,7 +46,8 @@ body, html {
     background-color: rgb(255, 255, 255);
     background-size:cover;
     padding: 45px 90px;
-    margin: -2em auto;
+    position: fixed;
+    margin: -3em auto;
     font-size: 16px;
     border: none;
     cursor: pointer;

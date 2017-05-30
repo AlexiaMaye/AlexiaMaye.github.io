@@ -1,6 +1,6 @@
 body, html {
   height:100%;
-  margin:0;
+  margin: 0;
 }
 
 .sidenav {
@@ -41,7 +41,7 @@ body, html {
 #main {
     transition: margin-left .5s;
     position: fixed;
-    top: 0px;
+    top: 1.5em;
     display: inline-table;
     padding: 16px;
 }
@@ -53,17 +53,18 @@ body, html {
 #mainheader {
   background-color:#999;
   margin:0;
+  width: 100%;
   position:fixed;
   text-align:center;
 }
 #logo {
   display: -webkit-box;
   width: 50%;
-  margin: -5.75em 5em;
   padding: 0;
+  margin-left: 5em;
 }
 #major{
-    margin-top: 3.0em;
+    /* margin-top: 3.0em; */
     width: 100%;
     height: 59em;
     background-color:black;
@@ -75,12 +76,12 @@ body, html {
 }
 #feed {
     width:80%;
-    margin:5em auto;
-    display:-webkit-box
+    margin: auto;
+    display:-webkit-box;
 }
 .post {
     background-image:url(https://s-media-cache-ak0.pinimg.com/originals/5a/18/7b/5a187b8ee3358c3775cbbe89e8b7c29b.jpg);
-    margin-top:3em;
+    margin-top: 9em;
 }
 article {
     background-color: rgba(234, 234, 234, 0.35);

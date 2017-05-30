@@ -118,6 +118,7 @@ body{
     background-size: cover;
 }
 article {
-    background-color: rgba(234, 234, 234, 0.35);
+    background-color: rgba(234, 234, 234, 0.48);
     margin:3em;
+    padding: 20px;
 }

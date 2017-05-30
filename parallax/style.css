@@ -1,7 +1,19 @@
-body, html {
+html {
     height: 100%;
+    margin-top:0em;
+    background-color:white;
 }
-
+body{
+    margin:0
+}
+#main{
+    margin-top: 3.0em;
+    width: 100%;
+    height: 59em;
+    background-color:black;
+    display: block;
+    margin-left:0;
+}
 .parallax { 
     /* The image used */
     background-image: url("img_parallax.jpg");
@@ -17,7 +29,7 @@ body, html {
 }
 #logo {
     width:20%;
-    margin:-2em auto;
+    margin:-0.5em auto;
     position:fixed;
 }
 #hdesc {
@@ -27,17 +39,19 @@ body, html {
     right:0;
     position:fixed;
     margin: auto 20px;
-    padding: 3px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
 }
 #header {
     border-bottom-style:solid;
     border-bottom-width:thick;
     border-color:#999;
     width:100%;
-    margin:0;
+    margin:0em;
+    margin-top:0em;
+    background-color:white;
     position:fixed;
     display:block;
-    height:4em;
+    height:5em;
     contain:content;
 }
 /* Dropdown Button */
@@ -47,7 +61,7 @@ body, html {
     background-size:cover;
     padding: 45px 90px;
     position: fixed;
-    margin: -3em auto;
+    margin: -2em auto;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -55,14 +69,15 @@ body, html {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
+    position: inherit;
     display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
+    margin: 3em 0em;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -88,4 +103,20 @@ body, html {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #b7bdb7;
+}
+#art529171 {
+    /* background: rgba(255, 228, 196, 0); */
+}
+#feed {
+    width:80%;
+    margin:2em auto;
+    display:-webkit-box
+}
+.post {
+    background-image:url(https://s-media-cache-ak0.pinimg.com/originals/5a/18/7b/5a187b8ee3358c3775cbbe89e8b7c29b.jpg);
+    margin-top:3em;
+}
+article {
+    background-color: rgba(234, 234, 234, 0.35);
+    margin:3em;
 }

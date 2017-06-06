@@ -13,14 +13,21 @@
              
     
 </div><div id="profiledealexia">
-        <div id="alexiasfixedbox">
-            <script>$(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 300 && $(window).scrollTop() < 50) {
-         $('#alexiasfixedbox').hide();
-     }
-     else {
-         $('#alexiasfixedbox').show();
-     }
+        <div id="alexiasfixedbox" class="fixme">
+            <script>var fixmeTop = $('.fixme').offset().top;
+$(window).scroll(function() {
+    var currentScroll = $(window).scrollTop();
+    if (currentScroll >= fixmeTop) {
+        $('.fixme').css({
+            position: 'fixed',
+            top: '0',
+            left: '0'
+        });
+    } else {
+        $('.fixme').css({
+            position: 'static'
+        });
+    }
 });</script>
     
     

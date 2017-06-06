@@ -202,18 +202,14 @@ tbody{
   border-style: solid;
   border-color: white;
   font-family: 'Inknut Antiqua';
-  /* right: 2%; */
-  /* padding: 10px 10px 10px 10px; */
+  position:absolute;
+  top:5em;
   width: 12%;
   border-width: 1px;
   padding:20px;
   display: block;
   z-index: 4;
-  /* margin-top:7.2em; */
   margin-bottom: 1em;
-  position: fixed;
-  top:0;
-  left:0;
 }
 #danielsfixedbox {
   background: black;

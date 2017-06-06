@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background: linear-gradient(#457EAC, #006989);
+  background: linear-gradient(#083558, #000000);
   background-size: 100%;
   background-attachment: fixed;
   margin:0;
@@ -143,7 +143,7 @@ a.btn,a.btn:hover {
 }
 .parallax {
     /* The image used */
-    background-image: url("https://github.com/mayamcgill/BAM-resort/blob/master/Atlantis.png?raw=true");
+    background-image: url("CYBORG.png");
 
     /* Set a specific height */
     min-height: 960px; 
@@ -162,7 +162,7 @@ a.btn,a.btn:hover {
     top: 0;
     margin:0em;
     margin-top:0em;
-    background-color: rgba(173, 171, 171, 0.75);
+    background-color: rgba(14, 14, 14, 0.75);
     display:block;
     height:5em;
     color: black;
@@ -198,9 +198,9 @@ a.btn,a.btn:hover {
 }
 #post1 {
     float:left;
-    margin-left: 7em;
+    margin-left: 8em;
 }
 #post2 {
     float:right;
-    margin-right: 3em;
+    margin-right: 7em;
 }

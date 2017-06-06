@@ -1,340 +1,206 @@
-body {
-padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+html {
+  height: 100%;
+  background: linear-gradient(#457EAC, #006989);
+  background-size: 100%;
+  background-attachment: fixed;
+  margin:0;
 }
-================================================== */
-
-@import url("//fonts.googleapis.com/css?family=Arapey:200,300,400");
-
-
-/* Desktop
-================================================== */
-
-.container { position:relative; margin:0 auto; width:700px; }
-.column { width:inherit; }
-
-
-
-/* Basic Styles
-================================================== */
-
-html,body {
--webkit-font-smoothing:antialiased;
--webkit-text-size-adjust:100%;
-color:#C8C7C8;
-font:20px/24px "Arapey", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight:300;
-padding:5px 0;
+body{
+    margin:0;
+    height: 1000em;
+}
+.btn {
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.18);
+    background: rgba(0,0,0,0.38);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.08)
 }
 
-* {
--webkit-tap-highlight-color:rgba(0,0,0,0);
--webkit-tap-highlight-color:transparent;
+a.btn,a.btn:hover {
+    color: white!important
 }
 
-
-/* Typography
-================================================== */
-
-h1,h6,p { color:#808080; font-weight:200; }
-h1 {font-size:42px;line-height:44px;/* margin:20px 0 0; */}
-h6 { font-size:18px; line-height:20px; margin:4px 0 20px; }
-p { font-size:18px; line-height:20px; margin:0 0 2px; }
-
-
-/* Links
-================================================== */
-
-a,a:visited { color:#ddd; outline:0; text-decoration:underline; }
-a:hover,a:focus { color:#bbb; }
-p a,p a:visited { line-height:inherit; }
-
-
-/* Misc.
-================================================== */
-
-.add-bottom { margin-bottom:20px !important; }
-.left { float:left; }
-.right { float:right; }
-.center { text-align:center; }
-
-
-/* Custom Styles
-================================================== */
-
-/* Highlight Styles */
-::selection { background-color:#262223; color:#444; }
-
-
-/* Audio Player Styles
-================================================== */
-
-/* Default / Desktop / Firefox */
-audio { margin:0 15px 0 14px; width:670px; }
-#mainwrap { box-shadow:0 0 6px 1px rgba(0,0,0,.25); }
-#audiowrap { background-color:#231F20; margin:0 auto; }
-#plwrap { margin:0 auto; }
-#tracks { position:relative; text-align:center; }
-#nowPlay { display:inline; }
-#npTitle { margin:0; padding:21px; text-align:right; }
-#npAction { padding:21px; position:absolute; }
-#plList { margin:0; }
-#plList li { background-color:#231F20; cursor:pointer; display:block; margin:0; padding:21px 0; }
-#plList li:hover { background-color:#262223; }
-.plItem { position:relative; }
-.plTitle { left:50px; overflow:hidden; position:absolute; right:65px; text-overflow:ellipsis; top:0; white-space:nowrap; }
-.plNum { padding-left:21px; width:25px; }
-.plLength { padding-left:21px; position:absolute; right:21px; top:0; }
-.plSel,.plSel:hover { background-color:#262223!important; cursor:default!important; }
-a[id^="btn"] { background-color:#231F20; color:#C8C7C8; cursor:pointer; display:inline-block; font-size:50px; margin:0; padding:21px 27px; text-decoration:none; }
-a[id^="btn"]:last-child { margin-left:-4px; }
-a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
-a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
-
-
-/* Chrome */
-html[data-useragent*="Chrome"] body { color:#5a5a5a; }
-html[data-useragent*="Chrome"] audio { margin-left:9px; width:677px; }
-html[data-useragent*="Chrome"] #audiowrap { background-color:#fafafa; }
-html[data-useragent*="Chrome"] a[id^="btn"] { background-color:#fafafa; color:#5a5a5a; }
-html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:#eee; }
-html[data-useragent*="Chrome"] #plList li { background-color:#fafafa; }
-html[data-useragent*="Chrome"] #plList li:hover { background-color:#eee; }
-html[data-useragent*="Chrome"] .plSel,
-html[data-useragent*="Chrome"] .plSel:hover { background-color:#eee!important; }
-
-/* Chrome / Android / Tablet */
-html[data-useragent*="Chrome"][data-useragent*="Android"] body { color:#373837; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:689px; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] #audiowrap { background-color:#fafafa; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"] { background-color:#fafafa; color:#373837; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"]:hover { background-color:#eee; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] #plList li { background-color:#fafafa; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] #plList li:hover { background-color:#eee; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel,
-html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel:hover { background-color:#eee!important; }
-
-
-/* Audio Player Media Queries
-================================================== */
-
-/* Tablet Portrait */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-audio { width:526px; }
-html[data-useragent*="MSIE 9.0"] audio { width:536px; }
-html[data-useragent*="MSIE 10.0"] audio { width:543px; }
-html[data-useragent*="rv:11.0"] audio { width:551px; }
-html[data-useragent*="OS 7"] audio { width:546px; }
-html[data-useragent*="OS 8"] audio { width:550px; }
-html[data-useragent*="OS 9"] audio { width:550px; }
-html[data-useragent*="Chrome"] audio { width:533px; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:545px; }
+.btn {
+    margin-bottom: 5px;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.18);
+    background: rgba(0,0,0,0.38);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.08);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
 }
 
-/* Mobile Landscape */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-audio { width:390px; }
-html[data-useragent*="MSIE 9.0"] audio { width:400px; }
-html[data-useragent*="MSIE 10.0"] audio { width:407px; }
-html[data-useragent*="rv:11.0"] audio { width:415px; }
-html[data-useragent*="OS 7"] audio { width:410px; }
-html[data-useragent*="OS 8"] audio { width:414px; }
-html[data-useragent*="OS 9"] audio { width:414px; }
-html[data-useragent*="Chrome"] audio { width:397px; }
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:410px; }
-#npTitle { width:245px; }
+.btn:hover::after,.btn:focus::after {
+    background: rgba(255,255,255,0.09);
+    color: white
 }
 
-/* Mobile Portrait */
-@media only screen and (max-width: 479px) {
-audio { width:270px; }
-html[data-useragent*="MSIE 9.0"] audio { width:280px; }
-html[data-useragent*="MSIE 10.0"] audio { width:287px; }
-html[data-useragent*="rv:11.0"] audio { width:295px; }
-html[data-useragent*="OS 7"] audio { width:290px; }
-html[data-useragent*="OS 8"] audio { width:294px; }
-html[data-useragent*="OS 9"] audio { width:294px; }
-html[data-useragent*="Chrome"] audio { width:277px; }
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:290px; }
-#npTitle { width:167px; }
-}
-.post-current {
-	border-left: 6px solid #636ee7;
-}
-body {
-  background: linear-gradient(to bottom, #bee5f7, #0c6c99, #147b72 , black 60%);
-  height:20000px;
-}
-#alexiasphoto{
-	display: block;
-	margin: 2% auto;
-	width: 30%;
-	border-style: solid;
-	border-color: black;
-	box-shadow: #17022b 0px 0px 20px 2px;
-}
-#danielsphoto{
-	display: block;
-	margin: 2% auto;
-	width: 30%;
-	border-style: solid;
-	border-color: black;
-	box-shadow: #17022b 0px 0px 20px 2px;
-}
-}
-#name{
-	text-align:center;
-}
-tbody{
-	width: 8em;
-	display:block;
-	margin:auto;
-	position:initial;
-}
-#alexiasdoodle, #danielsdoodle{
-	display:inline;
-	width: 10%;
-	position:absolute;
-	margin: -2% 22%;
-}
-#alexiasfixedbox {
-  background: black;
-  color: white;
-  border-style: solid;
-  border-color: white;
-  font-family: 'Inknut Antiqua';
-  position:absolute;
-  top:5em;
-  width: 12%;
-  border-width: 1px;
-  padding:20px;
-  display: block;
-  z-index: 4;
-  margin-bottom: 1em;
-}
-#danielsfixedbox {
-  background: black;
-  color: white;
-  border-style: solid;
-  border-color: white;
-  font-family: 'Inknut Antiqua';
-  /* right:2%; */
-  border-width: 1px;
-  padding:20px;
-  width: 15%;
-position:fixed;
-  /* margin-top: 2em; */
-  display: block;
-  position: absolute;
-  top: 0px;
-  left:0;
-}
-#profiledealexia, #profilededaniel {
-	margin: auto auto 1em auto;
-	display:block;
-	position: relative;
-	padding-top: 2em;
-	overflow:hidden;
-	width: 100%;
-	border-bottom-style: solid;
-	border-top-style: solid;
-	border-width: 1em;
-	border-color: black;
+.btn:active::after {
+    background: rgba(255,255,255,0.18) color:white
 }
 
-
-#insta{
-	width:4em;
-	margin:0px;
+.btn_label.show {
+    display: block
 }
 
-#tumblr {
-	width:4em;
+.btn::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    border-radius: inherit
 }
 
-#Tumblr a{
-	top: 0%;
-	position: fixed;
-	width: 64px;
-	display: table-cell;
-	height: 76px;
-}
-#Instagram a {
-	width: 64px;
-	height: 76px;
-	position:fixed;
-	left: 22px;
-	margin:auto;
+.btn.icon::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    border-radius: inherit;
+    background: url('http://static.tumblr.com/tpqedpr/cQ1mbwb60/de.png') 0 0 no-repeat
 }
 
-
-h4 {
-  padding: 0px 10px 10px 10px;
-  margin: -10px auto auto auto;
+.btn.theme::before {
+    background-position: 0 -0px
 }
 
-#t01 {
-  font-size: 0.5em;
-  width: 100%;
-  display: inline-block;
-  margin: auto;
+.btn img {
+    width: 15px
 }
 
-table#t01 td,
-th {
-  display: inline-block;
-  width: 8em;
-  text-align: center;
-  contain: content;
-  border-style: solid;
-  border-width: 1px;
+.btn.icon {
+    padding-left: 20px
 }
 
-table#t01 th {
-  display: inline-block;
+.btn:active::after {
+    background: rgba(255,255,255,0.18)
 }
 
-table#t01 td {}
-
-
-.post-inner {
-	margin-left: 10px;
-	word-wrap: break-word;
+.clear {
+    clear: both;
 }
 
-.post-other {
+#pagination {
+    display: all;
+}
 
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-left: 6px solid #c3b8b8;
+#navbar {
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+    margin: 0;
+    top: 0;
+    cursor: pointer;
+    position: fixed;
 }
-b {
-	padding-right: 30px;
-	width: 200px;
-	height: 20px;
-	display: block;
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(53, 53, 53, 0.97);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    /* color: #006989; */
+    list-style-type: none;
 }
-#description {
-	width: 65%;
-	margin: 1.6em auto;
-	background: rgba(190, 229, 247, 0.01);
-	padding:20px;
-	text-align: center;
-	box-shadow: inset black 0px 0px 20px 3px;
-	color: black;
-	font-family: "Slabo 27px";
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: #006989;
+    transition: 0.3s;
 }
-#pagetitle{
-	/* margin: 1em auto; */
-	/* width:100%; */
-	/* display:block; */
-	text-align:center;
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #000000;
 }
-#divs{
-	position: absolute;
-	width: 15%;
-	z-index: 3;
-	/* contain: content; */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
 }
-#name {
-	text-align:center;
+#navItem {
+    color: #eaebed;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://github.com/mayamcgill/BAM-resort/blob/master/Atlantis.png?raw=true");
+
+    /* Set a specific height */
+    min-height: 960px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixme {
+    border-bottom-style:solid;
+    border-bottom-width:thick;
+    border-color: #000;
+    width:100%;
+    top: 0;
+    margin:0em;
+    margin-top:0em;
+    background-color: rgba(173, 171, 171, 0.75);
+    display:block;
+    height:5em;
+    color: black;
+    }
+#hdesc {
+    float:right;
+    font-family: 'Ubuntu', sans-serif;
+    border-left-style:solid;
+    right:0;
+    border-color: black;
+    margin: auto;
+    padding: 20px 10px 19px 10px;
+    }
+#opener {
+    padding: 5px;
+    background-color: rgba(158, 158, 158, 0.38);
+    color: burlywood;
+    font-size: larger;
+    font-family: 'Ubuntu';
+    position:fixed;
+    z-index:10;
+    top:0;
+}
+.post {
+   background-color:white;
+   width: 30em;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-family:'Ubuntu';
+   text-align:center;
+   padding:20px;
+   display: inline-block;
+}
+#post1 {
+    float:left;
+    margin-left: 7em;
+}
+#post2 {
+    float:right;
+    margin-right: 3em;
 }

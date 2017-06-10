@@ -143,16 +143,17 @@ a.btn,a.btn:hover {
 }
 .parallax {
     /* The image used */
-    background-image: url("CYBORG.png");
+    background-image: url("http://team3673.org/source/newlogo500.png");
 
     /* Set a specific height */
-    min-height: 960px; 
+    min-height: 900px;
+    max-width: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .fixme {
     border-bottom-style:solid;
@@ -162,7 +163,7 @@ a.btn,a.btn:hover {
     top: 0;
     margin:0em;
     margin-top:0em;
-    background-color: rgba(14, 14, 14, 0.75);
+    background-color: rgba(70, 70, 70, 0.53);
     display:block;
     height:5em;
     color: black;
@@ -204,3 +205,11 @@ a.btn,a.btn:hover {
     float:right;
     margin-right: 11em;
 }
+table {
+    text-align:center;
+    margin:1em auto;
+}
+tr{
+  /* margin-top: 10em; */
+}
+

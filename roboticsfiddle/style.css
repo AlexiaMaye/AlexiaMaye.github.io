@@ -143,7 +143,7 @@ a.btn,a.btn:hover {
 }
 .parallax {
     /* The image used */
-    background-image:"newlogo500.png";
+    background-image:url("newlogo500.png");
 
     /* Set a specific height */
     min-height: 900px;

@@ -37,11 +37,11 @@ a.btn,a.btn:hover {
 }
 
 .btn:active::after {
-    background: rgba(255,255,255,0.18) color:white
+    background: rgba(255,255,255,0.18) color:white;
 }
 
 .btn_label.show {
-    display: block
+    display: block;
 }
 
 .btn::after {
@@ -143,7 +143,7 @@ a.btn,a.btn:hover {
 }
 .parallax {
     /* The image used */
-    background-image: url("http://team3673.org/source/newlogo500.png");
+    background-image:"newlogo500.png";
 
     /* Set a specific height */
     min-height: 900px;

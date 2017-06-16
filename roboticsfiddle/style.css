@@ -179,7 +179,7 @@ a.btn,a.btn:hover {
     }
 #opener {
     padding: 5px;
-    background-color: rgba(158, 158, 158, 0.38);
+    /* background-color: rgba(158, 158, 158, 0.38); */
     color: burlywood;
     font-size: larger;
     font-family: 'Ubuntu';

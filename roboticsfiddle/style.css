@@ -228,9 +228,10 @@ tr{
   justify-content: center;
   margin: 0 auto;
   width:24em;
+  height:12.5em;
   background: black url('source/newlogolightblue.png') no-repeat center;
   background-size: cover;
   overflow:hidden;
   cursor:pointer;
-  border-radius: 10px;
+  border-radius: 1em;
 }

@@ -198,12 +198,17 @@ a.btn,a.btn:hover {
    display: inline-block;
 }
 #post1 {
-    float:left;
-    margin-left: 12em;
+    /* float:left; */
+    /* margin-left: 12em; */
 }
-#post2 {
-    float:right;
-    margin-right: 11em;
+.post {
+    text-align:center;
+    margin:auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    height: inherit;
+    display:block;
+    width: 30em;
 }
 table {
     text-align:center;

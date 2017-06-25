@@ -53,7 +53,7 @@ a.btn,a.btn:hover {
     content: '';
     -webkit-border-radius: inherit;
     -moz-border-radius: inherit;
-    border-radius: inherit
+    border-radius: inherit;
 }
 
 .btn.icon::before {
@@ -153,7 +153,7 @@ a.btn,a.btn:hover {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: contain;
 }
 .fixme {
     border-bottom-style:solid;

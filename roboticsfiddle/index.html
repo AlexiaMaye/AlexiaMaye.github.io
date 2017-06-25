@@ -11,7 +11,7 @@
 <body>
 <div class="parallax"></div>
   <div id="container">
-  <div id="header" class="fixme" style="position: fixed; top: 0px; left: 0px;">
+  <div id="header" class="fixme">
   <img src="newlogo500.png" style="
     width: 8em;
 margin-top:1em;">  
@@ -25,7 +25,7 @@ margin-top:1em;">
 </tr>  
 </tbody></table>
     </div>
-<script>var fixmeTop = 900;
+<script>var fixmeTop = $('.fixme').offset().top;
 $(window).scroll(function() {
     var currentScroll = $(window).scrollTop();
     if (currentScroll >= fixmeTop) {

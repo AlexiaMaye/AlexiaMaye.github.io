@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    margin-top:0em;
+    margin: 0em;
     background-color:white;
 }
 body{
@@ -38,8 +38,8 @@ body{
     border-left-style:solid;
     right:0;
     position:fixed;
-    margin: auto 20px;
-    padding: 20px 10px 30px 10px;
+    margin: -3em 20px;
+    padding: 1em 10px 30px 10px;
 }
 #header {
     border-bottom-style:solid;
@@ -48,7 +48,7 @@ body{
     width:100%;
     margin:0em;
     margin-top:0em;
-    background-color:white;
+    background-color: white !important;
     position:fixed;
     display:block;
     height:5em;
@@ -59,11 +59,12 @@ body{
     background-image: url(https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjPGFpBdIkRbEwXs1M3EMoAJtlCkrh...Jq8Ps4);
     background-color: rgb(255, 255, 255);
     background-size:cover;
-    padding: 45px 90px;
+    padding: 50px 90px;
     position: fixed;
     margin: -1em auto;
     font-size: 16px;
     border: none;
+    z-index: 1;
     cursor: pointer;
 }
 
@@ -108,9 +109,10 @@ body{
     /* background: rgba(255, 228, 196, 0); */
 }
 #feed {
-    width:80%;
     margin:5em auto;
-    display:-webkit-box
+    margin-left: 15em;
+    margin-right: 1em;
+    display: inline-flex;
 }
 .post {
     background-image:url(https://s-media-cache-ak0.pinimg.com/originals/5a/18/7b/5a187b8ee3358c3775cbbe89e8b7c29b.jpg);

@@ -2,6 +2,7 @@ html {
   margin:0;
   background-image: linear-gradient(blue, darkblue);
   height: 100%;
+  background-attachment:fixed;
 }
 #popupdiv {
   margin: 40% auto;

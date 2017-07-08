@@ -14,7 +14,7 @@ html {
   vertical-align:middle;
   color:#677988;
 }
-body {
+#maindiv {
   height:70em;
   opacity:0.5;
 }

@@ -1,4 +1,21 @@
 html {
   margin:0;
-  background: gradient-linear(blue, darkblue);
+  background-image: linear-gradient(blue, darkblue);
+  height: 100%;
 }
+#popupdiv {
+  margin: 40% auto;
+  text-align:center;
+  width:17em;
+  opacity:100%;
+  border-radius:15px;
+  background-image: linear-gradient(#24246f, #07072d);
+  padding:20px;
+  vertical-align:middle;
+  color:#677988;
+}
+body {
+  height:70em;
+  opacity:50%;
+}
+

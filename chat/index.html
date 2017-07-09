@@ -42,8 +42,7 @@ function loginForm(){
     </form>
     </div>
     ';
-}
-?>
+} ?>
  <?php
 if(isset($_POST['enter'])){
     if($_POST['name'] != ""){
@@ -100,7 +99,7 @@ $(document).ready(function(){
     fclose($fp);
      
     session_destroy();
-    header("Location: index.php"); //Redirect the user
+    header("Location: index.html"); //Redirect the user
 }
     $("#submitmsg").click(function(){	
 		var clientmsg = $("#usermsg").val();

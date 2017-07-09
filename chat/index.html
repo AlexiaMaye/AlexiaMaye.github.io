@@ -43,7 +43,8 @@ function loginForm(){
     </div>
     ';
 }
- 
+?>
+ <?php
 if(isset($_POST['enter'])){
     if($_POST['name'] != ""){
         $_SESSION['name'] = stripslashes(htmlspecialchars($_POST['name']));

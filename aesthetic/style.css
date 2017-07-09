@@ -125,9 +125,9 @@ body{
     /* background: rgba(255, 228, 196, 0); */
 }
 #feed {
-    margin:5em auto;
-    margin-left: 15em;
-    margin-right: 1em;
+    margin: auto;
+    margin-left: 10em;
+    margin-right: 10em;
     display: inline-flex;
 }
 .post {

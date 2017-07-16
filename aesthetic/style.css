@@ -15,7 +15,7 @@
 }
 html {
     height: 100%;
-    margin: 0em;
+    margin: 0px;
     background-color:black;
 }
 body{
@@ -61,7 +61,7 @@ body{
     border-color:#999;
     width:100%;
     margin:0em;
-    margin-top: -1em;
+    margin-top: -2em;
     background-color: white !important;
     position:fixed;
     display:block;
@@ -72,12 +72,15 @@ body{
 .dropbtn {
     background-image: url(https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjPGFpBdIkRbEwXs1M3EMoAJtlCkrh...Jq8Ps4);
     background-color: rgba(255, 255, 255, 0);
-    background-size:cover;
-    padding: 40px 100px;
+    padding: 40px 110px 50px;
+    background-repeat: no-repeat;
+    border-right-color: grey;
     position: fixed;
-    margin: -3em auto;
+    border-right-width: 3.33px;
+    margin: -3.5em auto;
     font-size: 16px;
-    border: none;
+    border-bottom-style: none;
+    border-right-style: solid;
     z-index: 1;
     cursor: pointer;
 }

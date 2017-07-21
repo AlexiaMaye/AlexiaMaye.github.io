@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Eczar|Gentium+Basic|Ubuntu" rel="stylesheet">
   </head>
   <body>
-      <SCRIPT>
+      <script>
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Please Enter Your Password',' ');
@@ -24,12 +24,8 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 history.go(-1);
 return " ";
 } 
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter blog" onClick="passWord()">
-</FORM>
-</CENTER>
+</script>
+
       <div id="maindiv"><div id="header">
    <h2 id="myblog" style="
     color: black;
@@ -78,7 +74,11 @@ Tollit lobortis est ea. Ea cibo complectitur definitiones per, decore impetus ne
 </div>
     <div id="popupdiv" style="font-family: 'Ubuntu'; margin: -50em 40%; text-align: center; width: 17em; position: fixed; border-radius: 15px; background-image: linear-gradient(rgb(36, 36, 111), rgb(7, 7, 45)); padding: 20px; vertical-align: middle; color: rgb(103, 121, 136);">
       <p>Welcome to my 700th experiment page</p>
-      <script>
+      <center>
+<form>
+<input type="button" value="Enter blog" onclick="passWord()">
+</form>
+</center><script>
       function myFunction() {
       $("#maindiv").css({"opacity": "1",});
       $("#popupdiv").css({"opacity": "0"});
@@ -87,6 +87,7 @@ Tollit lobortis est ea. Ea cibo complectitur definitiones per, decore impetus ne
     </div>
     
   
+
 
 
 </body></html>

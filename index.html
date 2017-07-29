@@ -10,7 +10,11 @@
     </head>
     <body>
         <script>
-        session.setAttribute("authenticated", true);
+            
+        if(session.getAttribute("authenticated")!=null && session.getAttribute("authenticated").equals(true))
+{
+   response.sendRedirect("https://alexiamaye.github.io");
+}
         </script>
         <div id="top">
             <h1 id="title">Journal Nouveau</h1>

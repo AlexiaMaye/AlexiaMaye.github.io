@@ -4,33 +4,13 @@
     <link href="https://fonts.googleapis.com/css?family=Eczar|Gentium+Basic|Ubuntu" rel="stylesheet">
   </head>
   <body>
-      <script>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "access") {
-      $("#maindiv").css({"opacity": "1",});
-      $("#popupdiv").css({"opacity": "0"});
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</script>
+     
 
       <div id="maindiv" style="opacity: 1;"><div id="header">
    <h2 id="myblog" style="
     color: black;
     margin: auto;
-    text-align: center;
+    text-align: center; 
     margin-top: 2em;
     display: inherit;
     font-family: 'Ubuntu';
@@ -55,7 +35,27 @@ return " ";
 <div id="main" style="opacity:0"><div id="descdiv" style="
     display: inline;
 "><h4>Alexia Maye</h4></div>
-   
+   <script>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "access") {
+      $("#maindiv").css({"opacity": "1",});
+      $("#popupdiv").css({"opacity": "0"});
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</script>
 
   
   <div id="feed">

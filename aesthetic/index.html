@@ -12,7 +12,8 @@ while (testV < 3) {
 if (!pass1) 
 history.go(-1);
 if (pass1.toLowerCase() == "access") {
-window.open('https://alexiamaye.github.io/blog');
+      $("#maindiv").css({"opacity": "1",});
+      $("#popupdiv").css({"opacity": "0"});
 break;
 } 
 testV+=1;
@@ -75,12 +76,7 @@ return " ";
 <form>
 <input type="button" value="Enter blog" onclick="passWord()">
 </form>
-</center><script>
-      function myFunction() {
-      $("#maindiv").css({"opacity": "1",});
-      $("#popupdiv").css({"opacity": "0"});
-      }
-    </script><button onclick="myFunction()">Click me</button>
+</center>
     </div>
     
   

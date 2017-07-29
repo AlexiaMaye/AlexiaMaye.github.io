@@ -10,11 +10,15 @@
     </head>
     <body>
         <script>
+            document.cookie = "authenticated=false";
             
-        if(session.getAttribute("authenticated")!=null && session.getAttribute("authenticated").equals(true))
-{
-   response.sendRedirect("https://alexiamaye.github.io");
-}
+        if(isset($_COOKIE['authenticated']) && $_COOKIE['authenticated']== "true" ) {
+     window.location = "https://alexiamaye.github.io";
+     }
+     else {
+      window.alert("Log in!!");
+         window.location = "https://alexiamaye.github.io/login"
+     }
         </script>
         <div id="top">
             <h1 id="title">Journal Nouveau</h1>

@@ -13,7 +13,7 @@
         <script>
             document.cookie = "authenticationCookie=false"
             
-        if(cookies.get("authenticationCookie") != null && cookies.get("authenticationCookie") == "true" ) {
+        if($.cookie("authenticationCookie") != null && $.cookies("authenticationCookie") == "true" ) {
      window.location = "https://alexiamaye.github.io";
      }
      else {

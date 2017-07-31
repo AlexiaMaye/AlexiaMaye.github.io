@@ -10,9 +10,9 @@
     </head>
     <body>
         <script>
-            document.cookie = "authenticated=false";
+            Cookie authenticationCookie = "false";
             
-        if(isset($_COOKIE['authenticated']) && $_COOKIE['authenticated']== "true" ) {
+        if(authenticationCookie != null) && (authenticationCookie == "true" ) {
      window.location = "https://alexiamaye.github.io";
      }
      else {

@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css"/>
         <script src="script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title>Journal de moi-meme</title>
     </head>
@@ -12,7 +13,7 @@
         <script>
             document.cookie = "authenticationCookie=false"
             
-        if(Cookies.get("authenticationCookie") != null && Cookies.get("authenticationCookie") == "true" ) {
+        if(cookies.get("authenticationCookie") != null && cookies.get("authenticationCookie") == "true" ) {
      window.location = "https://alexiamaye.github.io";
      }
      else {

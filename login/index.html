@@ -25,7 +25,13 @@
       <label><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
         
-      <button type="submit">Login</button>
+      <script>
+      function makeAuthentic() {
+      document.cookie="authenticated=true"
+      }
+      </script>
+      
+      <button type="submit" onClick="makeAuthentic()">Login</button>
       <input type="checkbox" checked="checked"> Remember me
     </div>
 

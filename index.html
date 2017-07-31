@@ -12,7 +12,7 @@
     <body>
         <script>
         document.cookie="authenticationCookie=true";
-        if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
+        $(body).one(if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" )) {
      window.location = "https://alexiamaye.github.io";
             window.location.reload(false);
      }

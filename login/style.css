@@ -10,6 +10,7 @@ input[type=text], input[type=password] {
 body {
 background: linear-gradient(#86a0c9, #214784);
 background-attachment:fixed;
+text-align:-webkit-center;
 }
 
 /* Set a style for all buttons */

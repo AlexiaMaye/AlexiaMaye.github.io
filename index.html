@@ -11,7 +11,7 @@
     </head>
     <body>
         <script>
-        authenticationCookie = true;
+        document.cookie="authenticationCookie=true";
         if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
      window.location = "https://alexiamaye.github.io";
      }

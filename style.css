@@ -81,12 +81,9 @@ h4 {
 }
 
 body {
-    background: url(giphy.mp4);
-    background-size: 110% 100%;
-    background-attachment: fixed;
-    font-family: 'Arapey';
-    filter: brightness(90%);
+    background: url(gif.gif);
     cursor: url(http://download.seaicons.com/icons/icons8/windows-8/16/Cultures-Triskelion-icon.png), auto;
+    background-attachment: fixed;
 }
 
 span.highlight {
@@ -378,6 +375,8 @@ audio {
 #title {
     text-align: center;
     padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     width: 80%;
     display: block;
 }
@@ -392,10 +391,10 @@ audio {
     top: 0px;
     right: 0px;
     left: -10px;
-    height: 200px;
+    height: 170px;
     width: 80%;
     margin: auto;
-    background-color: rgba(4, 6, 6, 0.63);
+    background-color: rgba(4, 6, 6, 0.25);
 }
 
 #bar {

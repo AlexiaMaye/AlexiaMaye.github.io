@@ -12,19 +12,16 @@
     <body>
         <script>
         $(body).one(if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" )) {
-     window.location = "https://alexiamaye.github.io";
             window.location.reload(false);
      }
      else {
       window.alert("Log in!!");
-         window.location = "https://alexiamaye.github.io/login"
+         document.getElementById('id01').style.display='block';
      }
         </script>
         <div id="top">
             <h1 id="title">Journal Nouveau</h1>
             <html>
-                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="https://alexiamaye.github.io" path="/">

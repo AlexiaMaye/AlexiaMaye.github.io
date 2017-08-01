@@ -22,10 +22,10 @@
 
     <div class="container">
       <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required="">
+      <input type="text" id="uname" placeholder="Enter Username" name="uname" required="">
 
       <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required="">
+      <input type="password" id="psw" placeholder="Enter Password" name="psw" required="">
         
       <script>
       function makeAuthentic() {
@@ -58,12 +58,20 @@ window.onclick = function(event) {
 </script>
 <script>
 //Get the vars
-        
-var uname = document.getElementById('uname').value;
-var psw = document.getElementById('psw').value;
 
-console.log(uname);
-console.log(psw);
+    var today = new Date();
+    var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
+
+    function setCookie(name, value){
+        document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
+    }
+    //this should set the UserName cookie to the proper value;
+    function storeValues(form){
+        setCookie("username", form.uname.value);
+        setCookie("passcode", form.psw.value);
+        return true;
+    }
+
 
 </script>
 <script>

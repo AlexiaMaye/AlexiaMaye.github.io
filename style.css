@@ -500,8 +500,9 @@ span.psw {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
+    margin: auto;
     top: 0;
-    width: 40em; /* Full width */
+    width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(96,120,158); /* Fallback color */
@@ -514,7 +515,7 @@ span.psw {
     background-color: #8591a3;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 30em; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */

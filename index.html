@@ -58,11 +58,16 @@ window.onclick = function(event) {
 </script>
 <script>
 //Get the vars
+        if (uname != null && psw != null){
 var uname = document.getElementById('uname').value;
 var psw = document.getElementById('psw').value;
 
+document.write(uname);
+document.write(psw);
+        }
+else {
 
-                
+}
 </script>
 <script>
      if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {

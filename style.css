@@ -63,9 +63,9 @@ h3 {
     /* border-color: #09a704; */
     font-family: 'Arapey';
     text-align: center;
-    background: rgba(0, 0, 0, 0.91);
+    /* background: rgba(0, 0, 0, 0.91); */
     margin: auto;
-    padding: 15px;
+    /* padding: 15px; */
     /* width: 50%; */
     visibility: inherit;
     transform-origin: 0px 63px 0px;
@@ -557,4 +557,8 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
+}
+#linktext {
+    background: rgba(0, 0, 0, 0.83);
+    padding:15px;
 }

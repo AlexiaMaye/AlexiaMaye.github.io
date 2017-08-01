@@ -71,7 +71,7 @@ else {
 </script>
 <script>
      if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
-            $('body').one(window.location = "https://alexiamaye.github.io")
+            window.location = "https://alexiamaye.github.io";
      }
      else {
       window.alert("Log in!!");

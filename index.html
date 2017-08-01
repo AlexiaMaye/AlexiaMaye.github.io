@@ -31,6 +31,8 @@
       function makeAuthentic() {
         document.cookie = "authenticated=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
       document.cookie="authenticationCookie=true"
+              setCookie("username", form.uname.value);
+        setCookie("passcode", form.psw.value);
       }
       </script>
       
@@ -56,29 +58,6 @@ window.onclick = function(event) {
     }
 }
 </script>
-<script>
-//Get the vars
-
-    var today = new Date();
-    var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
-
-    function setCookie(name, value){
-        document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
-    }
-    //this should set the UserName cookie to the proper value;
-    function storeValues(form){
-        setCookie("username", form.uname.value);
-        setCookie("passcode", form.psw.value);
-        return true;
-    }
-
-
-</script>
-<?php
-    $name = $_POST['name'];
-    $purchase1 = $_POST['Tea'];
-    $purchase2 =$_POST['Coffee'];
-?>
 <script>
      if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
             

@@ -9,7 +9,7 @@
     </head>
     <body>
         <script>
-        $(body).one(if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" )) {
+        if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
             window.location.reload(false);
      }
      else {

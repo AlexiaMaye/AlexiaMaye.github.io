@@ -58,7 +58,7 @@ window.onclick = function(event) {
 </script>
                 <script>
                 if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
-            window.location.reload(false);
+            $body.one(window.location = "https://alexiamaye.github.io")
      }
      else {
       window.alert("Log in!!");

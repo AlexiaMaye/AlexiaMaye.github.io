@@ -31,7 +31,7 @@
       function makeAuthentic() {
         document.cookie = "authenticated=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
       document.cookie="authenticationCookie=true"
-      document.cookie= uname + "=" + escape(value);
+      document.cookie= uname + "=" + form.uname.value;
         setCookie("passcode", form.psw.value);
       }
       </script>

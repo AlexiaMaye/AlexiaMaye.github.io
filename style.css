@@ -302,6 +302,7 @@ li {
 a {
     color: white;
     text-align: center;
+    text-decoration:none;
     /* height: 186px; */
     /* width: 326px; */
     /* position: absolute; */
@@ -431,6 +432,10 @@ audio {
     height: 186px;
     width: 326px;
     position: absolute;
+}
+span {
+    font-size:small;
+    font-family:'Ubuntu';
 }
 
 #doc {

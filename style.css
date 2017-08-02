@@ -87,6 +87,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
+    margin: 0;
     height: 100%;
     background-repeat: no-repeat;
 }
@@ -447,7 +448,9 @@ span {
     text-align: center;
     margin: 100px 0px 0px 0px;
     width: 100%;
+    padding: 10px;
     background-color: rgba(31, 28, 28, 0.67);
+    font-family: 'Arapey';
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {

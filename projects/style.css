@@ -10,16 +10,6 @@ h1 {
     margin: auto;
 }
 
-#navbar {
-    font-size: 50px;
-    color: white;
-    display: inline-block;
-    margin: 0;
-    top: 0;
-    cursor: pointer;
-    position: fixed;
-}
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -55,31 +45,17 @@ h1 {
     color: black;
 }
 
-h3 {
-    color: white;
-    /* background-color: black; */
-    /* border-style: solid; */
-    /* border-radius:15px; */
-    /* border-color: #09a704; */
-    font-family: 'Arapey';
-    text-align: center;
-    /* background: rgba(0, 0, 0, 0.91); */
-    margin: auto;
-    /* padding: 15px; */
-    width: 70%;
-    visibility: inherit;
-    transform-origin: 0px 63px 0px;
-}
 
-h4 {
-    color: white;
-    font-family: 'Arapey';
-    display: block;
-    padding: 20px 0px;
-    font-size: 20px;
-    width: 80%;
-    background: rgba(6, 8, 12, 0.37);
-    margin: 40px auto auto auto;
+
+#label {
+  background: rgba(0, 0, 0, 0.79);
+  margin:8em auto;
+  display:block;
+  padding: 4px;
+  text-align: center;
+  width:5em;
+  color:white;
+  font-family:Arapey;
 }
 
 body {
@@ -87,77 +63,55 @@ body {
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
+    margin:0;
     height: 100%;
     background-repeat: no-repeat;
 }
 
-span.highlight {
-    /* background-color: black; */
-}
-
-span.highlight {
-    /* background-color: black; */
-}
-
 #myFace {
-    width: 320px;
-    height: 180px;
+    width: 300px;
+    height: 160px;
     /* float: left; */
+    text-align: left;
     border-style: solid;
-    box-shadow: 10px 10px 5px black;
-    border-radius: 100px;
+    /* border-radius: 6px; */
     border-color: #152224;
-    margin: 40px auto 20px auto;
+    margin: 4em auto;
     display: block;
-    filter: brightness(180%);
+    filter: brightness(80%);
     background-image: url(https://alexiamaye.github.io/WIN_20170425_20_54_49_Pro.jpg);
+    contain: content;
     background-size: contain;
+}
+#Login { width: 300px;
+    height: 160px;
+    /* float: left; */
+    text-align: left;
+    border-style: solid;
+    /* border-radius: 6px; */
+    border-color: #152224;
+    margin: 4em auto;
+    display: block;
+    filter: brightness(80%);
+    background-image: url(https://alexiamaye.github.io/loginscreen.png);
+    contain: content;
+    background-size:cover;
+    
 }
 
 #myFace:hover {
     width: 320px;
     height: 180px;
     border-style: solid;
-    border-radius: 100px;
     border-color: #152224;
     box-shadow: 10px 10px 5px black;
-    margin: 40px auto 20px auto;
+    margin: 4em auto;
     display: block;
-    filter: brightness(180%);
     background-image: url(https://alexiamaye.github.io/giphy.gif);
     background-size: contain;
 }
-}
 
-#navList {
-    list-style-type: none;
-    margin: auto;
-    padding: 20px;
-    top: 180px;
-    width: 200px;
-    /* right:20px; */
-    vertical-align: middle;
-    text-align: center;
-    float: left;
-    position: absolute;
-}
 
-#links {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.73);
-    padding: 10px;
-    /* border-style: solid; */
-    /* border-radius:15px; */
-    /* border-color: #09a704; */
-    font-family: 'Anonymous Pro';
-    text-align: center;
-    width: 80%;
-    box-shadow: 10px 10px 5px black;
-    visibility: inherit;
-    transform-origin: 0px 63px 0px;
-    margin: 30px auto 40px auto;
-    display: block;
-}
 
 #navItem a {
     display: block;
@@ -177,83 +131,6 @@ span.highlight {
     color: lightgray;
 }
 
-#subdiv {
-    background-color: rgba(0, 0, 0, 0.82);
-    padding: 12px 30px 170px 50px;
-    margin: 20px 30px 15px 20px;
-    /* border-radius: 50px; */
-}
-
-#subItemOne a {
-    height: 20px;
-    background-color: #363a58;
-    border-style: solid;
-    border-color: black;
-    /* border-radius:15px; */
-    border-width: thick;
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    padding: 50px 30px 70px;
-    color: black;
-    text-decoration: none;
-    width: 90px;
-    left: 25%;
-}
-
-#subItemOne a:hover {
-    background-color: black;
-    color: #363a58;
-    border-color: #363a58;
-}
-
-#subItemTwo a {
-    height: 20px;
-    background-color: #363a58;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
-    /* border-radius:15px; */
-    text-align: center;
-    display: inline-block;
-    padding: 50px 30px 70px;
-    color: #040606;
-    text-decoration: none;
-    position: absolute;
-    left: 45%;
-    width: 90px;
-    margin: auto;
-}
-
-#subItemTwo a:hover {
-    background-color: black;
-    color: #363a58;
-    border-color: #363a58;
-}
-
-#subItemThree a {
-    height: 20px;
-    background-color: #363a58;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
-    /* border-radius:15px; */
-    text-align: center;
-    display: inline-block;
-    padding: 50px 30px 70px;
-    color: black;
-    position: absolute;
-    float: right;
-    left: 65%;
-    text-decoration: none;
-    width: 90px;
-}
-
-#subItemThree a:hover {
-    background-color: black;
-    color: #363a58;
-    border-color: #363a58;
-}
 
 li {
     text-align: center;
@@ -264,40 +141,7 @@ li {
     display: inline;
 }
 
-#subOne {
-    text-align: center;
-    float: left;
-    margin: auto;
-    top: 20px;
-    background-color: #8d5d93;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: white;
-    padding: 20px;
-    width: 20%;
-}
 
-#subTwo {
-    text-align: center;
-    margin: auto;
-    top: 20px;
-    background-color: #8d5d93;
-    border-style: solid;
-    border-radius: 15px;
-    padding: 20px;
-    border-color: white;
-}
-
-#subThree {
-    text-align: center;
-    margin: auto;
-    background-color: #8d5d93;
-    border-style: solid;
-    padding: 20px;
-    border-radius: 15px;
-    border-color: white;
-    float: right;
-}
 
 a {
     color: white;
@@ -306,33 +150,6 @@ a {
     /* height: 186px; */
     /* width: 326px; */
     /* position: absolute; */
-}
-
-.post {
-    background: #8d5d93;
-    border-style: solid;
-    border-color: black;
-    border: 20px;
-    border-radius: 15px;
-    padding: 10px;
-    width: 500px;
-    text-align: center;
-    margin: 50px 400px;
-    color: white;
-    height: 50%;
-}
-
-#mainDiv {
-    color: lightgray;
-}
-
-#subordinates {
-    list-style-type: none;
-    margin: auto;
-    /* right: 20px; */
-    width: 80%;
-    padding: 40px;
-    text-align: center;
 }
 
 header {
@@ -345,38 +162,6 @@ header {
     background-repeat: no-repeat;
 }
 
-audio {
-    width: 80px;
-    margin: 0px auto;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    border-style: solid;
-}
-
-#nowPlay {
-    visibility: hidden;
-}
-
-#tracks {
-    width: 200px;
-    height: 0px;
-    position: fixed;
-    right: 0px;
-    top: 25px;
-}
-
-#btnNext {
-    height: 20px;
-    width: 20px;
-    padding: -10px 5px;
-    right: 0px;
-    position: fixed;
-}
-
-#btnPrev {
-    height: 20px;
-}
 
 #title {
     text-align: center;
@@ -397,7 +182,6 @@ audio {
     top: 0px;
     right: 0px;
     left: -10px;
-    height: 170px;
     width: 80%;
     margin: auto;
     background-color: rgba(4, 6, 6, 0.25);
@@ -426,7 +210,7 @@ audio {
     position: fixed;
 }
 
-#expllink {
+#expllink, #loginlink {
     color: white;
     text-align: center;
     height: 186px;
@@ -447,129 +231,9 @@ span {
     text-align: center;
     margin: 100px 0px 0px 0px;
     width: 100%;
+    position:fixed;
+    font-family:'Arapey';
+    padding:10px;
+    bottom:0;
     background-color: rgba(31, 28, 28, 0.67);
-}
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #1b3e77;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-}
-
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
-.container {
-    padding: 16px;
-    font-family: 'Arapey';
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    margin: auto;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(96,120,158); /* Fallback color */
-    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
-    padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-    background-color: #59285d;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 3px solid #fff;
-    width: 30em; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-}
-    
-@keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-}
-#linktext {
-    background: rgba(0, 0, 0, 0.83);
-    padding:15px;
 }

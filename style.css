@@ -22,7 +22,7 @@ h1 {
 
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -257,12 +257,12 @@ span.highlight {
 }
 
 li {
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    float: left;
+    /* text-align: center; */
+    /* margin: 0; */
+    /* width: 100%; */
+    /* float: left; */
     /* left: 20%; */
-    display: inline;
+    /* display: inline; */
 }
 
 #subOne {
@@ -575,4 +575,7 @@ span.psw {
 #linktext {
     background: rgba(0, 0, 0, 0.83);
     padding:15px;
+}
+ul {
+    -webkit-padding-start: 0;
 }

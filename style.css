@@ -257,12 +257,12 @@ span.highlight {
 }
 
 li {
-    /* text-align: center; */
-    /* margin: 0; */
-    /* width: 100%; */
-    /* float: left; */
-    /* left: 20%; */
-    /* display: inline; */
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    float: left;
+    left: 20%;
+    display: inline;
 }
 
 #subOne {

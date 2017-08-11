@@ -1,4 +1,4 @@
-var scrollMonitor = require("./scrollMonitor"); // if you're not using require, you can use the scrollMonitor global.
+
 var myElement = document.getElementById("itemToWatch");
 
 var elementWatcher = scrollMonitor.create( myElement );

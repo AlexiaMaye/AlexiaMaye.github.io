@@ -1,0 +1,87 @@
+$max-width: 650px;
+$avatar-width: 80px;
+
+$grey-d: #666;
+$grey-l: #a2a2a2;
+$white: #fff; 
+
+body {
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/restaurant.png');
+  font: bold 13px Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: $grey-l;
+  text-decoration: none;
+  transition: color .3s ease;
+  
+  footer & { margin-right: 10px; }
+  
+  &:hover { color: $grey-d; }
+
+}
+
+.container {
+  max-width: $max-width;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.no-posts {
+  padding: 50px 10px 30px $avatar-width + 20;
+  text-align: center;
+  color: $white;
+}
+
+.posts {
+  list-style: none;
+  margin: 20px auto;
+  padding: 0;
+  width: 100%;
+
+  .post {
+    margin-top: 20px;
+    margin-left: $avatar-width+20;
+    position: relative;
+  }
+  
+  .post-avatar {
+    background: $white url('http://on.be.net/1Noq5Sf') center/100%;
+    height: $avatar-width;
+    width: $avatar-width;
+    border-radius: 4px;
+    position: absolute;
+    left: -$avatar-width - 20px;
+    top: 0;
+  
+    
+    &.post-avatar--fixed {
+      position: fixed;
+      left: 50%;
+      top: 20px;
+      margin-left: -$max-width/2;
+    }
+    
+    &.post-avatar--absolute {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-left: -$avatar-width - 20;
+      top: auto;
+    }
+  }
+
+  .post-content {
+    background: $white;
+    border-radius: 4px;
+    width: 100%;
+    
+    img {
+      width: 100%;
+    }
+    
+    header, footer {
+      padding: 15px 20px;
+    }
+  }
+}

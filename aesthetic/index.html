@@ -66,6 +66,44 @@ return " ";
 
   
   <div id="feed">
+      <div class="modal" id="id01">
+			<form action="https://alexiamaye.github.io" class="modal-content animate" enctype="text/plain" id="form" name="form">
+				<div class="imgcontainer"><span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">×</span> <img alt="Avatar" class="avatar" src="Key-PNG-Clipart.png"></div>
+				<div class="container">
+					<label><b>Username</b></label> <input id="uname" name="uname" placeholder="Enter Username" required="" type="text"> <label><b>Password</b></label> <input id="psw" name="psw" placeholder="Enter Password" required="" type="password"> 
+					<script>
+					 function makeAuthentic() {
+					   document.cookie = "authenticated=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+					 document.cookie="authenticationCookie=true"
+					 document.cookie= "uname" + "=" + form.uname.value;
+					   setCookie("passcode", form.psw.value);
+					 }
+					</script> <button onclick="makeAuthentic()" type="submit">Login</button> <input checked="checked" type="checkbox"> Remember me
+				</div>
+				<div class="container" style="background-color:#f1f1f1">
+					<button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button> <span class="psw">Forgot <a href="#">password?</a></span>
+				</div>
+			</form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		      modal.style.display = "none";
+		  }
+		}
+		</script> 
+		<script>
+		   if($.cookie("authenticationCookie") != null && $.cookie("authenticationCookie") == "true" ) {
+		          
+		   }
+		   else {
+		    window.alert("Log in!!");
+		       document.getElementById('id01').style.display='block';
+		   }
+		</script>
     <div class="post">
   <article id="art529171">
   <header>The Blessed Curse of Ignorance<time></time>

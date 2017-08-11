@@ -1,19 +1,11 @@
-$('.post-avatar').each(function() {
-  var avatar = $(this),
-    avatarWatcher = scrollMonitor.create(avatar.parent(), {
-      top: 20,
-      bottom: -avatar.height() - 20
-    });
+var scrollMonitor = require("./scrollMonitor"); // if you're not using require, you can use the scrollMonitor global.
+var myElement = document.getElementById("itemToWatch");
 
-  avatarWatcher.stateChange(function() {
-    if (avatarWatcher.isInViewport) {
-      if (avatarWatcher.isInViewport && avatarWatcher.isAboveViewport) {
-        avatar.removeClass('post-avatar--absolute').addClass('post-avatar--fixed');
-      } else if (!avatarWatcher.isAboveViewport) {
-        avatar.removeClass('post-avatar--absolute').removeClass('post-avatar--fixed');
-      }
-    } else {
-      avatar.removeClass('post-avatar--fixed').addClass('post-avatar--absolute');
-    }
-  });
+var elementWatcher = scrollMonitor.create( myElement );
+
+elementWatcher.enterViewport(function() {
+    console.log( 'I have entered the viewport' );
+});
+elementWatcher.exitViewport(function() {
+    console.log( 'I have left the viewport' );
 });

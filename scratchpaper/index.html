@@ -1,177 +1,25 @@
-<html><head><link rel="stylesheet" href="style.css">
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head><body>
-
-    
-    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Slabo+27px" rel="stylesheet">
-
-<div class="slideshow-container">
-  <div class="mySlides fade" style="display: none;">
-    <div class="numbertext">1 / 3</div>
-    <div id="profiledealexia">
-        <div id="alexiasfixedbox">
-            <script>$(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 300 && $(window).scrollTop() < 50) {
-         $('#alexiasfixedbox').hide();
-     }
-     else {
-         $('#alexiasfixedbox').show();
-     }
-});</script>
-    
-    
-
-  <h4 id="name">Alexia M. Walgren</h4>
-  <table id="t01">
-      <tbody>
-    <tr>
-      <th id="nick">"Cat" or "Lex"</th>
-
-    </tr>
-    <tr>
-      <td id="grade">
-       Junior
-      </td>
-      <td id="teamPosition">
-      Co-captain, Head Programmer
-       </td>
-    </tr>
-          </tbody>
-  </table>
-             
-             </div><img id="alexiasphoto" class="memberphoto" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/18425193_648424165355464_6524338724740017689_n.jpg?oh=77c3cee4a83bb231c4ddff2e92593339&amp;oe=59BDF870"><img id="alexiasdoodle" class="doodle" src="http://3.bp.blogspot.com/-vEwg4jnNbKM/U1FIAR2_nLI/AAAAAAAACFo/lnWy1iAfvoM/s1600/5803fb1480844a3a9afdea2858d39b6b_p_400.png">
+- var images = [ 'https://static.pexels.com/photos/5938/food-salad-healthy-lunch-medium.jpg', 'https://static.pexels.com/photos/5927/food-salad-red-lunch-large.jpg', 'https://static.pexels.com/photos/6118/food-water-corn-cooking-medium.jpg', 'https://static.pexels.com/photos/5876/food-salad-healthy-vegetables-medium.jpg',  'https://static.pexels.com/photos/5928/salad-healthy-diet-spinach-medium.jpg'];
+.container
+  ul.posts
+    each img in images
+      li.post
+          .post-content
+            header: a(href="https://twitter.com/@kamciesla") @kamciesla posted this
+            img(src=img)
+            footer 
+              a(href="https://kamilciesla.pl")
+                i.fa.fa-globe
+              a(href="https://pl.linkedin.com/in/kamilciesla")
+                i.fa.fa-linkedin
+              a(href="https://twitter.com/@kamciesla")
+                i.fa.fa-twitter
+              a(href="https://www.behance.net/kamciesla")
+                i.fa.fa-behance
+              a(href="https://dribbble.com/kamilciesla")
+                i.fa.fa-dribbble
+          a.post-avatar(href="http://kamilciesla.pl")
+  p.no-posts Sorry... there are no more posts to show right now.
         
-        <h6 id="description"> Alexia will be head programmer this year as well as co-captain. She hopes to use both roles to showcase the excellence of robotics and programming</h6>
-    </div>
-    <div class="text">Alexia M. Walgren</div>
-  </div>
-
-  <div class="mySlides fade" style="display: block;">
-    <div class="numbertext">2 / 3</div>
-<div id="profiledechance">
-        <div id="alexiasfixedbox">
-            <script>$(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 300 && $(window).scrollTop() < 50) {
-         $('#alexiasfixedbox').hide();
-     }
-     else {
-         $('#alexiasfixedbox').show();
-     }
-});</script>
-    
-    
-
-  <h4 id="name">Chance Giguiere</h4>
-  <table id="t01">
-      <tbody>
-    <tr>
-      <th id="nick">"Chance"</th>
-
-    </tr>
-    <tr>
-      <td id="grade">
-       Junior
-      </td>
-      <td id="teamPosition">Engineer, Programmer</td>
-    </tr>
-          </tbody>
-  </table>
-             
-             </div><img id="alexiasphoto" class="memberphoto" src="http://static.hudl.com/users/prod/5108403_771072cc579f471396b4cc03b3f70a3a.jpg">
         
-        <h6 id="description">Chance is a master of balancing the musical, ballsport, and robotics. He's also an amazing friend, a connoisseur of fine memes, and just a cool person in general. </h6>
-    </div>
   
-    <img id="ballsportplayer">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade" style="display: none;">
     
-     <div id="profiledeadam">
-        <div id="alexiasfixedbox">
-            <script>$(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 300 && $(window).scrollTop() < 50) {
-         $('#alexiasfixedbox').hide();
-     }
-     else {
-         $('#alexiasfixedbox').show();
-     }
-});</script>
-    
-    
-
-  <h4 id="name">Adam Flaigg Fairless</h4>
-  <table id="t01">
-      <tbody>
-    <tr>
-      <th id="nick">"Dadam" or "Mr Skeletal"</th>
-
-    </tr>
-    <tr>
-      <td id="grade">
-       College freshman
-      </td>
-      <td id="teamPosition">
-      Co-captain, Captain of Programming
-       </td>
-    </tr>
-          </tbody>
-  </table>
-             
-             </div><img id="alexiasphoto" class="memberphoto" src="http://www.dailyastorian.com/storyimage/DA/20160428/ARTICLE/160429682/EP/1/1/EP-160429682.jpg&amp;MaxW=600" style="width: 30%;">
-        
-        <h6 id="description">Meme master of all that is good in this world. Sometimes the memes get spicy real fast, but you don't go to Mr skeletal for mild memes.</h6>
-    </div>
-    <div class="text">Adam Flaigg Fairless</div>
-  
-
-    <div class="text">Caption Three</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot active" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-    <script>var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}</script>
-    
-    
-
-
-
-
-
-
-</body></html>

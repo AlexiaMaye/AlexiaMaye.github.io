@@ -85,7 +85,7 @@ h4 {
 body {
     background: url(https://media2.giphy.com/media/lSzQjkthGS1gc/giphy.gif);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%;
     margin: 0;
     height: 100%;
@@ -325,6 +325,7 @@ a {
 
 #mainDiv {
     color: lightgray;
+    text-align: center;
 }
 
 #subordinates {

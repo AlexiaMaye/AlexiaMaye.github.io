@@ -127,18 +127,25 @@ body{
 }
 #feed {
     margin:5em auto;
-    margin-left: 10em;
-    margin-right: 10em;
-    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    /* width: 30em; */
+    em; */
 }
 .post {
     background-image:url(https://s-media-cache-ak0.pinimg.com/originals/5a/18/7b/5a187b8ee3358c3775cbbe89e8b7c29b.jpg);
-    margin-top:3em;
+    margin-top: 6em;
+    margin: 3em;
+    display: block;
+    /* width: 30em; */
+    /* margin: auto; */
     background-size: cover;
 }
 article {
     background-color: rgba(234, 234, 234, 0.48);
-    margin:3em;
+    margin: 3em;
+    display: -webkit-inline-box;
     padding: 20px;
 }
 button {

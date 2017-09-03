@@ -1464,7 +1464,7 @@ hr {
 
 .h1,.h2,.h3,h1,h2,h3 {
     margin-top: 20px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small {
@@ -1489,7 +1489,7 @@ hr {
 }
 
 .h3,h3 {
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
 .h4,h4 {

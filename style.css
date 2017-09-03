@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Arapey';
+    /* font-family: 'Arapey'; */
     font-size: 30px;
     /* text-orientation: upright; */
     text-align: center;
@@ -145,7 +145,7 @@ span.highlight {
 
 #links {
     color: white;
-    background-color: rgba(0, 0, 0, 0.73);
+    background-color: rgba(47, 46, 46, 0.73);
     padding: 10px;
     /* border-style: solid; */
     /* border-radius:15px; */
@@ -382,9 +382,11 @@ audio {
 
 #title {
     text-align: center;
+    color: white;
+    font-size: xx-large;
     padding: 40px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: .15em;
     width: 80%;
     display: block;
 }
@@ -399,10 +401,11 @@ audio {
     top: 0px;
     right: 0px;
     left: -10px;
+    border-color: white;
     height: 170px;
     width: 80%;
     margin: auto;
-    background-color: rgba(4, 6, 6, 0.25);
+    background-color: rgba(135, 138, 138, 0.24);
 }
 
 #bar {
@@ -410,7 +413,7 @@ audio {
     width: 80%;
     color: black;
     margin: auto;
-    background-color: black;
+    background-color: white;
 }
 
 #opener {

@@ -303,7 +303,7 @@ li {
 a {
     color: white;
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
     /* height: 186px; */
     /* width: 326px; */
     /* position: absolute; */
@@ -402,7 +402,7 @@ audio {
     right: 0px;
     left: -10px;
     border-color: white;
-    height: 170px;
+    height: 15em;
     width: 80%;
     margin: auto;
     background-color: rgba(135, 138, 138, 0.24);
@@ -438,9 +438,10 @@ audio {
     width: 326px;
     position: absolute;
 }
+
 span {
-    font-size:small;
-    font-family:'Ubuntu';
+    font-size: small;
+    font-family: 'Ubuntu';
 }
 
 #doc {
@@ -456,6 +457,7 @@ span {
     background-color: rgba(31, 28, 28, 0.67);
     font-family: 'Arapey';
 }
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -512,26 +514,36 @@ span.psw {
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     margin: auto;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(96,120,158); /* Fallback color */
-    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(96,120,158);
+    /* Fallback color */
+    background-color: rgba(0,0,0,0.5);
+    /* Black w/ opacity */
     padding-top: 60px;
 }
 
 /* Modal Content/Box */
 .modal-content {
     background-color: #59285d;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
     border: 3px solid #fff;
-    width: 30em; /* Could be more or less, depending on screen size */
+    width: 30em;
+    /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -544,8 +556,7 @@ span.psw {
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
     color: red;
     cursor: pointer;
 }
@@ -557,29 +568,42 @@ span.psw {
 }
 
 @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
 }
-    
+
 @keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
-       display: block;
-       float: none;
+        display: block;
+        float: none;
     }
+
     .cancelbtn {
-       width: 100%;
+        width: 100%;
     }
 }
+
 #linktext {
     background: rgba(0, 0, 0, 0.83);
-    padding:15px;
+    padding: 15px;
 }
+
 ul {
     -webkit-padding-start: 0;
 }

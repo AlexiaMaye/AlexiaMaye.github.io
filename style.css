@@ -525,7 +525,7 @@ span.psw {
     top: 0;
     width: 100%;
     /* Full width */
-    height: 100%;
+    height: fit-content;
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
@@ -538,7 +538,7 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #59285d;
+    background-color: rgb(125, 117, 125);
     margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 3px solid #fff;
@@ -551,9 +551,13 @@ span.psw {
     position: absolute;
     right: 25px;
     top: 0;
+    text-align: center;
     color: #000;
+    background-color: rgba(255, 11, 2, 0.47);
     font-size: 35px;
     font-weight: bold;
+    width: 21px;
+    border-radius: 50px;
 }
 
 .close:hover, .close:focus {

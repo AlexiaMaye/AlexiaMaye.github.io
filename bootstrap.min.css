@@ -1349,7 +1349,7 @@ td,th {
 html {
     /* font-size:10px; */
     font-family: 'Ubuntu';
-    color: white;
+    color: black;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -1358,7 +1358,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     /* color:#333; */
-    background-color: #fff;
+    background-color: #000;
 }
 
 button,input,select,textarea {

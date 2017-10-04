@@ -83,6 +83,7 @@ h4 {
 }
 
 body {
+    background:#000;
     background-attachment: fixed;
     background-size: 100% 100%;
     width: 100%;

@@ -1,21 +1,24 @@
-html {background-color:black;color: white;font-family: 'Rock Salt', cursive;text-align: center;}
+html {background-color:black;color: #1d1616;font-family: 'Rock Salt', cursive;text-align: center;}
 body{
   margin: 0px;
+  font-family:'Rock Salt', cursive;
 }
 #container{
   background:black;
   padding-top: 3em;
   padding-bottom: 3em;
+  font-family:'Homemade Apple', cursive;
+  /* text-shadow: 2px 1px #5d5a5a; */
+  font-size: x-large;
 }
 .parallax {height: 100vh;}
 #sitecontent {
   color:black;
 }
 .post {
-   background-color:white;
-   width: 70vw;
-   font-family:'Ubuntu';
-   text-align:center;
+   background-color: #bfbea5;
+   width: 50vw;
+   font-family: 'Inconsolata';
    padding:20px;
    display: block;
    margin:auto;

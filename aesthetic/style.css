@@ -74,10 +74,12 @@ body{
     background-color: rgba(255, 255, 255, 0);
     padding: 40px 110px 50px;
     background-repeat: no-repeat;
-    border-right-color: grey;
+    border-right-color: #999;
     position: fixed;
     border-right-width: 3.33px;
     margin: -1.5em auto;
+    width: 180px;
+    height: 30px;
     font-size: 16px;
     border-bottom-style: none;
     border-right-style: solid;
@@ -120,7 +122,6 @@ body{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #b7bdb7;
 }
 #art529171 {
     /* background: rgba(255, 228, 196, 0); */
@@ -159,7 +160,7 @@ button {
 }
 
 button:hover {
-    opacity: 0.8;
+    opacity: 1.0;
 }
 
 /* Extra styles for the cancel button */
